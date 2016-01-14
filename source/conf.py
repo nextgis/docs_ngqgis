@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# NextGIS Mobile documentation build configuration file, created by
+# NextGIS QGIS documentation build configuration file, created by
 # sphinx-quickstart on Tue Mar 24 15:25:22 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -63,7 +63,7 @@ author = u'Дмитрий Барышников'
 # built documents.
 #
 # The short X.Y version.
-version = '15.4.88'
+version = '15.4.116'
 # The full version, including alpha/beta/rc tags.
 release = '15.4'
 
@@ -244,7 +244,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'NextGISMobile.tex', u'Документация NextGIS Mobile',
+  (master_doc, 'NextGISQGIS.tex', u'Документация NextGIS QGIS',
    u'Дмитрий Барышников', 'manual', 'true'),
 ]
 
