@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NextGIS QGIS'
-copyright = u'2015, NextGIS'
+copyright = u'2015-2016, NextGIS'
 author = u'Дмитрий Барышников'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -63,7 +63,7 @@ author = u'Дмитрий Барышников'
 # built documents.
 #
 # The short X.Y version.
-version = '15.4.116'
+version = '15.4.119'
 # The full version, including alpha/beta/rc tags.
 release = '15.4'
 
