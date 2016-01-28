@@ -378,3 +378,904 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+
+rst_prolog = """
+.. role:: disclaimer
+.. |updatedisclaimer| replace:: .
+"""
+
+rst_epilog = """
+.. |nix| image:: /_static/common/nix.png
+   :width: 1em
+.. |win| image:: /_static/common/win.png
+   :width: 1em
+.. |osx| image:: /_static/common/osx.png
+   :width: 1em
+.. |QG| replace:: QGIS
+.. |CURRENT| replace:: 2.8
+.. |degrees| unicode:: 0x00B0
+   :ltrim:
+.. |geographic| image:: /_static/common/geographic.png
+.. |checkbox| image:: /_static/common/checkbox.png
+   :width: 1.3em
+.. |checkbox_checked| image:: /_static/common/checkbox.png
+   :width: 1.3em
+.. |checkbox_unchecked| image:: /_static/common/checkbox_unchecked.png
+   :width: 1.3em
+.. |radiobuttonon| image:: /_static/common/radiobuttonon.png
+.. |radiobuttonoff| image:: /_static/common/radiobuttonoff.png
+.. |selectnumber| image:: /_static/common/selectnumber.png
+   :width: 2.8em
+.. |selectstring| image:: /_static/common/selectstring.png
+   :width: 2.5em
+.. |browsebutton| image:: /_static/common/browsebutton.png
+   :width: 2.3em
+.. |selectcolor| image:: /_static/common/selectcolor.png
+.. |slider| image:: /_static/common/slider.png
+.. |inputtext| image:: /_static/common/inputtext.png
+.. |tab| image:: /_static/common/tab.png
+.. |calendarwidget| image:: /_static/common/calendarwidget.png
+   :width: 1.5em
+.. |color|  image:: /_static/common/color.png
+   :width: 1.5em
+.. |colormap| image:: /_static/common/colormap.png
+   :width: 1.5em
+.. |mIconColorBox| image:: /_static/common/mIconColorBox.png
+   :width: 1.5em
+.. |mIconColorPicker| image:: /_static/common/mIconColorPicker.png
+   :width: 1.5em
+.. |mIconColorSwatches| image:: /_static/common/mIconColorSwatches.png
+   :width: 1.5em
+.. |mIconColorWheel| image:: /_static/common/mIconColorWheel.png
+   :width: 1.5em
+.. |columnview|  image:: /_static/common/columnview.png
+   :width: 1.5em
+.. |combobox|  image:: /_static/common/combobox.png
+   :width: 1.5em
+.. |commandlinkbutton|  image:: /_static/common/commandlinkbutton.png
+   :width: 1.5em
+.. |dateedit|  image:: /_static/common/dateedit.png
+   :width: 1.5em
+.. |datetimeedit|  image:: /_static/common/datetimeedit.png
+   :width: 1.5em
+.. |dial| image:: /_static/common/dial.png
+   :width: 1.5em
+.. |dialogbuttonbox|  image:: /_static/common/dialogbuttonbox.png
+   :width: 1.5em
+.. |transformed|  image:: /_static/common/transformed.png
+   :width: 1.5em
+.. |digitising|  image:: /_static/common/digitising.png
+   :width: 1.5em
+.. |dockwidget| image:: /_static/common/dockwidget.png
+   :width: 1.5em
+.. |doublespinbox|  image:: /_static/common/doublespinbox.png
+   :width: 1.5em
+.. |edit| image:: /_static/common/edit.png
+   :width: 1.5em
+.. |fontcombobox|  image:: /_static/common/fontcombobox.png
+   :width: 1.5em
+.. |frame|  image:: /_static/common/frame.png
+   :width: 1.5em
+.. |graphicsview|  image:: /_static/common/graphicsview.png
+   :width: 1.5em
+.. |grass_location|  image:: /_static/common/grass_location.png
+   :width: 1.5em
+.. |groupbox|  image:: /_static/common/groupbox.png
+   :width: 1.5em
+.. |groupboxcollapsible|  image:: /_static/common/groupboxcollapsible.png
+   :width: 1.5em
+.. |histogram|  image:: /_static/common/histogram.png
+   :width: 1.5em
+.. |hscrollbar|  image:: /_static/common/hscrollbar.png
+   :width: 1.5em
+.. |hslider|  image:: /_static/common/hslider.png
+   :width: 1.5em
+.. |hsplit|  image:: /_static/common/hsplit.png
+   :width: 1.5em
+.. |plugin| image:: /_static/common/plugin.png
+   :width: 1.5em
+.. |user|  image:: /_static/common/user.png
+   :width: 1.5em
+.. |mActionShowPluginManager| image:: /_static/common/mActionShowPluginManager.png
+   :width: 1.5em
+.. |iconAboutConsole|  image:: /_static/common/iconAboutConsole.png
+   :width: 1.5em
+.. |iconClassBrowserConsole|  image:: /_static/common/iconClassBrowserConsole.png
+   :width: 1.5em
+.. |iconClassConsole|  image:: /_static/common/iconClassConsole.png
+   :width: 1.5em
+.. |iconClassTreeWidgetConsole|  image:: /_static/common/iconClassTreeWidgetConsole.png
+   :width: 1.5em
+.. |iconClearConsole|  image:: /_static/common/iconClearConsole.png
+   :width: 1.5em
+.. |iconCloseTabEditorConsole|  image:: /_static/common/iconCloseTabEditorConsole.png
+   :width: 1.5em
+.. |iconCodepadConsole|  image:: /_static/common/iconCodepadConsole.png
+   :width: 1.5em
+.. |iconCommentEditorConsole|  image:: /_static/common/iconCommentEditorConsole.png
+   :width: 1.5em
+.. |iconCopyEditorConsole|  image:: /_static/common/iconCopyEditorConsole.png
+   :width: 1.5em
+.. |iconCutEditorConsole|  image:: /_static/common/iconCutEditorConsole.png
+   :width: 1.5em
+.. |iconFileTabsMenuConsole|  image:: /_static/common/iconFileTabsMenuConsole.png
+   :width: 1.5em
+.. |iconFunctionTreeWidgetConsole|   image:: /_static/common/iconFunctionTreeWidgetConsole.png
+   :width: 1.5em
+.. |iconHelpConsole|  image:: /_static/common/iconHelpConsole.png
+   :width: 1.5em
+.. |iconHideToolConsole|  image:: /_static/common/iconHideToolConsole.png
+   :width: 1.5em
+.. |iconIfaceConsole|  image:: /_static/common/iconIfaceConsole.png
+   :width: 1.5em
+.. |iconMethodTreeWidgetConsole|  image:: /_static/common/iconMethodTreeWidgetConsole.png
+   :width: 1.5em
+.. |iconNewTabEditorConsole|  image:: /_static/common/iconNewTabEditorConsole.png
+   :width: 1.5em
+.. |iconOpenConsole|  image:: /_static/common/iconOpenConsole.png
+   :width: 1.5em
+.. |iconPasteEditorConsole|  image:: /_static/common/iconPasteEditorConsole.png
+   :width: 1.5em
+.. |iconQtCoreConsole|  image:: /_static/common/iconQtCoreConsole.png
+   :width: 1.5em
+.. |iconQtGuiConsole|  image:: /_static/common/iconQtGuiConsole.png
+   :width: 1.5em
+.. |iconRestoreTabsConsole|  image:: /_static/common/iconRestoreTabsConsole.png
+   :width: 1.5em
+.. |iconRunConsole|  image:: /_static/common/iconRunConsole.png
+   :width: 1.5em
+.. |iconRunScriptConsole|  image:: /_static/common/iconRunScriptConsole.png
+   :width: 1.5em
+.. |iconSaveAsConsole|  image:: /_static/common/iconSaveAsConsole.png
+   :width: 1.5em
+.. |iconSaveConsole|   image:: /_static/common/iconSaveConsole.png
+   :width: 1.5em
+.. |iconScriptConsole|  image:: /_static/common/iconScriptConsole.png
+   :width: 1.5em
+.. |iconSettingsConsole|  image:: /_static/common/iconSettingsConsole.png
+   :width: 1.5em
+.. |dem_analysis| image:: /_static/common/dem.png
+   :width: 1.5em
+.. |icon_sqlanywhere| image:: /_static/common/sqlanywhere.png
+   :width: 1.5em
+.. |icon_newgpx| image:: /_static/common/create_gpx.png
+   :width: 1.5em
+.. |icon_dbmanager| image:: /_static/common/dbmanager.png
+   :width: 1.5em
+.. |icon_zonal_statistics| image:: /_static/common/raster-stats.png
+   :width: 1.5em
+.. |oracle_raster| image:: /_static/common/oracleraster.png
+   :width: 1.5em
+.. |raster_terrain| image:: /_static/common/raster_terrain.png
+   :width: 1.5em
+.. |osm_load| image:: /_static/common/osm_load.png
+   :width: 1.5em
+.. |osm_featureManager| image:: /_static/common/osm_featureManager.png
+   :width: 1.5em
+.. |osm_download| image:: /_static/common/osm_download.png
+   :width: 1.5em
+.. |osm_upload| image:: /_static/common/osm_upload.png
+   :width: 1.5em
+.. |osm_import| image:: /_static/common/osm_import.png
+   :width: 1.5em
+.. |osm_save| image:: /_static/common/osm_save.png
+   :width: 1.5em
+.. |osm_identify| image:: /_static/common/osm_identify.png
+   :width: 1.5em
+.. |osm_createPoint| image:: /_static/common/osm_createPoint.png
+   :width: 1.5em
+.. |osm_createLine| image:: /_static/common/osm_createLine.png
+   :width: 1.5em
+.. |osm_createPolygon| image:: /_static/common/osm_createPolygon.png
+   :width: 1.5em
+.. |osm_move| image:: /_static/common/osm_move.png
+   :width: 1.5em
+.. |osm_removeFeat| image:: /_static/common/osm_removeFeat.png
+   :width: 1.5em
+.. |osm_removeTag| image:: /_static/common/osm_removeTag.png
+   :width: 1.5em
+.. |osm_createRelation| image:: /_static/common/osm_createRelation.png
+   :width: 1.5em
+.. |osm_addRelation| image:: /_static/common/osm_addRelation.png
+   :width: 1.5em
+.. |osm_generateTags| image:: /_static/common/osm_generateTags.png
+   :width: 1.5em
+.. |osm_editRelation| image:: /_static/common/osm_editRelation.png
+   :width: 1.5em
+.. |osm_questionMark| image:: /_static/common/osm_questionMark.png
+   :width: 1.5em
+.. |offline_editing_copy| image:: /_static/common/offline_editing_copy.png
+   :width: 1.5em
+.. |interpolation| image:: /_static/common/interpolation.png
+   :width: 1.5em
+.. |mGeorefRun| image:: /_static/common/mGeorefRun.png
+   :width: 1.5em
+.. |mAction| image:: /_static/common/mAction.png
+   :width: 1.5em
+.. |mActionAddRasterLayer| image:: /_static/common/mActionAddRasterLayer.png
+   :width: 1.5em
+.. |mActionAddOgrLayer| image:: /_static/common/mActionAddOgrLayer.png
+   :width: 1.5em
+.. |mActionAddPostgisLayer| image:: /_static/common/mActionAddPostgisLayer.png
+   :width: 1.5em
+.. |mActionFileNew| image:: /_static/common/mActionFileNew.png
+   :width: 1.5em
+.. |mActionFileOpen| image:: /_static/common/mActionFileOpen.png
+   :width: 1.5em
+.. |mActionFileSave| image:: /_static/common/mActionFileSave.png
+   :width: 1.5em
+.. |mActionFileSaveAs| image:: /_static/common/mActionFileSaveAs.png
+   :width: 1.5em
+.. |mActionAddImage|  image:: /_static/common/mActionAddImage.png
+   :width: 1.5em
+.. |mActionSaveMapAsImage| image:: /_static/common/mActionSaveMapAsImage.png
+   :width: 1.5em
+.. |mActionNewComposer| image:: /_static/common/mActionNewComposer.png
+   :width: 1.5em
+.. |mActionDupComposer| image:: /_static/common/mActionDuplicateComposer.png
+   :width: 1.5em
+.. |mActionComposerManager| image:: /_static/common/mActionComposerManager.png
+   :width: 1.5em
+.. |mActionOpenRaster| image:: /_static/common/mActionOpenRaster.png
+   :width: 1.5em
+.. |mActionLoadGCPpoints| image:: /_static/common/mActionLoadGCPpoints.png
+   :width: 1.5em
+.. |mActionSaveGCPpointsAs| image:: /_static/common/mActionSaveGCPpointsAs.png
+   :width: 1.5em
+.. |mActionTransformSettings| image:: /_static/common/mActionTransformSettings.png
+   :width: 1.5em
+.. |mActionAddGCPPoint| image:: /_static/common/mActionAddGCPPoint.png
+   :width: 1.5em
+.. |mActionDeleteGCPPoint| image:: /_static/common/mActionDeleteGCPPoint.png
+   :width: 1.5em
+.. |mActionMoveGCPPoint| image:: /_static/common/mActionMoveGCPPoint.png
+   :width: 1.5em
+.. |mapserver_export| image:: /_static/common/mapserver_export.png
+.. |mActionExportMapServer| image:: /_static/common/mActionExportMapServer.png
+   :width: 1.5em
+.. |mActionSaveAsSVG| image:: /_static/common/mActionSaveAsSVG.png
+   :width: 1.5em
+.. |mActionSaveAsPDF| image:: /_static/common/mActionSaveAsPDF.png
+   :width: 1.5em
+.. |mActionFilePrint| image:: /_static/common/mActionFilePrint.png
+   :width: 1.5em
+.. |mActionAddArrow| image:: /_static/common/mActionAddArrow.png
+   :width: 1.5em
+.. |mActionAddBasicShape| image:: /_static/common/mActionAddBasicShape.png
+   :width: 1.5em
+.. |mActionAddLegend| image:: /_static/common/mActionAddLegend.png
+   :width: 1.5em
+.. |mActionAddHtml| image:: /_static/common/mActionAddHtml.png
+   :width: 1.5em
+.. |mActionAddMap| image:: /_static/common/mActionAddMap.png
+   :width: 1.5em
+.. |mActionLabel| image:: /_static/common/mActionLabel.png
+   :width: 1.5em
+.. |mActionScaleBar| image:: /_static/common/mActionScaleBar.png
+   :width: 1.5em
+.. |mActionSelectPan| image:: /_static/common/mActionSelectPan.png
+   :width: 1.5em
+.. |mActionGroupItems| image:: /_static/common/mActionGroupItems.png
+   :width: 1.5em
+.. |mActionUnGroupItems| image:: /_static/common/mActionUngroupItems.png
+   :width: 1.5em
+.. |mActionRaiseItems| image:: /_static/common/mActionRaiseItems.png
+   :width: 1.5em
+.. |mActionLowerItems| image:: /_static/common/mActionLowerItems.png
+   :width: 1.5em
+.. |mActionMoveItemContent| image:: /_static/common/mActionMoveItemContent.png
+   :width: 1.5em
+.. |mActionMoveItemsToTop| image:: /_static/common/mActionMoveItemsToTop.png
+   :width: 1.5em
+.. |mActionMoveItemsToBottom| image:: /_static/common/mActionMoveItemsToBottom.png
+   :width: 1.5em
+.. |mActionAlignLeft|  image:: /_static/common/mActionAlignLeft.png
+   :width: 1.5em
+.. |mActionAlignRight|  image:: /_static/common/mActionAlignRight.png
+   :width: 1.5em
+.. |mActionAlignHCenter|  image:: /_static/common/mActionAlignHCenter.png
+   :width: 1.5em
+.. |mActionAlignVCenter|  image:: /_static/common/mActionAlignVCenter.png
+   :width: 1.5em
+.. |mActionAlignTop|  image:: /_static/common/mActionAlignTop.png
+   :width: 1.5em
+.. |mActionAlignBottom|  image:: /_static/common/mActionAlignBottom.png
+   :width: 1.5em
+.. |mIconAtlas|  image:: /_static/common/mIconAtlas.png
+   :width: 1.5em
+.. |mActionAtlasFirst|  image:: /_static/common/mActionAtlasFirst.png
+   :width: 1.5em
+.. |mActionAtlasLast|  image:: /_static/common/mActionAtlasLast.png
+   :width: 1.5em
+.. |mActionAtlasNext|  image:: /_static/common/mActionAtlasNext.png
+   :width: 1.5em
+.. |mActionAtlasPrev|  image:: /_static/common/mActionAtlasPrev.png
+   :width: 1.5em
+.. |mActionAtlasSettings|  image:: /_static/common/mActionAtlasSettings.png
+   :width: 1.5em
+.. |mIconLock|  image:: /_static/common/mIconLock.png
+   :width: 1.5em
+.. |mActionFileExit| image:: /_static/common/mActionFileExit.png
+.. |mActionUndo| image:: /_static/common/mActionUndo.png
+   :width: 1.5em
+.. |mActionRedo| image:: /_static/common/mActionRedo.png
+   :width: 1.5em
+.. |mActionSelect| image:: /_static/common/mActionSelect.png
+   :width: 1.5em
+.. |mActionEditCut| image:: /_static/common/mActionEditCut.png
+   :width: 1.5em
+.. |mActionEditCopy| image:: /_static/common/mActionEditCopy.png
+   :width: 1.5em
+.. |mActionEditPaste| image:: /_static/common/mActionEditPaste.png
+   :width: 1.5em
+.. |mActionDeleteAttribute| image:: /_static/common/mActionDeleteAttribute.png
+   :width: 1.5em
+.. |mActionDeleteSelected| image:: /_static/common/mActionDeleteSelected.png
+   :width: 1.5em
+.. |mActionDeleteVertex| image:: /_static/common/mActionDeleteVertex.png
+   :width: 1.5em
+.. |mActionSimplify| image:: /_static/common/mActionSimplify.png
+   :width: 2em
+.. |mActionAddRing| image:: /_static/common/mActionAddRing.png
+   :width: 2em
+.. |mActionAddIsland| image:: /_static/common/mActionAddIsland.png
+   :width: 2em
+.. |mActionDeleteRing| image:: /_static/common/mActionDeleteRing.png
+   :width: 2em
+.. |mActionDeletePart| image:: /_static/common/mActionDeletePart.png
+   :width: 2em
+.. |mActionReshape| image:: /_static/common/mActionReshape.png
+   :width: 1.5em
+.. |mActionSplitFeatures| image:: /_static/common/mActionSplitFeatures.png
+   :width: 1.5em
+.. |mActionMergeFeatures| image:: /_static/common/mActionMergeFeatures.png
+   :width: 1.5em
+.. |mergeFeats| image:: /_static/common/mActionMergeFeatures.png
+   :width: 1.5em
+.. |mActionMergeFeatureAttributes| image:: /_static/common/mActionMergeFeatureAttributes.png
+   :width: 1.5em
+.. |mActionNodeTool| image:: /_static/common/mActionNodeTool.png
+   :width: 1.5em
+.. |mActionSelectedToTop| image:: /_static/common/mActionSelectedToTop.png
+   :width: 1.5em
+.. |mActionInvertSelection| image:: /_static/common/mActionInvertSelection.png
+   :width: 1.5em
+.. |mActionCopySelected| image:: /_static/common/mActionCopySelected.png
+   :width: 1.5em
+.. |mActionZoomToSelected| image:: /_static/common/mActionZoomToSelected.png
+   :width: 1.5em
+.. |mActionZoomActual| image:: /_static/common/mActionZoomActual.png
+   :width: 1.5em
+.. |mActionNewAttribute| image:: /_static/common/mActionNewAttribute.png
+   :width: 1.5em
+.. |mActionCalculateField| image:: /_static/common/mActionCalculateField.png
+   :width: 1.5em
+.. |mActionRotatePointSymbols| image:: /_static/common/mActionRotatePointSymbols.png
+   :width: 1.5em
+.. |mActionOffsetCurve| image:: /_static/common/mActionOffsetCurve.png
+   :width: 1.5em
+.. |mActionToggleEditing| image:: /_static/common/mActionToggleEditing.png
+   :width: 1.5em
+.. |mActionCapturePoint| image:: /_static/common/mActionCapturePoint.png
+   :width: 1.5em
+.. |mActionCaptureLine| image:: /_static/common/mActionCaptureLine.png
+   :width: 1.5em
+.. |mActionCapturePolygon| image:: /_static/common/mActionCapturePolygon.png
+   :width: 1.5em
+.. |mActionMoveFeature| image:: /_static/common/mActionMoveFeature.png
+   :width: 1.5em
+.. |mActionPan| image:: /_static/common/mActionPan.png
+   :width: 1.5em
+.. |mActionZoomIn| image:: /_static/common/mActionZoomIn.png
+   :width: 1.5em
+.. |mActionZoomOut| image:: /_static/common/mActionZoomOut.png
+   :width: 1.5em
+.. |mActionIdentify| image:: /_static/common/mActionIdentify.png
+   :width: 1.5em
+.. |mActionNewVectorLayer| image:: /_static/common/mActionNewVectorLayer.png
+   :width: 1.5em
+.. |mActionNewSpatiaLiteLayer| image:: /_static/common/mActionNewSpatiaLiteLayer.png
+   :width: 1.5em
+.. |mActionZoomFullExtent| image:: /_static/common/mActionZoomFullExtent.png
+   :width: 1.5em
+.. |mActionZoomToLayer| image:: /_static/common/mActionZoomToLayer.png
+   :width: 1.5em
+.. |mActionZoomLast| image:: /_static/common/mActionZoomLast.png
+   :width: 1.5em
+.. |mActionZoomNext| image:: /_static/common/mActionZoomNext.png
+   :width: 1.5em
+.. |mActionMapTips| image:: /_static/common/mActionMapTips.png
+   :width: 1.5em
+.. |mActionNewBookmark| image:: /_static/common/mActionNewBookmark.png
+   :width: 1.5em
+.. |mActionShowBookmarks| image:: /_static/common/mActionShowBookmarks.png
+   :width: 1.5em
+.. |mActionDraw| image:: /_static/common/mActionDraw.png
+   :width: 1.5em
+.. |mActionAddNonDbLayer| image:: /_static/common/mActionAddNonDbLayer.png
+   :width: 1.5em
+.. |mActionAddLayer| image:: /_static/common/mActionAddLayer.png
+   :width: 1.5em
+.. |mActionAddSpatiaLiteLayer| image:: /_static/common/mActionAddSpatiaLiteLayer.png
+   :width: 1.5em
+.. |mActionAddWmsLayer| image:: /_static/common/mActionAddWmsLayer.png
+   :width: 1.5em
+.. |mActionAddOracleLayer| image:: /_static/common/mActionAddOracleLayer.png
+   :width: 1.5em
+.. |mActionOpenTable| image:: /_static/common/mActionOpenTable.png
+   :width: 1.5em
+.. |mActionRemoveLayer| image:: /_static/common/mActionRemoveLayer.png
+   :width: 1.5em
+.. |mActionDuplicateLayer| image:: /_static/common/mActionDuplicateLayer.png
+   :width: 1.5em
+.. |mActionLabeling| image:: /_static/common/mActionLabeling.png
+   :width: 1.5em
+.. |mActionInOverview| image:: /_static/common/mActionInOverview.png
+   :width: 1.5em
+.. |mActionAddAllToOverview| image:: /_static/common/mActionAddAllToOverview.png
+   :width: 1.5em
+.. |mActionRemoveAllFromOverview| image:: /_static/common/mActionRemoveAllFromOverview.png
+   :width: 1.5em
+.. |RemoveAllOVerview| image:: /_static/common/mActionRemoveAllFromOverview.png
+   :width: 1.5em
+.. |mActionShowAllLayers| image:: /_static/common/mActionShowAllLayers.png
+   :width: 1.5em
+.. |mActionHideAllLayers| image:: /_static/common/mActionHideAllLayers.png
+   :width: 1.5em
+.. |mActionShowPresets| image:: /_static/common/mActionShowPresets.png
+   :width: 2.5em
+.. |mActionProjectProperties| image:: /_static/common/mActionProjectProperties.png
+   :width: 1.5em
+.. |mActionCustomProjection| image:: /_static/common/mActionCustomProjection.png
+   :width: 1.5em
+.. |mActionOptions| image:: /_static/common/mActionOptions.png
+   :width: 1em
+.. |mActionHelpContents| image:: /_static/common/mActionHelpContents.png
+   :width: 1.5em
+.. |mActionWhatsThis| image:: /_static/common/whats_this.png
+   :width: 1.5em
+.. |mActionQgisHomePage| image:: /_static/common/mActionQgisHomePage.png
+   :width: 1.5em
+.. |mActionCheckQgisVersion| image:: /_static/common/mActionCheckQgisVersion.png
+   :width: 1.5em
+.. |mActionHelpAbout| image:: /_static/common/mActionHelpAbout.png
+   :width: 1.5em
+.. |mActionHelpSponsors| image:: /_static/common/mActionHelpSponsors.png
+   :width: 1.5em
+.. |mActionTextAnnotation| image:: /_static/common/mActionTextAnnotation.png
+   :width: 1.5em
+.. |mActionAnnotation| image:: /_static/common/mActionAnnotation.png
+   :width: 1.5em
+.. |mActionRotateFeature| image:: /_static/common/mActionRotateFeature.png
+   :width: 1.5em
+.. |mIconStopRendering| image:: /_static/common/mIconStopRendering.png
+   :width: 1.5em
+.. |mIconProjectionDisabled| image:: /_static/common/mIconProjectionDisabled.png
+   :width: 1.5em
+.. |mIconProjectionEnabled| image:: /_static/common/mIconProjectionEnabled.png
+   :width: 1.5em
+.. |mActionMeasure| image:: /_static/common/mActionMeasure.png
+   :width: 1.5em
+.. |mActionMeasureArea| image:: /_static/common/mActionMeasureArea.png
+   :width: 1.5em
+.. |mActionMeasureAngle| image:: /_static/common/mActionMeasureAngle.png
+   :width: 1.5em
+.. |spiticon| image:: /_static/common/spiticon.png
+.. |mActionSelectRectangle| image:: /_static/common/mActionSelectRectangle.png
+   :width: 1.5em
+.. |mActionSelectPolygon| image:: /_static/common/mActionSelectPolygon.png
+   :width: 1.5em
+.. |mActionSelectFreehand| image:: /_static/common/mActionSelectFreehand.png
+   :width: 1.5em
+.. |mActionSelectRadius| image:: /_static/common/mActionSelectRadius.png
+   :width: 1.5em
+.. |mActionDeselectAll| image:: /_static/common/mActionDeselectAll.png
+   :width: 1.5em
+.. |mActionFormAnnotation| image:: /_static/common/mActionFormAnnotation.png
+   :width: 1.5em
+.. |mActionContextHelp| image:: /_static/common/mActionContextHelp.png
+   :width: 1.5em
+.. |mActionFolder| image:: /_static/common/mActionFolder.png
+   :width: 1.5em
+.. |mActionmIconExpressionEditorOpen| image:: /_static/common/mIconExpressionEditorOpen.png
+   :width: 1.5 em
+.. |mIconNew| image:: /_static/common/mIconNew.png
+   :width: 1.5em
+.. |mIconExpressionSelect| image:: /_static/common/mIconExpressionSelect.png
+   :width: 1.5em
+.. |mIconExpression| image:: /_static/common/mIconExpression.png
+   :width: 1.5em
+.. |mActionFilter| image:: /_static/common/mActionFilter.png
+   :width: 1.5em
+.. |mActionMoveLabel| image:: /_static/common/mActionMoveLabel.png
+   :width: 1.5em
+.. |mActionPinLabels| image:: /_static/common/mActionPinLabels.png
+   :width: 1.5em
+.. |mActionShowPinnedLabels| image:: /_static/common/mActionShowPinnedLabels.png
+   :width: 1.5em
+.. |mActionShowHideLabels| image:: /_static/common/mActionShowHideLabels.png
+   :width: 1.5em
+.. |mActionRotateLabel| image:: /_static/common/mActionRotateLabel.png
+   :width: 1.5em
+.. |mActionChangeLabelProperties| image:: /_static/common/mActionChangeLabelProperties.png
+   :width: 1.5em
+.. |mActionAdd| image:: /_static/common/mActionAdd.png
+   :width: 1.5em
+.. |mActionSignPlus| image:: /_static/common/mActionSignPlus.png
+   :width: 1.5em
+.. |mActionSignMinus| image:: /_static/common/mActionSignMinus.png
+   :width: 1.5em
+.. |mActionArrowDown| image:: /_static/common/mActionArrowDown.png
+   :width: 1.5em
+.. |mActionArrowLeft| image:: /_static/common/mActionArrowLeft.png
+   :width: 1.5em
+.. |mActionArrowRight| image:: /_static/common/mActionArrowRight.png
+   :width: 1.5em
+.. |mActionArrowUp| image:: /_static/common/mActionArrowUp.png
+   :width: 1.5em
+.. |mActionAllEdits| image:: /_static/common/mActionAllEdits.png
+   :width: 1.5em
+.. |mIconDataDefine| image:: /_static/common/mIconDataDefine.png
+   :width: 1.5em
+.. |mActionRollbackEdits| image:: /_static/common/mActionRollbackEdits.png
+   :width: 1.5em
+.. |mActionCancelEdits| image:: /_static/common/mActionCancelEdits.png
+   :width: 1.5em
+.. |mActionSaveEdits| image:: /_static/common/mActionSaveEdits.png
+   :width: 1.5em
+.. |mActionAddPart| image:: /_static/common/mActionAddPart.png
+   :width: 1.5em
+.. |mActionFillRing| image:: /_static/common/mActionFillRing.png
+   :width: 1.5em
+.. |mActionSplitParts| image:: /_static/common/mActionSplitParts.png
+   :width: 1.5em
+.. |mActionIdentifyExpand| image:: /_static/common/mActionExpandTree.png
+   :width: 1.5em
+.. |mActionIdentifyCollapse| image:: /_static/common/mActionCollapseTree.png
+   :width: 1.5em
+.. |mActionIdentifyDefaultExpand| image:: /_static/common/mActionExpandNewTree.png
+   :width: 1.5em
+.. |mActionIdentifyCopyAttributes| image:: /_static/common/mActionEditCopy.png
+   :width: 1.5em
+.. |mActionIdentifyPrint| image:: /_static/common/mActionFilePrint.png
+   :width: 1.5em
+.. |mActionUnselectAttributes| image:: /_static/common/mActionUnselectAttributes.png
+   :width: 1.5em
+.. |mActionAddDelimitedTextLayer| image:: /_static/common/mActionAddDelimitedTextLayer.png
+   :width: 1.5em
+.. |raster-info| image:: /_static/common/raster-info.png
+   :width: 1.5em
+.. |copyright_label| image:: /_static/common/copyright_label.png
+   :width: 1.5em
+.. |north_arrow| image:: /_static/common/north_arrow.png
+   :width: 1.5em
+.. |scale_bar| image:: /_static/common/scale_bar.png
+   :width: 2.5em
+.. |plugin_installer| image:: /_static/common/plugin_installer.png
+   :width: 1.5em
+.. |gpstrack_barchart| image:: /_static/common/gpstrack_barchart.png
+   :width: 1.5em
+.. |gpstrack_polarchart| image:: /_static/common/gpstrack_polarchart.png
+   :width: 1.5em
+.. |gps_importer| image:: /_static/common/gps_importer.png
+   :width: 1.5em
+.. |wfs| image:: /_static/common/mActionAddWfsLayer.png
+   :width: 1.5em
+.. |wcs| image:: /_static/common/mActionAddWcsLayer.png
+   :width: 1.5em
+.. |ftools| image:: /_static/common/ftools_logo.png
+   :width: 1.5em
+.. |matrix| image:: /_static/common/matrix.png
+   :width: 1.5em
+.. |sum_lines| image:: /_static/common/sum_lines.png
+   :width: 1.5em
+.. |sum_points| image:: /_static/common/sum_points.png
+   :width: 1.5em
+.. |unique| image:: /_static/common/unique.png
+   :width: 1.5em
+.. |basic_statistics| image:: /_static/common/basic_statistics.png
+   :width: 1.5em
+.. |neighbor| image:: /_static/common/neighbour.png
+   :width: 1.5em
+.. |mean| image:: /_static/common/mean.png
+   :width: 1.5em
+.. |intersections| image:: /_static/common/intersections.png
+   :width: 1.5em
+.. |random_selection| image:: /_static/common/random_selection.png
+   :width: 1.5em
+.. |sub_selection| image:: /_static/common/sub_selection.png
+   :width: 1.5em
+.. |random_points| image:: /_static/common/random_points.png
+   :width: 1.5em
+.. |regular_points| image:: /_static/common/regular_points.png
+   :width: 1.5em
+.. |vector_grid| image:: /_static/common/vector_grid.png
+   :width: 1.5em
+.. |select_location| image:: /_static/common/select_location.png
+   :width: 1.5em
+.. |layer_extent| image:: /_static/common/layer_extent.png
+   :width: 1.5em
+.. |convex_hull| image:: /_static/common/convex_hull.png
+   :width: 1.5em
+.. |buffer| image:: /_static/common/buffer.png
+   :width: 1.5em
+.. |eliminate| image:: /_static/common/eliminate.png
+   :width: 1.5em
+.. |intersect| image:: /_static/common/intersect.png
+   :width: 1.5em
+.. |union| image:: /_static/common/union.png
+   :width: 1.5em
+.. |sym_difference| image:: /_static/common/sym_difference.png
+   :width: 1.5em
+.. |clip| image:: /_static/common/clip.png
+   :width: 1.5em
+.. |difference| image:: /_static/common/difference.png
+   :width: 1.5em
+.. |dissolve| image:: /_static/common/dissolve.png
+   :width: 1.5em
+.. |check_geometry| image:: /_static/common/check_geometry.png
+   :width: 1.5em
+.. |export_geometry| image:: /_static/common/export_geometry.png
+   :width: 1.5em
+.. |centroids| image:: /_static/common/centroids.png
+   :width: 1.5em
+.. |delaunay| image:: /_static/common/delaunay.png
+   :width: 1.5em
+.. |simplify| image:: /_static/common/simplify.png
+   :width: 1.5em
+.. |multi_to_single| image:: /_static/common/multi_to_single.png
+   :width: 1.5em
+.. |single_to_multi| image:: /_static/common/single_to_multi.png
+   :width: 1.5em
+.. |to_lines| image:: /_static/common/to_lines.png
+   :width: 1.5em
+.. |extract_nodes| image:: /_static/common/extract_nodes.png
+   :width: 1.5em
+.. |export_projection| image:: /_static/common/export_projection.png
+   :width: 1.5em
+.. |define_projection| image:: /_static/common/define_projection.png
+   :width: 1.5em
+.. |join_location| image:: /_static/common/join_location.png
+   :width: 1.5em
+.. |split_layer| image:: /_static/common/split_layer.png
+   :width: 1.5em
+.. |merge_shapes| image:: /_static/common/merge_shapes.png
+   :width: 1.5em
+.. |event_browser| image:: /_static/common/event_browser.png
+   :width: 1.5em
+.. |event_id| image:: /_static/common/event_id.png
+   :width: 1.5em
+.. |evis_connect| image:: /_static/common/evis_connect.png
+   :width: 1.5em
+.. |evis_file| image:: /_static/common/evis_file.png
+   :width: 1.5em
+.. |dxf2shp_converter| image:: /_static/common/dxf2shp_converter.png
+   :width: 1.5em
+.. |grass| image:: /_static/common/grasslogo.png
+   :width: 1.5em
+.. |qgissplash| image:: /_static/common/splash.png
+.. |grass_open_mapset| image:: /_static/common/grass_open_mapset.png
+   :width: 1.5em
+.. |grass_new_mapset| image:: /_static/common/grass_new_mapset.png
+   :width: 1.5em
+.. |grass_close_mapset| image:: /_static/common/grass_close_mapset.png
+   :width: 1.5em
+.. |grass_add_vector| image:: /_static/common/grass_add_vector.png
+   :width: 1.5em
+.. |grass_add_raster| image:: /_static/common/grass_add_raster.png
+   :width: 1.5em
+.. |grass_new_vector_layer| image:: /_static/common/grass_new_vector_layer.png
+   :width: 1.5em
+.. |grass_edit| image:: /_static/common/grass_edit.png
+   :width: 1.5em
+.. |grass_tools| image:: /_static/common/grass_tools.png
+   :width: 1.5em
+.. |grass_region| image:: /_static/common/grass_region.png
+   :width: 1.5em
+.. |grass_region_edit| image:: /_static/common/grass_region_edit.png
+   :width: 1.5em
+.. |grass_new_point| image:: /_static/common/grass_new_point.png
+   :width: 1.5em
+.. |grass_new_line| image:: /_static/common/grass_new_line.png
+   :width: 1.5em
+.. |grass_new_boundary| image:: /_static/common/grass_new_boundary.png
+   :width: 1.5em
+.. |grass_new_centroid| image:: /_static/common/grass_new_centroid.png
+   :width: 1.5em
+.. |grass_move_vertex| image:: /_static/common/grass_move_vertex.png
+   :width: 1.5em
+.. |grass_add_vertex| image:: /_static/common/grass_add_vertex.png
+   :width: 1.5em
+.. |grass_delete_vertex| image:: /_static/common/grass_delete_vertex.png
+   :width: 1.5em
+.. |grass_move_line| image:: /_static/common/grass_move_line.png
+   :width: 1.5em
+.. |grass_split_line| image:: /_static/common/grass_split_line.png
+   :width: 1.5em
+.. |grass_delete_line| image:: /_static/common/grass_delete_line.png
+   :width: 1.5em
+.. |grass_edit_attributes| image:: /_static/common/grass_edit_attributes.png
+   :width: 1.5em
+.. |grass_close_edit| image:: /_static/common/grass_close_edit.png
+   :width: 1.5em
+.. |grass_add_map| image:: /_static/common/grass_add_map.png
+   :width: 1.5em
+.. |grass_copy_map| image:: /_static/common/grass_copy_map.png
+   :width: 1.5em
+.. |grass_rename_map| image:: /_static/common/grass_rename_map.png
+   :width: 1.5em
+.. |grass_delete_map| image:: /_static/common/grass_delete_map.png
+   :width: 1.5em
+.. |grass_set_region| image:: /_static/common/grass_set_region.png
+   :width: 1.5em
+.. |grass_refresh| image:: /_static/common/grass_refresh.png
+   :width: 1.5em
+.. |delimited_text| image:: /_static/common/delimited_text.png
+   :width: 1.5em
+.. |mActionGDALScript| image:: /_static/common/mActionGDALScript.png
+   :width: 1.5em
+.. |mActionLinkQGisToGeoref| image:: /_static/common/mActionLinkQGisToGeoref.png
+   :width: 2.5em
+.. |mActionStartGeoref| image:: /_static/common/mActionStartGeoref.png
+   :width: 1.5em
+.. |mActionLinkGeorefToQGis| image:: /_static/common/mActionLinkGeorefToQGis.png
+   :width: 2.5em
+.. |georeferencer| image:: /_static/common/georeferencer.png
+   :width: 1.5em
+.. |pencil| image:: /_static/common/pencil.png
+   :width: 1.5em
+.. |coordinate_capture| image:: /_static/common/coordinate_capture.png
+   :width: 1.5em
+.. |tracking| image:: /_static/common/tracking.png
+   :width: 1.5em
+.. |spatialquery| image:: /_static/common/spatialquery.png
+   :width: 1.5em
+.. |selectesubsetlayer| image:: /_static/common/selectesubsetlayer.png
+   :width: 1.5em
+.. |selectcreatelayer| image:: /_static/common/selectcreatelayer.png
+   :width: 1.5em
+.. |heatmap| image:: /_static/common/heatmap.png
+   :width: 1.5em
+.. |CRS| image:: /_static/common/CRS.png
+   :width: 1.5em
+.. |action| image:: /_static/common/action.png
+   :width: 2em
+.. |attributes| image:: /_static/common/attributes.png
+   :width: 2em
+.. |diagram| image:: /_static/common/diagram.png
+   :width: 2em
+.. |general| image:: /_static/common/general.png
+   :width: 2em
+.. |metadata| image:: /_static/common/metadata.png
+   :width: 2em
+.. |metasearch| image:: /_static/common/MetaSearch.png
+   :width: 1.5em
+.. |symbology| image:: /_static/common/symbology.png
+   :width: 2em
+.. |join| image:: /_static/common/join.png
+   :width: 2em
+.. |labels| image:: /_static/common/labels.png
+   :width: 2em
+.. |locale| image:: /_static/common/locale.png
+   :width: 2em
+.. |dbmanager| image:: /_static/common/dbmanager.png
+   :width: 1.5em
+.. |gdal| image:: /_static/common/gdal.png
+   :width: 1.5em
+.. |gdal_warp| image:: /_static/common/warp.png
+   :width: 1.5em
+.. |gdal_assign_projection| image:: /_static/common/projection-add.png
+   :width: 1.5em
+.. |gdal_extract_projection| image:: /_static/common/projection-export.png
+   :width: 1.5em
+.. |gdal_polygonize| image:: /_static/common/polygonize.png
+   :width: 1.5em
+.. |gdal_translate| image:: /_static/common/translate.png
+   :width: 1.5em
+.. |gdal_dem| image:: /_static/common/gdal_dem.png
+   :width: 1.5em
+.. |gdal_about| image:: /_static/common/about.png
+   :width: 1.5em
+.. |gdal_contour| image:: /_static/common/contour.png
+   :width: 1.5em
+.. |gdal_edit| image:: /_static/common/edit.png
+   :width: 1.5em
+.. |gdal_fillnodata| image:: /_static/common/fillnodata.png
+   :width: 1.5em
+.. |gdal_grid| image:: /_static/common/grid.png
+   :width: 1.5em
+.. |gdal_merge| image:: /_static/common/merge.png
+   :width: 1.5em
+.. |gdal_nearblack| image:: /_static/common/nearblack.png
+   :width: 1.5em
+.. |gdal_proximity| image:: /_static/common/proximity.png
+   :width: 1.5em
+.. |gdal_raster-clip| image:: /_static/common/raster-clip.png
+   :width: 1.5em
+.. |gdal_raster-overview| image:: /_static/common/raster-overview.png
+   :width: 1.5em
+.. |gdal_raster-paletted| image:: /_static/common/raster-paletted.png
+   :width: 1.5em
+.. |gdal_raster-rgb| image:: /_static/common/raster-rgb.png
+   :width: 1.5em
+.. |gdal_rasterize| image:: /_static/common/rasterize.png
+   :width: 1.5em
+.. |gdal_reset| image:: /_static/common/reset.png
+   :width: 1.5em
+.. |gdal_sieve| image:: /_static/common/sieve.png
+   :width: 1.5em
+.. |gdal_tileindex| image:: /_static/common/tileindex.png
+   :width: 1.5em
+.. |gdal_tooltip| image:: /_static/common/tooltip.png
+   :width: 1.5em
+.. |gdal_vrt| image:: /_static/common/vrt.png
+   :width: 1.5em
+.. |mActionAddMssqlLayer| image:: /_static/common/mActionAddMssqlLayer.png
+   :width: 1.5em
+.. |fullCumulativeStretch| image:: /_static/common/mActionFullCumulativeCutStretch.png
+   :width: 1.5em
+.. |FullHistogramStretch| image:: /_static/common/mActionFullHistogramStretch.png
+   :width: 1.5em
+.. |PanToSelected| image:: /_static/common/mActionPanToSelected.png
+   :width: 1.5em
+.. |ShowRasterCalculator| image:: /_static/common/mActionShowRasterCalculator.png
+   :width: 1.5em
+.. |mIconZip| image:: /_static/common/mIconZip.png
+   :width: 2em
+.. |offline_editing_sync| image:: /_static/common/offline_editing_sync.png
+   :width: 1.5em
+.. |raster-interpolate| image:: /_static/common/raster-interpolate.png
+   :width: 1.5em
+.. |raster-stats| image:: /_static/common/raster-stats.png
+   :width: 1.5em
+.. |roadgraph| image:: /_static/common/roadgraph.png
+   :width: 1.5em
+.. |proc_toolbox| image:: /_static/common/alg.png
+   :width: 1.5em
+.. |proc_model| image:: /_static/common/model.png
+   :width: 1.5em
+.. |proc_history| image:: /_static/common/history.png
+   :width: 2em
+.. |proc_option| image:: /_static/common/config.png
+   :width: 1.5em
+.. |proc_result| image:: /_static/common/results.png
+   :width: 1.5em
+.. |proc_commander| image:: /_static/common/commander.png
+   :width: 1.5em
+.. |plugin_installed| image:: /_static/common/plugin-installed.png
+   :width: 1.5em
+.. |plugin_upgrade| image:: /_static/common/plugin-upgrade.png
+   :width: 1.5em
+.. |analysis| image:: /_static/common/analysis.png
+   :width: 1.5em
+.. |geRasterometry| image:: /_static/common/geometry.png
+   :width: 1.5em
+.. |geoprocessing| image:: /_static/common/geoprocessing.png
+   :width: 1.5em
+.. |geometry| image:: /_static/common/geometry.png
+   :width: 1.5em
+.. |management| image:: /_static/common/management.png
+   :width: 1.5em
+.. |sampling| image:: /_static/common/sampling.png
+   :width: 1.5em
+.. |mActionRemove| image:: /_static/common/mActionRemove.png
+   :width: 1.5em
+.. |mActionLink| image:: /_static/common/mActionLink.png
+   :width: 1.5em
+.. |mActionUnlink| image:: /_static/common/mActionUnlink.png
+   :width: 1.5em
+.. |create_gpx| image:: /_static/common/create_gpx.png
+   :width: 1.5em
+.. |import_gpx| image:: /_static/common/import_gpx.png
+   :width: 1.5em
+.. |mActionFullHistogramStretch| image:: /_static/common/mActionFullHistogramStretch.png
+   :width: 1.5em
+.. |mActionLocalHistogramStretch| image:: /_static/common/mActionLocalHistogramStretch.png
+   :width: 1.5em
+.. |locked| image:: /_static/common/locked.png
+   :width: 1.5em
+.. |unlocked| image:: /_static/common/unlocked.png
+   :width: 1.5em
+
+"""
