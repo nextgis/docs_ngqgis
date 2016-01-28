@@ -2,9 +2,9 @@
 
 .. _ngqgis_ui:
 
-********
+********************************
 Описание интерфейса |qg|
-********
+********************************
 
 
 
@@ -13,6 +13,11 @@
    single:main window
 
 При первом запуске |qg| пользователь видит окно, показанное ниже (номерами от 1 до 5 выделены пять основных областей, которые рассматриваются далее):
+
+
+.. fixme:
+   Заменить скриншот на |qg|
+
 
 .. _fig_startup:
 
@@ -26,11 +31,11 @@
 .. note::
    Внешний вид элементов интерфейса (заголовки окон и т.п.) может отличаться, в зависисмости от операционной системы и менеджера окон.
 
-Интерфейс |qg| GUI разделяется на пять областей:
+Интерфейс |qg| разделяется на пять областей:
 
 #. Главное меню
 #. Панель инструментов
-#. Легенда
+#. Дерево слоёв
 #. Область карты
 #. Строка состояния
 
@@ -39,330 +44,76 @@
 .. _label_menubar:
 
 Главное меню
---------
+------------------------------------
 
 .. index::
    single:menus
 
-Главное меню предоставляет доступ ко всем возможностям QGIS в виде стандартного иерархического меню. Ниже показаны меню верхнего уровня и краткое описание их содержимого, а также значки соответствующих им инструментов по мере их появления на панели инструментов и комбинации клавиш клавиатуры. Комбинации клавиш, описанные в этом разделе, заданы по умолчанию, но их можно изменить, вызвав диалог настройки из меню :guilabel:`Configure shortcuts` dialog, opened from
+
+.. fixme:
+   Тут вставить скрин всего окна |qg|, где главное меню отмечено красной рамкой.
+
+Главное меню предоставляет доступ ко всем возможностям |qg| в виде стандартного иерархического меню. Ниже показаны меню верхнего уровня и краткое описание их содержимого, а также значки соответствующих им инструментов по мере их появления на панели инструментов и комбинации клавиш клавиатуры. Комбинации клавиш, описанные в этом разделе, заданы по умолчанию, но их можно изменить, вызвав диалог настройки из меню 
 :menuselection:`Установки --> Комбинации клавиш...`.
 
-Although most menu options have a corresponding tool and vice-versa, the menus
-are not organized exactly like the toolbars. The toolbar containing the tool is
-listed after each menu option as a checkbox entry. Some menu options only
-appear if the corresponding plugin is loaded. For more information about tools
-and toolbars, see section :ref:`label_toolbars`.
+Несмотря на то, что большинству пунктов меню соответствует свой инструмент, и наоборот, - меню и панели инструментов организованы по-разному. Панель инструментов, в которой находится инструмент, показана после каждого пункта меню в виде флажка.  Дополнительную информацию об инструментах и панелях инструментов можно найти в разделе :ref:`label_toolbars`.
 
 .. note:
    Дополнительные модули появляются в различных меню, поэтому на разных компьютерах набор этих меню отличается.
 
-Project
-........
 
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|mActionFileNew| :guilabel:`New`                                :kbd:`Ctrl+N`         see :ref:`sec_projects`                     :guilabel:`Project`
-|mActionFileOpen| :guilabel:`Open`                              :kbd:`Ctrl+O`         see :ref:`sec_projects`                     :guilabel:`Project`
-:menuselection:`New from template -->`                          \                     see :ref:`sec_projects`                     :guilabel:`Project`
-:menuselection:`Open Recent  -->`                               \                     see :ref:`sec_projects`                     \
-|mActionFileSave| :guilabel:`Save`                              :kbd:`Ctrl+S`         see :ref:`sec_projects`                     :guilabel:`Project`
-|mActionFileSaveAs| :guilabel:`Save As...`                      :kbd:`Ctrl+Shift+S`   see :ref:`sec_projects`                     :guilabel:`Project`
-|mActionSaveMapAsImage| :guilabel:`Save as Image...`            \                     see :ref:`sec_output`                       \
-:guilabel:`DXF Export ...`                                      \                     see :ref:`sec_output`                       \
-|mActionNewComposer| :guilabel:`New Print Composer`             :kbd:`Ctrl+P`         see :ref:`label_printcomposer`              :guilabel:`Project`
-|mActionComposerManager| :guilabel:`Composer manager ...`       \                     see :ref:`label_printcomposer`              :guilabel:`Project`
-:menuselection:`Print Composers -->`                            \                     see :ref:`label_printcomposer`              \
-|mActionFileExit| :guilabel:`Exit QGIS`                         :kbd:`Ctrl+Q`         \                                           \
-==============================================================  ====================  ==========================================  ===============================
-
-Edit
-....
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|mActionUndo| :guilabel:`Undo`                                  :kbd:`Ctrl+Z`         see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionRedo| :guilabel:`Redo`                                  :kbd:`Ctrl+Shift+Z`   see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionEditCut| :guilabel:`Cut Features`                       :kbd:`Ctrl+X`         see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionEditCopy| :guilabel:`Copy Features`                     :kbd:`Ctrl+C`         see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionEditPaste| :guilabel:`Paste Features`                   :kbd:`Ctrl+V`         see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-:menuselection:`Paste features as -->`                          \		      see :ref:`sec_attribute_table`	          \		
-|mActionCapturePoint| :guilabel:`Add Feature`                   :kbd:`Ctrl+.`         see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionMoveFeature| :guilabel:`Move Feature(s)`                \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionDeleteSelected| :guilabel:`Delete Selected`             \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionRotatePointSymbols| :guilabel:`Rotate Feature(s)`       \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionSimplify| :guilabel:`Simplify Feature`                  \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionAddRing| :guilabel:`Add Ring`                           \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionAddPart| :guilabel:`Add Part`                           \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionFillRing| :guilabel:`Fill Ring`                         \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionDeleteRing| :guilabel:`Delete Ring`                     \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionDeletePart| :guilabel:`Delete Part`                     \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionReshape| :guilabel:`Reshape Features`                   \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionOffsetCurve| :guilabel:`Offset Curve`                   \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionSplitFeatures| :guilabel:`Split Features`               \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionSplitParts| :guilabel:`Split Parts`                     \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mergeFeats| :guilabel:`Merge Selected Features`                \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mergeFeats| :guilabel:`Merge Attr. of Selected Features`       \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-|mActionNodeTool| :guilabel:`Node Tool`                         \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionRotatePointSymbols| :guilabel:`Rotate Point Symbols`    \                     see :ref:`sec_advanced_edit`                :guilabel:`Advanced Digitizing`
-==============================================================  ====================  ==========================================  ===============================
-
-After activating |mActionToggleEditing| :sup:`Toggle editing` mode for a layer,
-you will find the ``Add Feature`` icon in the :menuselection:`Edit` menu
-depending on the layer type (point, line or polygon).
-
-Edit (extra)
-............
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|mActionCapturePoint| :guilabel:`Add Feature`                   \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionCaptureLine| :guilabel:`Add Feature`                    \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionCapturePolygon| :guilabel:`Add Feature`                 \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-==============================================================  ====================  ==========================================  ===============================
-
-View
-....
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|mActionPan| :guilabel:`Pan Map`                                \                     \                                           :guilabel:`Map Navigation`
-|PanToSelected| :guilabel:`Pan Map to Selection`                \                     \                                           :guilabel:`Map Navigation`
-|mActionZoomIn| :guilabel:`Zoom In`                             :kbd:`Ctrl++`         \                                           :guilabel:`Map Navigation`
-|mActionZoomOut| :guilabel:`Zoom Out`                           :kbd:`Ctrl+-`         \                                           :guilabel:`Map Navigation`
-:menuselection:`Select -->`                                     \                     see :ref:`sec_selection`                    :guilabel:`Attributes`
-|mActionIdentify| :guilabel:`Identify Features`                 :kbd:`Ctrl+Shift+I`   \                                           :guilabel:`Attributes`
-:menuselection:`Measure -->`                                    \                     see :ref:`sec_measure`                      :guilabel:`Attributes`
-|mActionZoomFullExtent| :guilabel:`Zoom Full`                   :kbd:`Ctrl+Shift+F`   \                                           :guilabel:`Map Navigation`
-|mActionZoomToLayer| :guilabel:`Zoom To Layer`                  \                     \                                           :guilabel:`Map Navigation`
-|mActionZoomToSelected| :guilabel:`Zoom To Selection`           :kbd:`Ctrl+J`         \                                           :guilabel:`Map Navigation`
-|mActionZoomLast| :guilabel:`Zoom Last`                         \                     \                                           :guilabel:`Map Navigation`
-|mActionZoomNext| :guilabel:`Zoom Next`                         \                     \                                           :guilabel:`Map Navigation`
-|mActionZoomActual| :guilabel:`Zoom Actual Size`                \                     \                                           :guilabel:`Map Navigation`
-:menuselection:`Decorations -->`                                \                     see :ref:`decorations`                      \
-:menuselection:`Preview mode -->`                               \                     \                                           \
-|mActionMapTips| :guilabel:`Map Tips`                           \                     \                                           :guilabel:`Attributes`
-|mActionNewBookmark| :guilabel:`New Bookmark`                   :kbd:`Ctrl+B`         see :ref:`sec_bookmarks`                    :guilabel:`Attributes`
-|mActionShowBookmarks| :guilabel:`Show Bookmarks`               :kbd:`Ctrl+Shift+B`   see :ref:`sec_bookmarks`                    :guilabel:`Attributes`
-|mActionDraw| :guilabel:`Refresh`                               :kbd:`F5`                                                         :guilabel:`Map Navigation`
-==============================================================  ====================  ==========================================  ===============================
-
-Layer
-.....
-
-===================================================================  ====================  ==========================================  ===============================
-Menu Option                                                          Shortcut              Reference                                   Toolbar
-===================================================================  ====================  ==========================================  ===============================
-:menuselection:`Create Layer -->`                                    \                     see :ref:`sec_create_vector`                :guilabel:`Manage Layers`
-:menuselection:`Add Layer -->`                                       \                     \                                           :guilabel:`Manage Layers`
-:guilabel:`Embed Layers and Groups ...`                              \                     see :ref:`nesting_projects`                 \
-:guilabel:`Add from Layer Definition File ...`			     \                     \                                           \
-|mActionEditCopy| :guilabel:`Copy style`                             \                     see :ref:`vector_style_menu`                \
-|mActionEditPaste| :guilabel:`Paste style`                           \                     see :ref:`vector_style_menu`                \
-|mActionOpenTable| :guilabel:`Open Attribute Table`                  \                     see :ref:`sec_attribute_table`              :guilabel:`Attributes`
-|mActionToggleEditing| :guilabel:`Toggle Editing`                    \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionFileSave| :guilabel:`Save Layer Edits`                       \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-|mActionAllEdits| :menuselection:`Current Edits -->`                 \                     see :ref:`sec_edit_existing_layer`          :guilabel:`Digitizing`
-:menuselection:`Save as...`                                          \                     \                                           \
-:menuselection:`Save as layer definition file...`                    \                     \                                           \
-|mActionRemoveLayer| :guilabel:`Remove Layer/Group`                  :kbd:`Ctrl+D`         \                                           \
-|mActionDuplicateLayer| :guilabel:`Duplicate Layers (s)`             \                     \                                           \
-:guilabel:`Set Scale Visibility of Layers`                           \                     \                                           \
-:menuselection:`Set CRS of Layer(s)`                                 :kbd:`Ctrl+Shift+C`   \                                           \
-:menuselection:`Set project CRS from Layer`                          \                     \                                           \
-:menuselection:`Properties ...`                                      \                     \                                           \
-:menuselection:`Query...`                                            \                     \                                           \
-|mActionLabeling| :guilabel:`Labeling`                               \                     \                                           \
-|mActionInOverview| :guilabel:`Add to Overview`                      :kbd:`Ctrl+Shift+O`   \                                           :guilabel:`Manage Layers`
-|mActionAddAllToOverview| :guilabel:`Add All To Overview`            \                     \                                           \
-|RemoveAllOverview| :guilabel:`Remove All From Overview`             \                     \                                           \
-|mActionShowAllLayers| :guilabel:`Show All Layers`                   :kbd:`Ctrl+Shift+U`   \                                           :guilabel:`Manage Layers`
-|mActionHideAllLayers| :guilabel:`Hide All Layers`                   :kbd:`Ctrl+Shift+H`   \                                           :guilabel:`Manage Layers`
-|mActionShowAllLayers| :guilabel:`Show selected Layers`              \                     \                                           \
-|mActionHideAllLayers| :guilabel:`Hide selected Layers`              \                     \                                           \
-===================================================================  ====================  ==========================================  ===============================
-
-Settings
-........
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-:menuselection:`Panels -->`                                     \                     see :ref:`sec_panels_and_toolbars`          \
-:menuselection:`Toolbars -->`                                   \                     see :ref:`sec_panels_and_toolbars`          \
-:menuselection:`Toggle Full Screen Mode`                        :kbd:`F 11`           \                                           \
-|mActionProjectProperties| :guilabel:`Project Properties ...`   :kbd:`Ctrl+Shift+P`   see :ref:`sec_projects`                     \
-|mActionCustomProjection| :guilabel:`Custom CRS ...`            \                     see :ref:`sec_custom_projections`           \
-:guilabel:`Style Manager...`                                    \                     see :ref:`vector_style_manager`             \
-|mActionOptions| :guilabel:`Configure shortcuts ...`            \                     \                                           \
-|mActionOptions| :guilabel:`Customization ...`                  \                     see :ref:`sec_customization`                \
-|mActionOptions| :guilabel:`Options ...`                        \                     see :ref:`gui_options`                      \
-:menuselection:`Snapping Options ...`                           \                     \                                           \
-==============================================================  ====================  ==========================================  ===============================
-
-Plugins
-.......
-
-======================================================================  ====================  ===================================  ===============================
-Menu Option                                                             Shortcut              Reference                            Toolbar
-======================================================================  ====================  ===================================  ===============================
-|mActionShowPluginManager| :guilabel:`Manage and Install Plugins ...`   \                     see :ref:`managing_plugins`          \
-:menuselection:`Python Console`                                         :kbd:`Ctrl+Alt+P`     \                                    \
-======================================================================  ====================  ===================================  ===============================
-
-When starting |qg| for the first time not all core plugins are loaded.
-
-Vector
-......
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-:menuselection:`Open Street Map -->`                            \                     see :ref:`open_street_map`                  \
-|analysis| :menuselection:`Analysis Tools -->`                  \                     see :ref:`ftools`                           \
-|sampling| :menuselection:`Research Tools -->`                  \                     see :ref:`ftools`                           \
-|geoprocessing| :menuselection:`Geoprocessing Tools -->`        \                     see :ref:`ftools`                           \
-|geometry| :menuselection:`Geometry Tools -->`                  \                     see :ref:`ftools`                           \
-|management| :menuselection:`Data Management Tools -->`         \                     see :ref:`ftools`                           \
-==============================================================  ====================  ==========================================  ===============================
-
-When starting |qg| for the first time not all core plugins are loaded.
-
-Raster
-......
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-:menuselection:`Raster calculator ...`                          \                     see :ref:`sec_raster_calc`                  \
-==============================================================  ====================  ==========================================  ===============================
-
-When starting |qg| for the first time not all core plugins are loaded.
-
-Database
-........
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option							Shortcut	      Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-:menuselection:`Database -->`                                   \                     see :ref:`dbmanager`                        :guilabel:`Database`
-==============================================================  ====================  ==========================================  ===============================
-
-When starting |qg| for the first time not all core plugins are loaded.
+.. fixme:
+   Тут была большая таблица, просто со списком всех пунктов меню, я её пропустил из-за отсутствия смысла и трудоёмкости перевода.
 
 
-Web
-...
-
-==============================================================  ====================  ==========================================  ==============================
-Menu Option							Shortcut	      Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ==============================
-:guilabel:`Metasearch`                                          \                     see :ref:`metasearch`                       :guilabel:`Web`
-==============================================================  ====================  ==========================================  ==============================
-
-When starting |qg| for the first time not all core plugins are loaded.
-
-
-Processing
-..........
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|proc_toolbox| :guilabel:`Toolbox`                              \                     see :ref:`processing.toolbox`               \
-|proc_model| :guilabel:`Graphical Modeler ...`                  \                     see :ref:`processing.modeler`               \
-|proc_history| :guilabel:`History and log ...`                  \                     see :ref:`processing.history`               \
-|proc_option| :guilabel:`Options ...`                           \                     see :ref:`processing.options`               \
-|proc_result| :guilabel:`Results viewer ...`                    \                     see :ref:`processing.results`               \
-|proc_commander| :guilabel:`Commander`                          :kbd:`Ctrl+Alt+M`     see :ref:`processing.commander`             \
-==============================================================  ====================  ==========================================  ===============================
-
-When starting |qg| for the first time not all core plugins are loaded.
-
-Help
-....
-
-==============================================================  ====================  ==========================================  ===============================
-Menu Option                                                     Shortcut              Reference                                   Toolbar
-==============================================================  ====================  ==========================================  ===============================
-|mActionHelpContents| :guilabel:`Help Contents`                 :kbd:`F1`             \                                           :guilabel:`Help`
-|mActionWhatsThis| :guilabel:`What's This?`                     :kbd:`Shift+F1`       \                                           :guilabel:`Help`
-:menuselection:`API Documentation`                              \                     \                                           \
-:menuselection:`Need commercial support?`                       \                     \                                           \
-|mActionQgisHomePage| :guilabel:`QGIS Home Page`                :kbd:`Ctrl+H`         \                                           \
-|mActionCheckQgisVersion| :guilabel:`Check QGIS Version`        \                     \                                           \
-|mActionHelpAbout| :guilabel:`About`                            \                     \                                           \
-|mActionHelpSponsors| :guilabel:`QGIS Sponsors`                 \                     \                                           \
-==============================================================  ====================  ==========================================  ===============================
-
-Please note that for Linux |nix|, the menu bar items listed above are the
-default ones in the KDE window manager. In GNOME, the :menuselection:`Settings` menu
-has different content and its items have to be found here:
-
-+-----------------------------------------------------------------------+------------------------+
-| |mActionCustomProjection| :guilabel:`Custom CRS`                      | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-| :guilabel:`Style Manager`                                             | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-| |mActionOptions| :guilabel:`Configure Shortcuts`                      | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-| |mActionOptions| :guilabel:`Customization`                            | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-| |mActionOptions| :guilabel:`Options`                                  | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-| :menuselection:`Snapping Options ...`                                 | :guilabel:`Edit`       |
-+-----------------------------------------------------------------------+------------------------+
-
-
-.. See Appendix :ref:`app_menu` for complete descriptions of the menu items.
 
 .. _`label_toolbars`:
 
-Toolbar
--------
+Панель инструментов
+-------------------------------
 
 .. index::
    single:toolbar
 
-The toolbar provides access to most of the same functions as the menus, plus
-additional tools for interacting with the map. Each toolbar item has pop-up help
-available. Hold your mouse over the item and a short description of the tool's
-purpose will be displayed.
 
-Every menu bar can be moved around according to your needs. Additionally, every
-menu bar can be switched off using your right mouse button context menu, holding
-the mouse over the toolbars (read also :ref:`sec_panels_and_toolbars`).
+.. fixme:
+   Тут вставить скрин всего окна |qg|, где панели инструментов отмечены красной рамкой.
+
+Из панели инструментов можно запустить множество тех же самых функций, что и из меню, и ещё дополнительне инструменты для взаимодействия с картой. У каждой кнопки есть всплывающая подсказка - наведите мышку на кнопку, и на экране появится короткое описание.
+
+Каждую панель инструментом можно передвигать по окну для ваших нужд. Панели можно включать-выключать, для этого наведите мышь на панель, нажмите правую кнопку, и у вас появится контекстное меню.
+
 
 .. index::
    single:layout toolbars
 
-.. tip::
-        **Restoring toolbars**
+.. fixme:
+   уточнить названия меню
 
-        If you have accidentally hidden all your toolbars, you can get them
-        back by choosing menu option :menuselection:`Settings --> Toolbars -->`.
-        If a toolbar disappears under Windows, which seems to be a problem in
-        |qg| from time to time, you have to remove key
-        ``\HKEY_CURRENT_USER\Software\QGIS\qgis\UI\state`` in the registry.
-        When you restart |qg|, the key is written again with the default state,
-        and all toolbars are visible again.
+
+
+.. tip::
+        **Восстановление панелей инструментов**
+
+        Если вы нечаянно все панели, то их можно вернуть назад, используя пункт меню :menuselection:`Settings --> Toolbars -->`.
 
 .. _`label_legend`:
 
-Map Legend
-----------
+Дерево слоёв
+----------------------------------
+
+Понятие **Слой** будет часто встречаться в инструкции. Слой - это то, что видно в дереве слоёв, технически это один файл, или одна таблица в БД. Их можно включать и выключать. Можно изменять порядок и объединять в группы.
+
+.. fixme:
+   Тут вставить скрин всего окна |qg|, где дерево слоёв отмечено красной рамкой.
 
 .. index::
    single:legend
 
-The map legend area lists all the layers in the project. The checkbox in each
-legend entry can be used to show or hide the layer. The Legend toolbar in the 
-map legend are list allow you to **Add group**, **Manage Layer Visibility** of 
-all layers or manage preset layers combination, **Filter Legend by Map 
-Content**, **Expand All** or **Collapse All** and **Remove Layer or Group**.
+.. fixme:
+   спросить, допустимо ли словосочетание "включает-выключает"
+
+В дереве слоёв перечислены все слои открытого проекта. У каждого элемента есть флажок, который включает-выключает слой. Сверху дерева слоёв находится своя панель инструментов с коммандами: :guilabel:`Добавить группу слоёв`, :guilabel:`Управление видимости слоя`, :guilabel:`Фильтровать легенду по содержимому карты`, :guilabel:`Развернуть все`, :guilabel:`Свернуть все`, :guilabel:`Удалить слой или группу`.
 
 .. _figure_layer_toolbar:
 
@@ -373,11 +124,12 @@ Content**, **Expand All** or **Collapse All** and **Remove Layer or Group**.
    .. figure:: /_static/user_manual/introduction/layer_toobar.png
       :align: center
 
-      Layer Tool Bar in Map Legend |nix|
+      Панель инструментов в дереве слоёв |nix|
 
-The button |mActionShowPresets| allows you to add **Presets** views in the legend. It means that you can choose to display some layer with specific categorization and add this view to the **Presets** list. To add a preset view just click on |mActionShowPresets|, choose *Add Preset...* from the drop down menu and give a name to the preset. After that you will see a list with all the presets that you can recall pressing on the |mActionShowPresets| button. 
+Кнопка |mActionShowPresets| позволяет добавить предустановку (preset) какие слои выключены, какие - включены. Это значит, что вы можете выбрать, какие слои на карте будут включены, и сохранить несколько таких настроек.  To add a preset view just click on |mActionShowPresets|, choose *Add Preset...* from the drop down menu and give a name to the preset. After that you will see a list with all the presets that you can recall pressing on the |mActionShowPresets| button. 
 
 All the added presets are also present in the map composer in order to allow you to create a map layout based on your specific views (see :ref:`composer_main_properties`).
+Все эти предустановки так же видны из компоновщика карты. Вы можете составлять карты для печати на основе заданных вами комбинаций слоёв (см. :ref:`composer_main_properties`).  проба :ref:`test`
 
 
 
@@ -404,8 +156,7 @@ To bring a layer out of a group, you can drag it out, or right click on it and
 choose :guilabel:`Make to toplevel item`. Groups can also be nested inside other
 groups.
 
-The checkbox for a group will show or hide all the layers in the group
-with one click.
+Флажок возле имени группы даёт возможность переключать видимость всех слоев в группе одним действием.
 
 The content of the right mouse button context menu depends on whether the
 selected legend item is a raster or a vector layer. For GRASS vector layers,
