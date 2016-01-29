@@ -128,110 +128,37 @@
 
 Кнопка |mActionShowPresets| позволяет добавить предустановку (preset) какие слои выключены, какие - включены. Это значит, что вы можете выбрать, какие слои на карте будут включены, и сохранить несколько таких настроек.  To add a preset view just click on |mActionShowPresets|, choose *Add Preset...* from the drop down menu and give a name to the preset. After that you will see a list with all the presets that you can recall pressing on the |mActionShowPresets| button. 
 
-All the added presets are also present in the map composer in order to allow you to create a map layout based on your specific views (see :ref:`composer_main_properties`).
-Все эти предустановки так же видны из компоновщика карты. Вы можете составлять карты для печати на основе заданных вами комбинаций слоёв (см. :ref:`composer_main_properties`).  проба :ref:`test`
+
+Все эти предустановки так же видны из компоновщика карты. Вы можете составлять карты для печати на основе заданных вами комбинаций слоёв (см. :ref:`composer_main_properties`).
 
 
 
 .. index::
    single:layer visibility
 
-A layer can be selected and dragged up or down in the legend to change the
-Z-ordering. Z-ordering means that layers listed nearer the top of the legend
-are drawn over layers listed lower down in the legend.
+Слой можно выделить мышью и перетащить вверх или вниз для изменения порядка слоёв. Слой находящийся сверху в списке будет рисоваться на карте поверх других.
 
-.. note:: This behaviour can be overridden by the 'Layer order' panel.
+.. note::
 
-Layers in the legend window can be organised into groups. There are two ways to
-do this:
+   Это поведение может быть переопределено в панели ‘Layer order’.
 
-#. Press the |mActionFolder| icon to add a new group. Type in a name for 
-   the group and press :kbd:`Enter`. Now click on an existing layer and 
-   drag it onto the group.
-#. Select some layers, right click in the legend window and choose
-   :guilabel:`Group Selected`. The selected layers will automatically be placed
-   in a new group.
+Cлои в панели слоёв могут быть объединены в группы. Для этого есть два способа:
 
-To bring a layer out of a group, you can drag it out, or right click on it and
-choose :guilabel:`Make to toplevel item`. Groups can also be nested inside other
-groups.
+#. Нажать кнопку добавления новой группы |mActionFolder|. Ввести имя новой группы и нажать :kbd:`Enter`. Нажать на существующий слой и перетащить его в группу.
+#. Выделить несколько слоёв, нажать правой кнопкой в окне слоёв, и выбрать :guilabel:`Сгруппировать выделенное`. Выбранные слои автоматически поместятся в новую группу. 
+
+Что бы вынести слои из группы, перетащите их по дереву слоёв выше или ниже этой группы, или нажмите правой кнопкой на них и выберите :guilabel:`Сделать элементом первого уровня`.
+
+Группы могут быть вложены в другие группы.
 
 Флажок возле имени группы даёт возможность переключать видимость всех слоев в группе одним действием.
 
-The content of the right mouse button context menu depends on whether the
-selected legend item is a raster or a vector layer. For GRASS vector layers,
-|mActionToggleEditing| :sup:`Toggle editing` is not available. See section
-:ref:`grass_digitizing` for information on editing GRASS vector layers.
+Содержимое контекстного меню слоя, вызываемого правой кнопкой мыши, зависит от того, растровый это слой, или векторный.
 
-**Right mouse button menu for raster layers**
+.. fixme:
+   Тут был список кнопок меню **Right mouse button menu for raster layers**, я его выкинул, потому что от него толка нет.
 
-* :menuselection:`Zoom to Layer`
-* :menuselection:`Show in overview`
-* :menuselection:`Zoom to Best Scale (100%)`
-* :menuselection:`Remove`
-* :menuselection:`Duplicate`
-* :menuselection:`Set Layer Scale Visibility`
-* :menuselection:`Set Layer CRS`
-* :menuselection:`Set Project CRS from Layer`
-* :menuselection:`Styles -->`
-* :menuselection:`Save as ...`
-* :menuselection:`Save As Layer Definition File ...`
-* :menuselection:`Properties`
-* :menuselection:`Rename`
-
-Additionally, according to layer position and selection
-
-* :menuselection:`Move to Top-level`
-* :menuselection:`Group Selected`
-
-..   * :menuselection:`Show file groups`
-
-**Right mouse button menu for vector layers**
-
-* :menuselection:`Zoom to Layer`
-* :menuselection:`Show in overview`
-* :menuselection:`Remove`
-* :menuselection:`Duplicate`
-* :menuselection:`Set Layer Scale Visibility`
-* :menuselection:`Set Layer CRS`
-* :menuselection:`Set Project CRS from Layer`
-* :menuselection:`Styles -->`
-* :menuselection:`Open Attribute Table`
-* :menuselection:`Toggle Editing` (not available for GRASS layers)
-* :menuselection:`Save As ...`
-* :menuselection:`Save As Layer Definition Style`
-* :menuselection:`Filter`
-* :menuselection:`Show Feature Count`
-* :menuselection:`Properties`
-* :menuselection:`Rename`
-
-Additionally, according to layer position and selection
-
-* :menuselection:`Move to Top-level`
-* :menuselection:`Group Selected`
-
-..   * :menuselection:`Show file groups`
-
-**Right mouse button menu for layer groups**
-
-* :menuselection:`Zoom to Group`
-* :menuselection:`Remove`
-* :menuselection:`Set Group CRS`
-* :menuselection:`Rename`
-* :menuselection:`Add Group`
-
-..   Additionally, according to position
-
-..   *  :menuselection:`Show file groups`
-
-
-It is possible to select more than one layer or group at the same time by
-holding down the :kbd:`Ctrl` key while selecting the layers with the left mouse
-button. You can then move all selected layers to a new group at the same time.
-
-You may also delete more than one layer or group at once by selecting
-several layers with the :kbd:`Ctrl` key and pressing :kbd:`Ctrl+D` afterwards.
-This way, all selected layers or groups will be removed from the layers list.
+Вы можете выделять по несколько слоёв сразу, зажав :kbd:`Ctrl` и нажимая на них левой клавишей мыши. Можно выделить несколько слоёв и сразу объединить их в новую группу. Можно выделить несколько слоёв и сразу удалить из из проекта, нажав :kbd:`Ctrl+D`. Удаляются слои из проекта, а их файлы с жёсткого диска - не удаляются.
 
 Working with the Legend independent layer order
 ...............................................
