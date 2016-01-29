@@ -160,117 +160,53 @@ Cлои в панели слоёв могут быть объединены в �
 
 Вы можете выделять по несколько слоёв сразу, зажав :kbd:`Ctrl` и нажимая на них левой клавишей мыши. Можно выделить несколько слоёв и сразу объединить их в новую группу. Можно выделить несколько слоёв и сразу удалить из из проекта, нажав :kbd:`Ctrl+D`. Удаляются слои из проекта, а их файлы с жёсткого диска - не удаляются.
 
-Working with the Legend independent layer order
-...............................................
+.. fixme:
+   раздел "Working with the Legend independent layer" order я сократил, потому что никогда его не использовал и он длинный
 
-There is a panel that allows you to define an independent drawing order for the map legend.
-You can activate it in the menu :menuselection:`Settings --> Panels --> Layer
-order`. This feature allows you to, for instance, order your layers in order of importance,
-but still display them in the correct order (see figure_layer_order_).
-Checking the |checkbox| :guilabel:`Control rendering order` box underneath the
-list of layers will cause a revert to default behavior.
 
-.. _figure_layer_order:
-
-.. only:: html
-
-   **Figure Layer Order:**
-
-.. figure:: /_static/user_manual/introduction/layer_order.png
-    :align: center
-
-    Define a legend independent layer order |nix|
-
-.. _`label_mapview`:
-
-Map View
---------
+Область карты
+------------------
 
 .. index::`map view`
 
-This is the "business end" of |qg| --- maps are displayed in this area! The
-map displayed in this window will depend on the vector and raster layers you
-have chosen to load (see sections that follow for more information on how to
-load layers). The map view can be panned, shifting the focus of the map display
-to another region, and it can be zoomed in and out. Various other operations can be
-performed on the map as described in the toolbar description above. The map
-view and the legend are tightly bound to each other --- the maps in view reflect
-changes you make in the legend area.
+Это основное окно |qg| --- тут рисуется карта. Вид изображаемой карты зависит от того, какие слои включены в панели слоёв, и какие им заданы стили. 
+.. fixme:
+   Тут вставить скрин всего окна |qg|, где карта отмечено красной рамкой.
 
 .. index::
    single:zoom mouse wheel
 
 .. tip::
-   **Zooming the Map with the Mouse Wheel**
+   **Масштабирование карты с помощью колеса мыши**
 
-   You can use the mouse wheel to zoom in and out on the map. Place the mouse
-   cursor inside the map area and roll the wheel forward (away from you) to
-   zoom in and backwards (towards you) to zoom out. The zoom is centered on the
-   mouse cursor position. You can customize the behavior of the
-   mouse wheel zoom using the :guilabel:`Map tools` tab under the
-   :menuselection:`Settings --> Options` menu.
+   Для изменения масштаба карты используйте колесо мыши. Поместите курсор на область карты, и вращайте колесо. При этом карта отцентрируется на позиции курсора. Вы можете настроить поведение колеса мыши в меню :menuselection:`Установки --> Параметры --> Инструменты --> Прокрутка и масштабирование`.
 
 .. tip::
-   **Panning the Map with the Arrow Keys and Space Bar**
+   **Перемещение карты, используя клавиши со стрелками и клавишу пробела**
 
    .. index::
       single:pan arrow keys
 
-   You can use the arrow keys to pan the map. Place the mouse cursor inside
-   the map area and click on the right arrow key to pan east, left arrow key to
-   pan west, up arrow key to pan north and down arrow key to pan south. You can
-   also pan the map using the space bar or the click on mouse wheel: just move
-   the mouse while holding down space bar or click on mouse wheel.
+   Вы можете поместить курсор мыши на карту, и двигать карту клавишами со стрелками на клавиатуре. You can use the arrow keys to pan the map. Place the mouse cursor inside
+   Так же можно нажать клавишу пробел или колесо мыши, и двигать карту мышью.
 
 .. _`label_mapoverview`:
 
 
 .. _`label_statusbar`:
 
-Status Bar
-----------
+Строка состояния
+-------------------
+.. fixme:
+   Тут вставить скрин всего окна |qg|, где панель снизу отмечено красной рамкой.
 
-The status bar shows you your current position in map coordinates (e.g.,
-meters or decimal degrees) as the mouse pointer is moved across the map view.
-To the left of the coordinate display in the status bar is a small button that
-will toggle between showing coordinate position or the view extents of the
-map view as you pan and zoom in and out.
+В строке состояния показывается позиция курсора на карте в текущих координатах (то есть метрах или градусах). 
+Слева от окна координат есть кнопка, которая переключает показ на охватывающий прямоугольник (bbox, extent).
 
-Next to the coordinate display you will find the scale display. It shows the scale of
-the map view. If you zoom in or out, |qg| shows you the current scale. There is
-a scale selector, which allows you to choose between predefined scales from
-1:500 to 1:1000000.
+Рядом находится список масштабов. В нём можно выбрать предустановленные масштабы от 1:500 to 1:1000000, или ввести точное значение с клавиатуры.
 
-To the right of the scale display you can define a current clockwise rotation for
-your map view in degrees.
+Правее списка масштабов находится окно, в котором вы можете задать поворот карты в градусах по часовой стрелке.
 
-A progress bar in the status bar shows the progress of rendering as each layer is
-drawn to the map view. In some cases, such as the gathering of statistics in
-raster layers, the progress bar will be used to show the status of lengthy
-operations.
+Флажок :guilabel:`Отрисовка` при отключении остановит отрисовку карты. Если на экране открыто много тяжёлых слоёв, и отрисовка начинает тормозить, то можно временно выключить отрисовку, отключить лишние слои, 
 
-If a new plugin or a plugin update is available, you will see a message at the
-far left of the status bar. On the right side of the status bar, there is a small
-checkbox which can be used to temporarily prevent layers being rendered to the
-map view (see section :ref:`redraw_events` below). The icon |mIconStopRendering|
-immediately stops the current map rendering process.
-
-To the right of the render functions, you find the EPSG code of the current
-project CRS and a projector icon. Clicking on this opens the projection
-properties for the current project.
-
-
-.. tip::
-   **Calculating the Correct Scale of Your Map Canvas**
-
-   .. index::
-      single:scale calculate
-
-   When you start |qg|, the default units are degrees, and this means that |qg| will interpret any
-   coordinate in your layer as specified in degrees. To get correct scale values, you can
-   either change this setting to meters manually in the :guilabel:`General` tab
-   under :menuselection:`Settings --> Project Properties`, or you can select a
-   project CRS clicking on the |mIconProjectionDisabled| :sup:`Current CRS:` icon in the
-   lower right-hand corner of the status bar. In the last case, the units are set to what the
-   project projection specifies (e.g., '+units=m').
-
+Справа находится кнопка выбора проекции. На ней написан код EPSG текущей системы координат. Если её нажать, то откроется окно свойств проекции.
