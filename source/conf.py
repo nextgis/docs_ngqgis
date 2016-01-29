@@ -393,7 +393,7 @@ rst_epilog = """
 .. |osx| image:: /_static/common/osx.png
    :width: 1em
 .. |QG| replace:: NextGIS QGIS
-.. |CURRENT| replace:: 2.8
+.. |qg| replace:: NextGIS QGIS
 .. |degrees| unicode:: 0x00B0
    :ltrim:
 .. |geographic| image:: /_static/common/geographic.png
