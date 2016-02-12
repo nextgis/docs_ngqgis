@@ -10,8 +10,8 @@
 
 У векторных слоёв есть атрибуты. Их можно смотреть в таблице. 
 
-.. figure:: _static/LREGQGISAttributeTable1.png
-   :name: LREGQGISAttributeTable1
+.. figure:: _static/UIAttributeTable1.png
+   :name: UIAttributeTable1
    :align: center
    :width: 15cm
 
@@ -22,13 +22,13 @@
 Можно настроить, что бы таблица атрибутов открывалась в отдельном окне, а можно - что бы она всегда была внутри основного окна программы.
 
 
-.. figure:: _static/LREGQGISAttributeTable2.png
-   :name: LREGQGISAttributeTable2
+.. figure:: _static/UIAttributeTable2.png
+   :name: UIAttributeTable2
    :align: center
    :width: 15cm
 
-.. figure:: _static/LREGQGISAttributeTable3.png
-   :name: LREGQGISAttributeTable3
+.. figure:: _static/UIAttributeTable3.png
+   :name: UIAttributeTable3
    :align: center
    :width: 15cm
 
@@ -37,8 +37,8 @@
 
 В таблице атрибутов чаще всего используются следующие кнопки:
 
-.. figure:: _static/LREGQGISAttributeTable4.png
-   :name: LREGQGISAttributeTable4
+.. figure:: _static/UIAttributeTable4.png
+   :name: UIAttributeTable4
    :align: center
    :width: 15cm
 
@@ -57,8 +57,8 @@
 10.  Запуск калькулятора полей - он добавляет новый столбец со значениями по форулам, как в Excel
 
 
-.. figure:: _static/LREGQGISAttributeTableSearch.png
-   :name: LREGQGISAttributeTableSearch
+.. figure:: _static/UIAttributeTableSearch.png
+   :name: UIAttributeTableSearch
    :align: center
    :width: 15cm
 
@@ -69,8 +69,8 @@
 
 В кугисе есть возможность нажимать на объекты векторных слоёв на карте мышкой, и просматривать их атрибуты. Это называется "Идентификация".
 
-.. figure:: _static/LREGQGISIdentify.png
-   :name: LREGQGISIdentify
+.. figure:: _static/UIIdentify.png
+   :name: UIIdentify
    :align: center
    :width: 15cm
    
@@ -80,8 +80,8 @@
 
 
 
-.. figure:: _static/LREGQGISSelect.png
-   :name: LREGQGISSelect
+.. figure:: _static/UISelect.png
+   :name: UISelect
    :align: center
    :width: 15cm
    

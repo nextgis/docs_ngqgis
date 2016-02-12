@@ -23,11 +23,11 @@
 .. _fig_startup:
 
 
-.. figure:: /_static/user_manual/introduction/startup.png
+.. figure:: /_static/UIMainWindow.png
    :align: center
    :width: 35em
 
-   Интерфейс :program:`NextGIS QGIS` с загруженным демонстрационным набором данных
+   Интерфейс :program:`NextGIS QGIS` с загруженным проектом.
    
 
 
@@ -147,11 +147,7 @@
 В дереве слоёв перечислены все слои открытого проекта. У каждого элемента есть флажок, 
 который включает-выключает слой. Сверху дерева слоёв находится своя панель инструментов с командами: :guilabel:`Добавить группу слоёв`, :guilabel:`Управление видимости слоя`, :guilabel:`Фильтровать легенду по содержимому карты`, :guilabel:`Развернуть все`, :guilabel:`Свернуть все`, :guilabel:`Удалить слой или группу`.
 
-.. _figure_layer_toolbar:
 
-.. only:: html
-
-   **Figure Layer tools Bar:**
 
    .. figure:: /_static/user_manual/introduction/layer_toobar.png
       :align: center
