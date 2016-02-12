@@ -19,6 +19,5 @@
    vector_op
    raster_op
    plugins
-   geoprocessing
 
 
