@@ -589,8 +589,8 @@ WGS-84 в поля Север и Восток соответственно. На
 выбирается точка, вокруг которой выстраиваются остальные точки по кругу с радиусом, 
 соответствующим значению Порога расстояния между точками.
 
-.. figure:: _static/point_offset.png
-   :name: point_offset_pic
+.. figure:: _static/styles_point_offset.png
+   :name: styles_point_offset_pic
    :align: center
    :height: 10cm
 
@@ -603,8 +603,8 @@ WGS-84 в поля Север и Восток соответственно. На
 происходит заливка цветом областей за пределами полигона (снаружи полигона), сам 
 полигон остается прозрачным. 
 
-.. figure:: _static/inverted_polygons.png
-   :name: inverted_polygons_pic
+.. figure:: _static/styles_inverted_polygons.png
+   :name: styles_inverted_polygons_pic
    :align: center
 
    Фрагмент карты До и После применения стиля "Инвертированные полигоны".
