@@ -606,7 +606,6 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/inverted_polygons.png
    :name: inverted_polygons_pic
    :align: center
-   :height: 10cm
 
    Фрагмент карты До и После применения стиля "Инвертированные полигоны".
 
