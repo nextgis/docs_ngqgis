@@ -23,7 +23,7 @@
 .. _fig_startup:
 
 
-.. figure:: /_static/UIMainWindow.png
+.. figure:: _static/UIMainWindow.png
    :align: center
    :width: 35em
 
@@ -58,7 +58,7 @@
    single:menus
 
 
-.. figure:: /_static/UIMainWindowMenu.png
+.. figure:: _static/UIMainWindowMenu.png
    :align: center
    :width: 35em
 
@@ -94,7 +94,7 @@
    single:toolbar
 
 
-.. figure:: /_static/UIMainWindowButtons.png
+.. figure:: _static/UIMainWindowButtons.png
    :align: center
    :width: 35em
 
@@ -130,7 +130,7 @@
 в дереве слоёв, технически это один файл или одна таблица в БД. Их можно включать 
 и выключать. Можно изменять порядок и объединять в группы.
 
-.. figure:: /_static/UIMainWindowLayers.png
+.. figure:: _static/UIMainWindowLayers.png
    :align: center
    :width: 35em
 
@@ -146,7 +146,7 @@
 
 
 
-   .. figure:: /_static/user_manual/introduction/layer_toobar.png
+   .. figure:: _static/user_manual/introduction/layer_toobar.png
       :align: center
 
       Панель инструментов в дереве слоёв 
@@ -196,7 +196,7 @@ Cлои в панели слоёв могут быть объединены в �
 
 Это основное окно :program:`NextGIS QGIS` --- тут рисуется карта. Вид изображаемой карты зависит от того, какие слои включены в панели слоёв, и какие им заданы стили. 
 
-.. figure:: /_static/UIMainWindowMap.png
+.. figure:: _static/UIMainWindowMap.png
    :align: center
    :width: 35em
 
@@ -222,7 +222,7 @@ Cлои в панели слоёв могут быть объединены в �
 Строка состояния
 -------------------
 
-.. figure:: /_static/UIMainWindowStatusbar.png
+.. figure:: _static/UIMainWindowStatusbar.png
    :align: center
    :width: 35em
 
