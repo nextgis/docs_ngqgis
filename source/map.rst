@@ -660,67 +660,70 @@ WGS-84 в поля Север и Восток соответственно. На
 
 .. figure:: _static/styles_heatmap_00.png
 
-    Точки.
+   Точки.
 
 .. figure:: _static/styles_heatmap_01.png
 
-    Теплокарта с настройками по умолчанию.
+   Теплокарта с настройками по умолчанию.
 
 .. figure:: _static/styles_heatmap_02_owngradient.png
 
-    Свой градиент.
+   Свой градиент.
 
 .. figure:: _static/styles_heatmap_03_gradienttransparent.png
 
-    Градиент, начинающийся с прозрачного цвета.
+   Градиент, начинающийся с прозрачного цвета.
 
 .. figure:: _static/styles_heatmap_04_quick.png
 
-    Самый быстрый.
+   Самый быстрый.
 
 .. figure:: _static/styles_heatmap_05_quality.png
 
-    Самый качественный.
+   Самый качественный.
 
 .. figure:: _static/styles_heatmap_06_discret-quality.png
 
-    Дискретный градиент - качественный.
+   Дискретный градиент - качественный.
 
 .. figure:: _static/styles_heatmap_07_discret-quick.png
 
-    Дискретный градиент - быстрый.
+   Дискретный градиент - быстрый.
 
 .. figure:: _static/styles_heatmap_08_bigradius.png
 
-    Средний радиус.
+   Средний радиус.
 
 .. figure:: _static/styles_heatmap_09_smallradius.png
 
-    Занизить радиус.
+   Занизить радиус.
 
 .. figure:: _static/styles_heatmap_10_radiusverybig.png
 
-    Завысить радиус.
+   Завысить радиус.
 
 .. figure:: _static/styles_heatmap_11_maxvalueauto.png
 
-    Максимальное значение - авто.
+   Максимальное значение - авто.
 
 .. figure:: _static/styles_heatmap_11_maxvaluelow.png
 
-    Максимальное значение - занизить.
+   Максимальное значение - занизить.
 
-.. figure:: _static/styles_heatmap_13_complexgradient.png
+.. figure :: _static/styles_heatmap_13_complexgradient.png
 
-    Сложный градиент с промежуточными цветами.
+   Сложный градиент с промежуточными цветами.
 
-.. figure:: _static/styles_heatmap_14_weightauto.png
-
-    Взвешивание - автоматическое. Интенсивность обозначает концентрацию точек.
-
-.. figure:: _static/styles_heatmap_15_weightattr.png
-
-    Взвешивение - по атрибуту (количество мест). Интенсивность обозначает суммарное количество мест в заведениях.
+.. слишком много картинок подряд - не компилируется 
+.. 
+.... figure :: _static/styles_heatmap_14_weightauto.png
+..
+..   Взвешивание - автоматическое. Интенсивность обозначает концентрацию точек.
+..
+.... figure :: _static/styles_heatmap_15_weightattr.png
+..
+..   Взвешивение - по атрибуту (количество мест). Интенсивность обозначает 
+..   суммарное количество мест в заведениях.
 
 Эффекты отрисовки
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
