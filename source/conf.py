@@ -245,7 +245,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'NextGISQGIS.tex', u'Документация NextGIS QGIS',
-   u'Команда NextGIS', 'manual', 'true'),
+   author , 'manual', 'true'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
