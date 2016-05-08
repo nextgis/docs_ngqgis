@@ -47,9 +47,9 @@ QGIS была разработана на архитектуре с поддер
    спросите у того, кто вам про него сказал. 
 
 
-.. _NGW_Connect:
+.. _ngq_ngw_connect:
 
-.. _QuickMapServices:
+.. _ngq_qms:
 
 QuickMapServices
 -------------------------
