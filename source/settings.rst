@@ -285,6 +285,4 @@ http://qt-project.org/doc/qt-4.8/qnetworkproxy.html#ProxyType-enum
 
 - параметры сохраняются в текстовом файле: $HOME/.config/QuantumGIS/qgis.conf
 - ваши настройки можно найти в файле: $HOME/Library/Preferences/org.qgis.qgis.plist
-- параметры хранятся в ветке системного реестра:
-  \HKEY\CURRENT_USER\Software\QuantumGIS\qgis
-
+- параметры хранятся в ветке системного реестра: HKEY/CURRENT_USER/Software/QuantumGIS/qgis
