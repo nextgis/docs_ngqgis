@@ -2,7 +2,7 @@
 
 .. NextGIS QGIS TOC
 
-Документация NextGIS QGIS
+NextGIS QGIS documentation
 ==============================
 
 Содержание:
