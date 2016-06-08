@@ -121,8 +121,7 @@ https://my.nextgis.com/webgis
 Операция доступна, если в дереве ресурсов NextGIS выбран один из следующих видов ресурсов:
 
 - Векторный слой (NGW Vector Layer) |resource_vector| - в QGIS будет создан векторный слой GeoJSON.
-- WFS Сервис (NGW WFS Service) |resource_wfs| - в QGIS будет создан WFS слой, источником данных для которого будет
-выбранный WFS Сервис.
+- WFS Сервис (NGW WFS Service) |resource_wfs| - в QGIS будет создан WFS слой, источником данных для которого будет выбранный WFS Сервис.
 
 .. |resource_vector| image:: _static/nextgis_connect/resource_vector.png
 
