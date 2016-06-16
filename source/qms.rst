@@ -19,13 +19,13 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. figure:: _static/modules_Qms-button.png
    :align: center
-   :width: 10cm
+   :width: 2cm
    
 Кнопка является контейнером для базовых карт из различных источников.
 
 .. figure:: _static/modules_Qms-contrib-4.png
    :align: center
-   :width: 10cm
+   :width: 4cm
    
 При выборе одной из них, карта автоматически подключается в проект в качестве слоя. 
 
@@ -34,7 +34,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. figure:: _static/modules_Qms-main.jpg
    :align: center
-   :width: 10cm
+   :width: 15cm
    
    Базовая картографическая основа и слой кадастрового деления с Публичной кадастровой карты.
 
@@ -108,7 +108,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. figure:: _static/modules_Qms-moreservises-2.png
    :align: center
-   :width: 10cm
+   :width: 4cm
    
    Полный список сервисов.
 
