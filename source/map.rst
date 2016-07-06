@@ -83,8 +83,7 @@ TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов
 Вам потребуется знать URL сервера PostGIS, название базы данных, имя пользователя 
 и пароль.
 
-Для добавления слоя PostGIS на карту нажмите :menuselection:`Слой --> Добавить слой --> Добавить слой PostGIS`.
-Откроется окно :guilabel:`Добавить таблицы PostGIS`. 
+Для добавления слоя PostGIS на карту нажмите :menuselection:`Слой --> Добавить слой --> Добавить слой PostGIS`. Откроется окно :guilabel:`Добавить таблицы PostGIS`. 
 
 .. figure:: _static/table_postgis.png
    :align: center
