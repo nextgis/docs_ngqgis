@@ -12,7 +12,7 @@
 для настройки отображения данных. Атрибуты векторных объектов хранятся в таблице. 
 
 .. figure:: _static/UIAttributeTable1.png
-   :name: UIAttributeTable1
+   :name: ngqgis_UIAttributeTable1
    :align: center
    :width: 15cm
 
@@ -33,12 +33,12 @@ Aтрибутивные записи объекта слоя связаны с �
 
 
 .. figure:: _static/UIAttributeTable2.png
-   :name: UIAttributeTable2
+   :name: ngqgis_UIAttributeTable2
    :align: center
    :width: 15cm
 
 .. figure:: _static/UIAttributeTable3.png
-   :name: UIAttributeTable3
+   :name: ngqgis_UIAttributeTable3
    :align: center
    :width: 15cm
 
@@ -54,7 +54,7 @@ Aтрибутивные записи объекта слоя связаны с �
 В таблице атрибутов чаще всего используются следующие кнопки:
 
 .. figure:: _static/UIAttributeTable4.png
-   :name: UIAttributeTable4
+   :name: ngqgis_UIAttributeTable4
    :align: center
    :width: 15cm
 
@@ -74,7 +74,7 @@ Aтрибутивные записи объекта слоя связаны с �
     как в Excel.
 
 .. figure:: _static/UIAttributeTableSearch.png
-   :name: UIAttributeTableSearch
+   :name: ngqgis_UIAttributeTableSearch
    :align: center
    :width: 15cm
 
@@ -90,7 +90,7 @@ Aтрибутивные записи объекта слоя связаны с �
 просматривать их атрибуты. Это называется "Идентификация".
 
 .. figure:: _static/UIIdentify.png
-   :name: UIIdentify
+   :name: ngqgis_UIIdentify
    :align: center
    :width: 15cm
    
@@ -104,7 +104,7 @@ Aтрибутивные записи объекта слоя связаны с �
    или нет.
 
 .. figure:: _static/UISelect.png
-   :name: UISelect
+   :name: ngqgis_UISelect
    :align: center
    :width: 15cm
    
@@ -138,7 +138,7 @@ Aтрибутивные записи объекта слоя связаны с �
 Для рисования включите панель инструментов "Оцифровка".
 
 .. figure:: _static/drawing_tools.png
-   :name: drawing_tools
+   :name: ngqgis_drawing_tools
    :align: center
    :width: 10cm
  
@@ -448,7 +448,7 @@ mActionNodeTool Редактирование узлов предоставляе
 применить прилипание, стоит флажок.
 
 .. figure:: _static/adhesion.png
-   :name: adhesion
+   :name: ngqgis_adhesion
    :align: center
    :width: 15cm
  

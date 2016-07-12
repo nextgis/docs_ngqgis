@@ -486,7 +486,7 @@ WGS-84 в поля Север и Восток соответственно. На
   или способ рисования линии: пунктирная линия, линия из маркеров.
 
 .. figure:: _static/styles_type2.png
-   :name: styles_tipy_simvolnogo_sloya
+   :name: ngqgis_styles_tipy_simvolnogo_sloya
    :height: 5cm
    :align: center
 
@@ -507,7 +507,7 @@ WGS-84 в поля Север и Восток соответственно. На
 
 
 .. figure:: _static/styles_stylewindow1.png
-   :name: styles_stylewindow_default
+   :name: ngqgis_styles_stylewindow_default
    :height: 10cm
    :align: center 
 
@@ -523,7 +523,7 @@ WGS-84 в поля Север и Восток соответственно. На
 
 
 .. figure:: _static/styles_stylewindow2.png
-   :name: styles_stylewindow_stylelayers
+   :name: ngqgis_styles_stylewindow_stylelayers
    :height: 10cm
    :align: center
 
@@ -640,7 +640,7 @@ WGS-84 в поля Север и Восток соответственно. На
 Цвет будет плавно изменяться в зависимости от числового значения какого-либо атрибута.
  
 .. figure:: _static/graduated_mark.png
-   :name: graduated_mark_pic
+   :name: ngqgis_graduated_mark_pic
    :align: center
    :height: 10cm
 
@@ -664,7 +664,7 @@ WGS-84 в поля Север и Восток соответственно. На
 соответствующим значению Порога расстояния между точками.
 
 .. figure:: _static/styles_point_offset.png
-   :name: styles_point_offset_pic
+   :name: ngqgis_styles_point_offset_pic
    :align: center
    :height: 10cm
 
@@ -678,7 +678,7 @@ WGS-84 в поля Север и Восток соответственно. На
 полигон остается прозрачным. 
 
 .. figure:: _static/styles_inverted_polygons.png
-   :name: styles_inverted_polygons_pic
+   :name: ngqgis_styles_inverted_polygons_pic
    :align: center
 
    Фрагмент карты До и После применения стиля "Инвертированные полигоны".
@@ -830,12 +830,12 @@ WGS-84 в поля Север и Восток соответственно. На
 
 
 .. figure:: _static/styles_save.png
-   :name: styles_save
+   :name: ngqgis_styles_save
    :align: center
 
    Диалог сохранения стиля.
 
-В окне свойства стиля нажмите на кнопку :guilabel:`Стиль` (см. :numref:`styles_save`). 
+В окне свойства стиля нажмите на кнопку :guilabel:`Стиль` (см. :numref:`ngqgis_styles_save`). 
 
 По нажатию на кнопку :guilabel:`Сохранить настройки по умолчанию` стиль сохранится в 
 формате qml в каталоге, где лежит стиль, и с тем же названием. Теперь, если вы будете 
