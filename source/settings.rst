@@ -292,7 +292,7 @@ http://qt-project.org/doc/qt-4.8/qnetworkproxy.html#ProxyType-enum .
 - параметры хранятся в ветке системного реестра: HKEY/CURRENT_USER/Software/QuantumGIS/qgis .
 
 
-.. _project_settings:
+.. _`project_settings`:
 
 Свойства проекта
 -------------------
