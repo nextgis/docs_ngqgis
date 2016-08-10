@@ -57,7 +57,7 @@ QGIS была разработана на архитектуре с поддер
 
    ngconnect
    qms
-
+   plugin_rectangles_ovals_digitizing
 
 
     
