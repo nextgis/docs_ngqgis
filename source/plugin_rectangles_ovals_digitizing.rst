@@ -17,7 +17,7 @@ Rectangles Ovals Digitizing
    :align: center
    :width: 8cm
 
-   Панель Rectangles, oval digitizing tools
+   Панель Rectangles, oval digitizing tools.
 
    1 - Рисование прямоугольника из угла
    2 - Рисование прямоугольника из центра
@@ -33,4 +33,4 @@ Rectangles Ovals Digitizing
    :align: center
    :width: 15cm
 
-   Квадраты и круги, нарисованные в модуле Rectangles Ovals Digitizing
+   Квадраты и круги, нарисованные в модуле Rectangles Ovals Digitizing.
