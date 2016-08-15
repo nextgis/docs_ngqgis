@@ -268,6 +268,8 @@ http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979
 http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
 Результат пересечения
 
+Инструмент "Пересечение" в результирующем слое создаёт атрибуты из обоих исходных слоёв. 
+
 Объединение
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -308,6 +310,8 @@ http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979
 
 http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
 Результат обрезки
+
+Инструмент Clip  в результирующем слое создаёт атрибуты только из второго исходного слоя. 
 
 Разность
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
