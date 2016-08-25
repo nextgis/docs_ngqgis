@@ -244,7 +244,6 @@ Enter Attribute Values Dialog after digitizing a new vector feature nix
 С помощью опции mActionMoveFeature Переместить объект на панели инструментов можно 
 двигать созданные объекты.
 
-
 Типы значений атрибутов.
 
 При редактировании shape-файла типы атрибутов проверяются во время ввода. Поэтому 
