@@ -257,14 +257,7 @@ Cоздает псевдослучайные точки в пределах гр
 Совмещает слои таким образом, что в выходном слое содержатся только участки, в которых 
 оба слоя пересекаются. Создаёт новый Shapefile.
 
-
-http://trolleway.nextgis.com/api/component/render/image?resource=482&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Первый слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Второй слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
+http://trolleway.nextgis.com/api/component/render/image?resource=553,554,471&extent=3997962.3274278585,7692622.5266201375,5069303.715872889,8220955.266127276&size=877,433
 Результат пересечения Рыбинского водохранилища и Ярославской области - территория Рыбинского водохранилища, попадающего в Ярославскую область
 
 Инструмент "Пересечение" в результирующем слое создаёт атрибуты из обоих исходных слоёв. 
@@ -275,15 +268,9 @@ http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979
 Совмещает слои таким образом, что в выходном слое содержатся как участки пересечения, 
 так и участки, принадлежащие только одному из слоев. Создаёт новый Shapefile.
 
-http://trolleway.nextgis.com/api/component/render/image?resource=482&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
 
-Первый слой
 
-http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-
-Второй слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=473&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
+http://trolleway.nextgis.com/api/component/render/image?resource=553,554,473&extent=3997962.3274278585,7692622.5266201375,5069303.715872889,8220955.266127276&size=877,433
 
 Результат объединения Рыбинского водохранилища и Ярославской области - территория и области, и всего водохранилища.
 
@@ -301,13 +288,7 @@ http://trolleway.nextgis.com/api/component/render/image?resource=473&extent=3979
 Совмещает слои таким образом, что в выходном слое содержатся только те участки, 
 которые не пересекаются со слоем отсечения. Создаёт новый Shapefile.
 
-http://trolleway.nextgis.com/api/component/render/image?resource=482&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Первый слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Второй слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
+http://trolleway.nextgis.com/api/component/render/image?resource=553,554,467&extent=3997962.3274278585,7692622.5266201375,5069303.715872889,8220955.266127276&size=877,433
 Результат обрезки
 
 Инструмент Clip  в результирующем слое создаёт атрибуты только из второго исходного слоя. 
@@ -319,13 +300,7 @@ http://trolleway.nextgis.com/api/component/render/image?resource=467&extent=3979
 которые не пересекаются со слоем отсечения. Создаёт новый Shapefile.
 
 
-http://trolleway.nextgis.com/api/component/render/image?resource=482&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Первый слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Второй слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=475&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
+http://trolleway.nextgis.com/api/component/render/image?resource=553,554,475&extent=3997962.3274278585,7692622.5266201375,5069303.715872889,8220955.266127276&size=877,433
 Результат разности
 
 Симметричная разность
@@ -335,13 +310,7 @@ http://trolleway.nextgis.com/api/component/render/image?resource=475&extent=3979
 в которых исходные слои не пересекаются. Создаёт новый Shapefile.
 
 
-http://trolleway.nextgis.com/api/component/render/image?resource=482&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Первый слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=480&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
-Второй слой
-
-http://trolleway.nextgis.com/api/component/render/image?resource=477&extent=3979617.4406394167,7828374.6888546115,4931105.568733291,8224624.2434849655&size=400,400
+http://trolleway.nextgis.com/api/component/render/image?resource=553,554,477&extent=3997962.3274278585,7692622.5266201375,5069303.715872889,8220955.266127276&size=877,433
 Результат симметричной разности
 
 Объединение по признаку
