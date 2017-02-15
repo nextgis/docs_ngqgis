@@ -921,6 +921,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_text.png
    :name: labels_settings_text
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Текст".
 
@@ -933,6 +934,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_formating.png
    :name: labels_settings_formating
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Форматирование". 
 
@@ -962,6 +964,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_buffer.png
    :name: labels_settings_buffer
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Буфер".
 
@@ -980,6 +983,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_background.png
    :name: labels_settings_background
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Фон".
 
@@ -1001,6 +1005,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_shadows.png
    :name: labels_settings_shadows
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Тень".
 
@@ -1024,6 +1029,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_positioning.png
    :name: labels_settings_positioning
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Размещение".
 
@@ -1039,24 +1045,28 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-1-cartografic.png
    :name: labels_demo-1-cartografic
    :align: center
+   :height: 10cm
 
    Пример размещения точечных подписей в режиме Сartografic. Для точечных подписей это рекомендуемый алгоритм. Он делает как написано в учебниках: пытается сначала поставить подпись в правую-верхнюю сторону от точки.   
 
 .. figure:: _static/labels_demo-2-vokrug.png
    :name: labels_demo-2-vokrug
    :align: center
+   :height: 10cm
 
    Пример размещения точечных подписей в режиме "Вокруг точки". Это старый алгоритм, который был до Cartografic.
 
 .. figure:: _static/labels_demo-3-center.png
    :name: labels_demo-3-center
    :align: center
+   :height: 10cm
 
    Пример размещения точечных подписей в режиме "На расстоянии от точки" без смещения. Подписи закрывают точки. Видно, что шоссе проходят прямо через Бутурлино.
 
 .. figure:: _static/labels_demo-4-right.png
    :name: labels_demo-4-right
    :align: center
+   :height: 10cm
 
    Пример размещения точечных подписей в режиме "На расстоянии от точки" со смещением. Все точки подписаны справа.
 
@@ -1067,12 +1077,14 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-11-poverh.png
    :name: labels_demo-11-poverh
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Поверх линий".
 
 .. figure:: _static/labels_demo-12-upper.png
    :name: labels_demo-12-upper
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Над линиями". Обратите внимание, что такие надписи не загораживают трамвайные линии на улицах.
 
@@ -1080,6 +1092,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-13-upper-lower.png
    :name: labels_demo-13-upper-lower
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Над линиями" и "Под линиями". Так нарисовалось больше надписей. 
 
@@ -1090,6 +1103,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-21-s.png
    :name: labels_demo-21-s
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "На расстоянии от центроида".
 
@@ -1097,6 +1111,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-22-c.png
    :name: labels_demo-22-c
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Вокруг центроида".
 
@@ -1104,6 +1119,8 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-23-per.png
    :name: labels_demo-23-per
    :align: center
+   :height: 10cm
+
 
    Пример размещения линейных подписей в режиме "По периметру".
 
@@ -1111,12 +1128,14 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-24-hor.png
    :name: labels_demo-24-hor
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Горизонтальное".
 
 .. figure:: _static/labels_demo-25-free.png
    :name: labels_demo-25-free
    :align: center
+   :height: 10cm
 
    Пример размещения линейных подписей в режиме "Свободное".
 
@@ -1129,6 +1148,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_drawing.png
    :name: labels_settings_drawing
    :align: center
+   :height: 10cm
 
    Окно свойств подписей, вкладка "Отрисовка".
 
