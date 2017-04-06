@@ -74,6 +74,52 @@ https://my.nextgis.com/webgis
 Нажмите кнопку "ОК". В выпадающем списке диалога "Настройки" выбираете подключение, 
 которое станет активным после закрытия диалога.
 
+Основные настройки
+-------------------------
+
+.. figure:: _static/nextgis_connect/settings.png
+   :align: center
+   :alt: Основные настройки
+
+1. Переименовывать запрещенные поля - если опция выбрана, то при импорте слоя отдельно или в составе проекта 
+модуль будет переименовывать запрещенные для добавления в Веб ГИС поля;
+
+2. Исправлять некоректные геометрии - если опция выбрана, то при импорте слоя отдельно или в составе проекта 
+модуль будет преобразовывать геометрии к одному типу;
+
+3. Прерывать импорт проекта после первой ошибки импорта слоя - если опция выбрана, то модуль не будет продолжать процесс импорта
+если не удалось импортировать один слой;
+
+4. Открывать карту автоматически после создания - если опция выбрана, то после завершения операции в которых была создана веб карта,
+она будет открыта в браузере автоматически.
+
+
+Типы ресурсов
+-------------------------
+.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
+.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
+.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
+.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
+.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
+.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
+.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
+.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
+.. |resource_style| image:: _static/nextgis_connect/resource_style.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_group| image:: _static/nextgis_connect/resource_group.png
+.. |resource| image:: _static/nextgis_connect/resource.png
+- |resource_vector_point| - Точечный векторный слой (NGW Vector Layer)
+- |resource_vector_mpoint| - Мультиточечный векторный слой (NGW Vector Layer)
+- |resource_vector_line| - Линейный векторный слой (NGW Vector Layer)
+- |resource_vector_line| - Мультилинейный векторный слой (NGW Vector Layer)
+- |resource_vector_polygon| - Полигональный векторный слой (NGW Vector Layer)
+- |resource_vector_mpolygon| - Мультиполигональный векторный слой (NGW Vector Layer)
+- |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
+- |resource_wfs| - WFS Сервис (NGW WFS Service)
+- |resource_wms| - WMS Сервис (NGW WMS Service)
+- |resource_webmap| - Веб карта (NGW Web Map)
+- |resource_group| - Группа ресурсов (NGW Web Map)
+
 Доступные операции
 -----------------------
 
@@ -89,6 +135,7 @@ https://my.nextgis.com/webgis
   слой GeoJSON.
 - WFS Сервис (NGW WFS Service) |resource_wfs| - в QGIS будет создан WFS слой, источником 
   данных для которого будет выбранный WFS Сервис.
+- QGIS Стиль Векторного слоя |resource_style| - в QGIS будет создан векторный слой GeoJSON, со стилем идентичным выбранному стилю.
 
 .. |resource_vector| image:: _static/nextgis_connect/resource_vector.png
 
@@ -115,6 +162,8 @@ https://my.nextgis.com/webgis
 с учетом иерархии и видимости в панели слоёв QGIS.
 При выполнение импорта проекта вам необходимо ввести название новой группы, которая 
 будет создана в Веб ГИС для размещения всех ресурсов, импортируемых в рамках данной операции.
+После импорта проекта созданная веб-карта откроется в браузере автоматически, если в настройках модуля
+выбрана соответствуйщая опция.
 
 Добавление ресурсов в Веб ГИС производится в выбранную на панели ресурсов Веб ГИС группу.
 
@@ -152,4 +201,29 @@ https://my.nextgis.com/webgis
 Операция доступна, если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|. Открывает карту в новой вкладке браузера, который установлен по-умолчанию.
 
 .. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+
+Контекстное меню
+-----------------------
+Контекстное меню может отличаться у различных ресурсов. 
+
+.. figure:: _static/nextgis_connect/context_menu.png
+   :align: center
+   :alt: Контекстное меню qgis стиля векторного слоя
+
+Общедоступные операции:
+
+- Открыть в ВебГИС - открывать страницу выбранного ресурса в Веб ГИС;
+
+- Переименовать - переименовать ресурс;
+
+- Удалить - удалить ресурс.
+
+
+Опциональные - зависит от типа ресурса:
+
+- Добавить в qgis - операция описана выше;
+
+- Создать веб карту - доступен только для ресурсов: Векторный слой и Стиль Векторного слоя;
+
+- Скачать стиль - доступен только для ресурса QGIS Стиль Векторного слоя.
 
