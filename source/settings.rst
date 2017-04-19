@@ -247,7 +247,7 @@ GEOS 3.3 или более поздней версии.
 .. figure:: _static/Proxy_settings.png
    :name: ngqgis_Proxy_settings_pic
    :align: center
-   :height: 10cm
+   :height: 16cm
 
    Параметры сети.    
 
@@ -302,7 +302,7 @@ http://qt-project.org/doc/qt-4.8/qnetworkproxy.html#ProxyType-enum .
 .. figure:: _static/UIMainWindow.png
    :name: project_settings_start
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Интерфейс :program:`NextGIS QGIS` с загруженным проектом.
 
