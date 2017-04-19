@@ -736,7 +736,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/dialogue_rendering_simple_values.png
    :name: ngqgis_simple_mark_pic
    :align: center
-   :height: 7cm
+   :height: 8cm
 
    Диалог отрисовки обычным знаком.
 
@@ -779,7 +779,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/graduated_mark.png
    :name: ngqgis_graduated_mark_pic
    :align: center
-   :height: 12cm
+   :height: 13cm
 
    Фрагмент диалога свойств слоя - Градуированный знак. 
 
@@ -1023,7 +1023,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_formating.png
    :name: labels_settings_formating
    :align: center
-   :height: 14cm
+   :height: 12cm
 
    Окно свойств подписей, вкладка "Форматирование". 
 
@@ -1237,7 +1237,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_settings_drawing.png
    :name: labels_settings_drawing
    :align: center
-   :height: 10cm
+   :height: 12cm
 
    Окно свойств подписей, вкладка "Отрисовка".
 
