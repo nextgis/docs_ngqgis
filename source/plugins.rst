@@ -26,7 +26,7 @@ QGIS была разработана на архитектуре с поддер
 
 .. figure:: _static/modules_control.png
    :align: center
-   :width: 10cm
+   :width: 16cm
    
    Список установленных и доступных к загрузке модулей.
 
