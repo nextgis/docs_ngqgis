@@ -14,6 +14,7 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage01.png
    :name: ngqgis_installPage01
    :align: center
+   :width: 10cm
 
    Первая страница мастера установки.
 
@@ -23,6 +24,7 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage02.png
    :name: ngqgis_installPage02
    :align: center
+   :width: 16cm
 
    Вторая страница мастера установки.
 
@@ -32,7 +34,8 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage03.png
    :name: ngqgis_installPage03
    :align: center
-
+   :width: 16cm
+   
    Третья страница мастера установки.
 
 
@@ -41,6 +44,7 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage04.png
    :name: ngqgis_installPage04
    :align: center
+   :width: 16cm
 
    Четвёртая страница мастера установки.
 
@@ -50,6 +54,7 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage05.png
    :name: ngqgis_installPage05
    :align: center
+   :width: 16cm
 
    Пятая страница мастера установки.
 
@@ -59,5 +64,6 @@ http://nextgis.ru/nextgis-qgis/.
 .. figure:: _static/installPage06.png
    :name: ngqgis_installPage06
    :align: center
+   :width: 16cm
 
    Шестая страница мастера установки.
