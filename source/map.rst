@@ -619,7 +619,9 @@ WGS-84 в поля Север и Восток соответственно. На
 3. Тип классификации. 
 
 
-* **Тип символа** - символы различаются по типу: для точечных, линейных и полигональных слоёв символы различаются. Это не изменяется. Сами символы могут состоять из одного или нескольких символьных слоёв. 
+* **Тип символа** - символы различаются по типу: для точечных, линейных и полигональных 
+слоёв символы различаются. Это не изменяется. Сами символы могут состоять из одного или 
+нескольких символьных слоёв. 
 
 .. figure:: _static/styles_type1.png
    :height: 5cm
@@ -656,7 +658,7 @@ WGS-84 в поля Север и Восток соответственно. На
 
 .. figure:: _static/styles_stylewindow1.png
    :name: ngqgis_styles_stylewindow_default
-   :height: 10cm
+   :width: 16cm
    :align: center 
 
    Окно настройки стиля в режиме классификации Обычный знак, которое открывается по умолчанию.
@@ -672,13 +674,12 @@ WGS-84 в поля Север и Восток соответственно. На
 
 .. figure:: _static/styles_stylewindow2.png
    :name: ngqgis_styles_stylewindow_stylelayers
-   :height: 10cm
+   :width: 16cm
    :align: center
 
    Окно настроек символа.
 
    1 - список типов символьных слоёв.
-
 
 См. так же http://www.qgistutorials.com/ru/docs/basic_vector_styling.html.
 
@@ -753,7 +754,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/dialogue_rendering_simple_values.png
    :name: ngqgis_simple_mark_pic
    :align: center
-   :height: 8cm
+   :width: 16cm
 
    Диалог отрисовки обычным знаком.
 
@@ -780,7 +781,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/dialogue_rendering_unique_values.png
    :name: ngmobile_dialogue_rendering_unique_values_pic
    :align: center
-   :height: 10cm
+   :width: 16cm
 
    Диалог отрисовки уникальными значениями.
 
@@ -796,7 +797,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/graduated_mark.png
    :name: ngqgis_graduated_mark_pic
    :align: center
-   :height: 13cm
+   :width: 16cm
 
    Фрагмент диалога свойств слоя - Градуированный знак. 
 
