@@ -1140,7 +1140,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-1-cartografic.png
    :name: labels_demo-1-cartografic
    :align: center
-   :width: 10cm
+   :width: 11cm
 
    Пример размещения точечных подписей в режиме Сartografic. Для точечных подписей это рекомендуемый алгоритм. Он делает как написано в учебниках: пытается сначала поставить подпись в правую-верхнюю сторону от точки.   
 
@@ -1148,7 +1148,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-2-vokrug.png
    :name: labels_demo-2-vokrug
    :align: center
-   :width: 10cm
+   :width: 11cm
 
    Пример размещения точечных подписей в режиме "Вокруг точки". Это старый алгоритм, который был до Cartografic.
 
@@ -1156,7 +1156,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-3-center.png
    :name: labels_demo-3-center
    :align: center   
-   :width: 10cm
+   :width: 11cm
 
    Пример размещения точечных подписей в режиме "На расстоянии от точки" без смещения. Подписи закрывают точки. Видно, что шоссе проходят прямо через Бутурлино.
 
@@ -1164,7 +1164,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-4-right.png
    :name: labels_demo-4-right
    :align: center
-   :width: 10cm
+   :width: 11cm
 
    Пример размещения точечных подписей в режиме "На расстоянии от точки" со смещением. Все точки подписаны справа.
 
@@ -1175,7 +1175,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-11-poverh.png
    :name: labels_demo-11-poverh
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Пример размещения линейных подписей в режиме "Поверх линий".
 
@@ -1183,7 +1183,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-12-upper.png
    :name: labels_demo-12-upper
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Пример размещения линейных подписей в режиме "Над линиями". Обратите внимание, что такие надписи не загораживают трамвайные линии на улицах.
 
@@ -1191,7 +1191,7 @@ WGS-84 в поля Север и Восток соответственно. На
 .. figure:: _static/labels_demo-13-upper-lower.png
    :name: labels_demo-13-upper-lower
    :align: center
-   :height: 8cm
+   :width: 16cm
 
    Пример размещения линейных подписей в режиме "Над линиями" и "Под линиями". Так нарисовалось больше надписей. 
 
