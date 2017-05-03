@@ -232,7 +232,7 @@ latex_elements = {
 
 'fontpkg': '\\usepackage{dejavu}',
 # Additional stuff for the LaTeX preamble.
-'preamble': '\\extrafloats{100}',
+'preamble': '\\usepackage{morefloats}',
 
 # Latex figure (float) alignment
 'figure_align': 'htbp'
