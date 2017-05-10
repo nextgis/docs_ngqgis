@@ -34,7 +34,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. figure:: _static/modules_Qms-main.jpg
    :align: center
-   :width: 15cm
+   :width: 16cm
    
    Базовая картографическая основа и слой кадастрового деления с Публичной кадастровой карты.
 
@@ -96,7 +96,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 После установки модуля зайдите в настройках во вкладку 
 :guilabel:`Дополнительные сервисы` и нажмите 
-:guilabel:`Получить дополнительные источники данных`.
+:guilabel:`Получить дополнительные источники данных`:
 
 .. figure:: _static/modules_Qms-moreservises-1.png
    :align: center

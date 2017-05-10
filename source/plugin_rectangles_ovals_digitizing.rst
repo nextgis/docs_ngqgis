@@ -10,7 +10,7 @@ Rectangles Ovals Digitizing
 Этот плагин не поддерживается компанией NextGIS, но его можно запускать в программе NextGIS QGIS.
 
  
-После установки расширения появляется панель Rectangles, oval digitizing tools
+После установки расширения появляется панель Rectangles, oval digitizing tools :
 
 
 .. figure:: _static/modules_rectangles_ovals_digitizing_panel.png
@@ -31,6 +31,6 @@ Rectangles Ovals Digitizing
 
 .. figure:: _static/modules_rectangles_ovals_digitizing_window.png
    :align: center
-   :width: 15cm
+   :width: 16cm
 
    Квадраты и круги, нарисованные в модуле Rectangles Ovals Digitizing.
