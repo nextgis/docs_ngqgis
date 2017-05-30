@@ -76,7 +76,7 @@ http://nextgis.ru/nextgis-qgis/.
 
 * ОС Windows 7, 8, 10
 * ОС Linux Ubuntu, Fedora, CentOS
-* ОС macOS Sierra
+* ОС Mac OS X/OS X/macOS
 * процессор Intel Core i3 с тактовой частотой не менее 2 ГГц (2  ядра) или аналог
 * оперативная память не менее 4 Gb
 * соответствующая материнская плата для выбранных процессоров со встроенной видеокартой
