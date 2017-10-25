@@ -27,7 +27,6 @@ Lesis2SQLite
 
 После установки расширения на панели инструментов QGIS появляется иконка:
 
-
 .. figure:: _static/lesis2qgis/tool.png
    :align: center
    :width: 8cm
@@ -37,12 +36,10 @@ Lesis2SQLite
 
 После щелчка по иконке появится диалог импорта данных:
 
-
 .. figure:: _static/lesis2qgis/dialog.png
    :align: center
 
    Диалог импорта данных lesis2sqlite.
-
 
 Возможные проблемы:
 
