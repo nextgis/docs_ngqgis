@@ -168,15 +168,13 @@
 
     Окно Параментры сети представлено на рисунке см. :numref:`ngqgis_Proxy_settings_pic`:
 
-.. figure:: _static/Proxy_settings.png
-   :name: ngqgis_Proxy_settings_pic
-   :align: center
-   :height: 16cm
+   .. figure:: _static/Proxy_settings.png
+      :name: ngqgis_Proxy_settings_pic
+      :align: center
+      :height: 16cm
 
-   Параметры сети.  
-   
-   
-   
+      Параметры сети.  
+    
 
    * Использовать прокси-сервер для внешних соединений и настроить поля "Узел", "Порт",
      "Пользователь" и "Пароль".
