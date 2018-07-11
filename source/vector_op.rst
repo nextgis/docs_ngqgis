@@ -866,7 +866,7 @@ Service area
    :align: center
    :width: 16cm
 
-   service area.
+   Слой сгенерированый инструментом service area.
 
 
 Плагин processing
