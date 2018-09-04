@@ -17,7 +17,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. figure:: _static/modules_Qms-search.png
    :align: center
-   :width: 2cm
+
 
 Просто введите в поле название вашего любимого сервиса, нажмите кнопку, и он добавится на карту.
 Попробуйте "Openstreetmap mapnik", "Sputnik", "Openstreetmap.fr", "Boundary of Russia"
