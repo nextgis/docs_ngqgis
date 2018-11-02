@@ -33,7 +33,7 @@ sys.path.append(os.path.abspath('sphinxext'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.todo',
-    'sphinx.ext.pngmath',
+    'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
 ]
@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NextGIS QGIS'
-copyright = u'2015-2016, NextGIS'
+copyright = u'2015-2018, NextGIS'
 author = u'NextGIS team'
 
 # The version info for the project you're documenting, acts as replacement for
