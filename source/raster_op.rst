@@ -159,6 +159,17 @@ PCT в RGB-изображение
 Создать изолинии
 ^^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: _static/ngqgis_create_isolines_before.png
+   :align: center
+   :width: 12cm
+ 
+ 
+.. figure:: _static/ngqgis_create_isolines_after.png
+   :align: center
+   :width: 12cm
+   
+   Инструмент для работы с растровыми данными - Создать изолинии.
+
 Операция запускается через меню Растр - пункт меню Извлечение - Создать изолинии:
 
 .. figure:: _static/ngqgis_create_isolines.png
@@ -167,7 +178,7 @@ PCT в RGB-изображение
  
    Инструмент для работы с растровыми данными - Создать изолинии.
 
-Построение изолиний. Генерация изолиний по цифровой модели рельефа (DEM) (на базе gdal_contour).
+Построение изолиний. Генерация изолиний по цифровой модели рельефа (DEM) (на базе gdal_contour, см https://www.gdal.org/gdal_contour.html).
 
 Обрезка
 ^^^^^^^^^^^^^^^^^^^^^^^
