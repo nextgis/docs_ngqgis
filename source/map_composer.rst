@@ -172,32 +172,35 @@
 
 Сетка с подписями широты и долготы.
 
-```
-CASE 
-WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat( @grid_number, '° з. ш. ') 
-WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat( @grid_number, '° в. ш. ') 
+.. code-block:: sql
 
-WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, '° ю. д. ') 
-WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, '° с. д. ') 
+   CASE 
+   WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat( @grid_number, '° з. ш. ') 
+   WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat( @grid_number, '° в. ш. ') 
+   
+   WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, '° ю. д. ') 
+   WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, '° с. д. ') 
+   
+   END
 
-END
-```
 
 .. figure:: _static/composer_grid_example1.png
    :name: composer_grid_example1
    :align: center
    :width: 16cm
+
+
+.. code-block:: sql
+
+   CASE 
+   WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat(@grid_number, ' W')  
+   WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat(@grid_number, ' E') 
    
-```
-CASE 
-WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat(@grid_number, ' W')  
-WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat(@grid_number, ' E') 
+   WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, ' S') 
+   WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, ' N') 
+   
+   END
 
-WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, ' S') 
-WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, ' N') 
-
-END
-```
 
 .. figure:: _static/composer_grid_example2.png
    :name: composer_grid_example2
