@@ -188,6 +188,23 @@ END
    :align: center
    :width: 16cm
    
+```
+CASE 
+WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat(@grid_number, ' W')  
+WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat(@grid_number, ' E') 
+
+WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, ' S') 
+WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, ' N') 
+
+END
+```
+
+.. figure:: _static/composer_grid_example2.png
+   :name: composer_grid_example2
+   :align: center
+   :width: 16cm
+   
+   
    
 **Добавление разных других элементов**
 
