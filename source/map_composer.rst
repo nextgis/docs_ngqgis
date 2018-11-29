@@ -173,15 +173,15 @@
 Сетка с подписями широты и долготы.
 
 ```
- CASE 
- WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat( @grid_number, '° з. ш. ') 
- WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat( @grid_number, '° в. ш. ') 
- 
- WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, '° ю. д. ') 
- WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, '° с. д. ') 
- 
- END
- ```
+CASE 
+WHEN @grid_axis = 'x' AND  @grid_number < 0 THEN concat( @grid_number, '° з. ш. ') 
+WHEN @grid_axis = 'x' AND  @grid_number >= 0 THEN concat( @grid_number, '° в. ш. ') 
+
+WHEN @grid_axis = 'y' AND  @grid_number < 0 THEN concat( @grid_number, '° ю. д. ') 
+WHEN @grid_axis = 'y' AND  @grid_number >= 0 THEN concat( @grid_number, '° с. д. ') 
+
+END
+```
 
 .. figure:: _static/composer_grid_example1.png
    :name: composer_grid_example1
