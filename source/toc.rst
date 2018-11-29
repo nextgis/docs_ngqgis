@@ -15,6 +15,7 @@
    ui
    settings
    map
+   map_composer
    editing
    vector_op
    raster_op
