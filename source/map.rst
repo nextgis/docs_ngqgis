@@ -227,7 +227,7 @@ TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов
 Для добавления слоя в формате на карту нажмите ``Слой ‣ Добавить слой ‣ Добавить слой CSV``. 
 Откроется окно "Создать слой из текстового файла".
 
-.. figure:: _static/add_layer_table_wms.png
+.. figure:: _static/add_csv.png
    :align: center
    :width: 16cm
 
