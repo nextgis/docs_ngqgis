@@ -60,6 +60,6 @@ QGIS была разработана на архитектуре с поддер
    plugin_rectangles_ovals_digitizing
    qconsolidate
    raster_ref
-
+   lesis2sqlite
 
     
