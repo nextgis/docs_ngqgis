@@ -25,23 +25,20 @@ NGQ Rosreestr Tools
 
 Выберите в списке нужный плагин и нажмите кнопку Установить модуль.
 Для того, чтобы функциональные возможности плагина были доступны, необходимо быть авторизованным в **NextGIS Account Toolbar**. 
-Панель **NextGIS Account Toolbar** для неавторизованных пользователей выглядит так:
+Панель **NextGIS Account Toolbar** для неавторизованных пользователей выглядит так |not_auth|. При нажатии на иконку вам будет предложено авторизоваться в системе через браузер.
 
-.. figure:: _static/not_auth.png
-   :name: not_auth
-При нажатии на иконку вам будет предложено авторизоваться в системе через браузер. 
-В случае успешной авторизации иконка на панели NextGIS Account Toolbar сменится на другую:
+.. |not_auth| image:: _static/not_auth.png
 
-.. figure:: _static/auth_icon.png
-   :name: auth_icon
+В случае успешной авторизации иконка на панели NextGIS Account Toolbar сменится на другую |auth_icon|.
+
+.. |auth_icon| image:: _static/auth_icon.png
 
 После установки расширения появляется набор иконок на панели инструментов (заблокированная для неавторизованных пользователей).
 
-Функция импорта xml-документов росреестра обозначена следующей иконкой 
+Функция импорта xml-документов росреестра обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import_egrn`):
 
-.. figure:: _static/import_icon.png
-   :name: import_icon
-и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import_egrn`):
+.. |import_icon| image:: _static/import_icon.png
+
 
 .. figure:: _static/import_egrn.png
    :name: import_egrn
@@ -88,12 +85,9 @@ NGQ Rosreestr Tools
    
    Импортированные слои на карте
    
-Третья иконка 
+Третья иконка |identificaion_oicon| позволяет по клику на объект идентифицировать атрибутивную информацию по кадастровым кварталам и земельным участкам, а также по объектам капитального строительства и кадастровым округам (см. :numref:`identificaion_objects`).
 
-.. figure:: _static/identificaion_oicon.png
-   :name: identificaion_oicon
-позволяет по клику на объект идентифицировать атрибутивную информацию по кадастровым кварталам и земельным участкам, 
-а также по объектам капитального строительства и кадастровым округам (см. :numref:`identificaion_objects`).
+.. |identificaion_oicon| image:: _static/identificaion_oicon.png
 
 .. figure:: _static/identificaion_objects.png
    :name: identificaion_objects
@@ -109,11 +103,9 @@ NGQ Rosreestr Tools
    
    Отображение карточки найденного объекта и подстветка его контура
    
-Иконка панели поиска
+Иконка панели поиска |search_icon| позволяет находить объекты из базы данных Росреестра (см. :numref:`search_object`) по различным параметрам (например, по кадастровому номеру).
 
-.. figure:: _static/search_icon.png
-   :name: search_icon
-позволяет находить объекты из базы данных Росреестра (см. :numref:`search_object`) по различным параметрам (например, по кадастровому номеру).
+.. |search_icon| image:: _static/search_icon.png
 
 .. figure:: _static/search_object.png
    :name: search_object
