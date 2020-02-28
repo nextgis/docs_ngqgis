@@ -42,7 +42,6 @@ NGQ Rosreestr Tools
 
 .. figure:: _static/import_egrn.png
    :name: import_egrn
-   :scale: 70 %
    :align: center
    
    Интерфейс инструмента “Импорт данных ЕГРН”
@@ -62,13 +61,12 @@ NGQ Rosreestr Tools
 
 .. figure:: _static/import_proc1.png
    :name: import_proc1
-   :scale: 70 %
    :align: center
 
    
 .. figure:: _static/import_proc2.png
    :name: import_proc2
-   :scale: 70 %
+   :align: center
    
    Процесс импорта
    
@@ -91,7 +89,6 @@ NGQ Rosreestr Tools
 
 .. figure:: _static/identificaion_objects.png
    :name: identificaion_objects
-   :scale: 70 %
    :align: center
    
    Идентификация объектов Росреестра
