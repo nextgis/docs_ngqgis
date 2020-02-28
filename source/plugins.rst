@@ -61,6 +61,6 @@ QGIS была разработана на архитектуре с поддер
    qconsolidate
    raster_ref
    lesis2sqlite
-   NGQ Rosreestr Tools
+   NGQ_Rosreestr_Tools
 
     
