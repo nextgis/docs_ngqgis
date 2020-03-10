@@ -80,17 +80,32 @@ NGQ Rosreestr Tools
 не была опознана программным обеспечением: скорее всего, параметров целевой системы координат нет в базе данных. 
 База данных систем координат постоянно пополняется.
 
-.. figure:: _static/imported_layers.png
-   :name: iimported_layers
-   :align: center
-   :width: 16cm
-   
-   Импортированные слои на карте
 
 Подключение кадастрового слоя
 -----------------------------
 
-(в процессе)
+Вторая иконка модуля **NGQ Rosreestr Tools** |icon_add_layers| позволяет добавлять различные слои данных Росреестра (см. :numref:`add_layers_pkk`) из публичной кадастровой карты (далее - ПКК):
+
+.. |icon_add_layers| image:: _static/icon_add_layers.png
+
+* слой кадастровых кварталов, округа
+* слой земельных участков, ОКС (Объекты капитального строительства)
+* слой зон с особыми условиями использования
+
+.. figure:: _static/add_layers_pkk.png
+   :name: add_layers_pkk
+   :align: center
+   :width: 16cm
+   
+   Добавление слоёв из ПКК
+
+
+.. figure:: _static/imported_layers.png
+   :name: imported_layers
+   :align: center
+   :width: 16cm
+   
+   Импортированные слои на карте
 
 
 Идентификация кварталов и участков
