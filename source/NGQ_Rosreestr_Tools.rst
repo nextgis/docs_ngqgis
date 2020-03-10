@@ -95,7 +95,6 @@ NGQ Rosreestr Tools
 .. figure:: _static/add_layers_pkk.png
    :name: add_layers_pkk
    :align: center
-   :width: 16cm
    
    Добавление слоёв из ПКК
 
