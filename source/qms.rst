@@ -70,14 +70,14 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 .. figure:: _static/qms_icon.png
    :name: qms_icon
    :align: center
-   :width: 16cm
+   :width: 10cm
    
    Иконка модуля QuickMapServices
 
 .. figure:: _static/qms_search.png
    :name: qms_search
    :align: center
-   :width: 16cm
+   :width: 10cm
    
    Панель поиска QMS
    
