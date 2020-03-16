@@ -50,6 +50,47 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
    
    Базовая картографическая основа и слой кадастрового деления с Публичной кадастровой карты.
 
+
+.. _qmsaddbasemap:
+
+Подключение растровой подложки
+------------
+
+1. Установите модуль QuickMapServices (раздел "Модули" в верхней панели, см. :numref:`qms_module`)
+
+.. figure:: _static/qms_module.png
+   :name: qms_module
+   :align: center
+   :width: 16cm
+   
+   Установка модуля QuickMapServices
+
+2. Нажмите на иконку QMS и выберите нужный сервис подложки из предложенного списка (см. :numref:`qms_icon`) или найдите его через панель поиска (см. :numref:`qms_search`) и нажммите "Добавить".
+
+.. figure:: _static/qms_icon.png
+   :name: qms_icon
+   :align: center
+   :width: 16cm
+   
+   Иконка модуля QuickMapServices
+
+.. figure:: _static/qms_search.png
+   :name: qms_search
+   :align: center
+   :width: 16cm
+   
+   Панель поиска QMS
+   
+3. Подложка добавлена в проект в качестве растрового слоя (см. :numref:`qms_map`)
+
+.. figure:: _static/qms_map.png
+   :name: qms_map
+   :align: center
+   :width: 16cm
+   
+   Растровый слой подложки Sputnik.ru на карте
+
+
 Настройки
 ------------
 
