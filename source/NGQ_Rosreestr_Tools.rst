@@ -36,6 +36,71 @@ NGQ Rosreestr Tools
 
 После установки расширения появляется набор иконок на панели инструментов (заблокированная для неавторизованных пользователей).
 
+
+Подключение кадастрового слоя
+-----------------------------
+
+Вторая иконка модуля **NGQ Rosreestr Tools** |icon_add_layers| позволяет добавлять различные слои данных Росреестра (см. :numref:`add_layers_pkk`) из публичной кадастровой карты (далее - ПКК):
+
+.. |icon_add_layers| image:: _static/icon_add_layers.png
+
+* слой кадастровых кварталов, округа
+* слой земельных участков, ОКС (Объекты капитального строительства)
+* слой зон с особыми условиями использования
+
+.. figure:: _static/add_layers_pkk.png
+   :name: add_layers_pkk
+   :align: center
+   
+   Добавление слоёв из ПКК
+
+
+.. figure:: _static/imported_layers.png
+   :name: imported_layers
+   :align: center
+   :width: 16cm
+   
+   Импортированные слои на карте
+
+
+
+Идентификация кварталов и участков
+----------------------------------
+
+Третья иконка |identificaion_oicon| позволяет по клику на объект идентифицировать атрибутивную информацию по кадастровым кварталам и земельным участкам, а также по объектам капитального строительства и кадастровым округам (см. :numref:`identificaion_objects`).
+
+.. |identificaion_oicon| image:: _static/identificaion_oicon.png
+
+.. figure:: _static/identificaion_objects.png
+   :name: identificaion_objects
+   :align: center
+   
+   Идентификация объектов Росреестра
+   
+.. figure:: _static/object_on_map.png
+   :name: object_on_map
+   :align: center
+   :width: 16cm
+   
+   Отображение карточки найденного объекта и подстветка его контура
+
+
+Поиск по кадастровому номеру
+----------------------------
+
+Иконка панели поиска |search_icon| позволяет находить объекты из базы данных Росреестра (см. :numref:`search_object`) по различным параметрам (например, по кадастровому номеру).
+
+.. |search_icon| image:: _static/search_icon.png
+
+.. figure:: _static/search_object.png
+   :name: search_object
+   :align: center
+   :width: 16cm
+   
+   Отображение карточки найденного объекта и подстветка его контура
+
+
+
 Импорт данных
 -------------
 
@@ -81,62 +146,3 @@ NGQ Rosreestr Tools
 База данных систем координат постоянно пополняется.
 
 
-Подключение кадастрового слоя
------------------------------
-
-Вторая иконка модуля **NGQ Rosreestr Tools** |icon_add_layers| позволяет добавлять различные слои данных Росреестра (см. :numref:`add_layers_pkk`) из публичной кадастровой карты (далее - ПКК):
-
-.. |icon_add_layers| image:: _static/icon_add_layers.png
-
-* слой кадастровых кварталов, округа
-* слой земельных участков, ОКС (Объекты капитального строительства)
-* слой зон с особыми условиями использования
-
-.. figure:: _static/add_layers_pkk.png
-   :name: add_layers_pkk
-   :align: center
-   
-   Добавление слоёв из ПКК
-
-
-.. figure:: _static/imported_layers.png
-   :name: imported_layers
-   :align: center
-   :width: 16cm
-   
-   Импортированные слои на карте
-
-
-Идентификация кварталов и участков
-----------------------------------
-
-Третья иконка |identificaion_oicon| позволяет по клику на объект идентифицировать атрибутивную информацию по кадастровым кварталам и земельным участкам, а также по объектам капитального строительства и кадастровым округам (см. :numref:`identificaion_objects`).
-
-.. |identificaion_oicon| image:: _static/identificaion_oicon.png
-
-.. figure:: _static/identificaion_objects.png
-   :name: identificaion_objects
-   :align: center
-   
-   Идентификация объектов Росреестра
-   
-.. figure:: _static/object_on_map.png
-   :name: object_on_map
-   :align: center
-   :width: 16cm
-   
-   Отображение карточки найденного объекта и подстветка его контура
-
-Поиск по кадастровому номеру
-----------------------------
-
-Иконка панели поиска |search_icon| позволяет находить объекты из базы данных Росреестра (см. :numref:`search_object`) по различным параметрам (например, по кадастровому номеру).
-
-.. |search_icon| image:: _static/search_icon.png
-
-.. figure:: _static/search_object.png
-   :name: search_object
-   :align: center
-   :width: 16cm
-   
-   Отображение карточки найденного объекта и подстветка его контура
