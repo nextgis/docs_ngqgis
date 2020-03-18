@@ -55,12 +55,12 @@ NGQ Rosreestr Tools
    Добавление слоёв из ПКК
 
 
-.. figure:: _static/imported_layers.png
-   :name: imported_layers
+.. figure:: _static/pkk_on_map.png
+   :name: pkk_on_map
    :align: center
    :width: 16cm
    
-   Импортированные слои на карте
+   Слой кадастровых кварталов на карте
 
 
 
