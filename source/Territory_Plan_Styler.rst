@@ -17,21 +17,21 @@ Territory Plan Styler
 Для того, чтобы функциональные возможности плагина были доступны, необходимо быть авторизованным в NextGIS Account Toolbar. 
 Панель NextGIS Account Toolbar для неавторизованных пользователей выглядит так: |not_auth|.
 
-.. |not_auth| image:: not_auth.png
+.. |not_auth| image:: _static/Territory_Plan_Styler/not_auth.png
 
 При нажатии на иконку вам будет предложено авторизоваться в системе через браузер. 
 В случае успешной авторизации иконка на панели NextGIS Account Toolbar сменится на другую: |auth_icon|.
 
-.. |auth_icon| image:: auth_icon.png
+.. |auth_icon| image:: _static/Territory_Plan_Styler/auth_icon.png
 
 После установки расширения появляется иконка на панели инструментов (заблокированная для неавторизованных пользователей) |territory_tool_icon|. 
 
-.. |territory_tool_icon| image:: territory_tool_icon.png
+.. |territory_tool_icon| image:: _static/Territory_Plan_Styler/territory_tool_icon.png
 
 При запуске Territory Plan Styler открывается мастер экспорта данных (см. :numref:`export_master`), 
 который шаг за шагом проводит пользователя от этапа выбора данных до готовой веб-карты.
 
-.. figure:: export_master.png
+.. figure:: _static/Territory_Plan_Styler/export_master.png
    :name: export_select_layer
    :align: center
    :width: 16cm
@@ -40,7 +40,7 @@ Territory Plan Styler
    
 По нажатию кнопки "Далее" пользователю будет предложен список обнаруженных в проекте слоёв (см. :numref:`export_select_layer`). Для слоёв с одинаковыми названиями определяется тип геометрии и добавляется в скобках после названия.
 
-.. figure:: export_select_layer.png
+.. figure:: _static/Territory_Plan_Styler/export_select_layer.png
    :name: export_select_layer
    :align: center
    :width: 16cm
@@ -49,7 +49,7 @@ Territory Plan Styler
 
 В случае выбора на первом экране мастера опции "Из файловой системы" пользователю предлагается файловое дерево его локального компьютера (см. :numref:`file_system`).
 
-.. figure:: file_system.png
+.. figure:: _static/Territory_Plan_Styler/file_system.png
    :name: file_system
    :align: center
    :width: 16cm
@@ -69,7 +69,7 @@ Territory Plan Styler
 
 По нажатию кнопки "Далее" пользователю будет предложен список обнаруженных в файловой системе подходящих по именам слоёв (см. :numref:`export_select_layer_2`), для удобства представленный в виде русскоязычных названий, а не имён исходных файлов (аналогично выбору данных для экспорта из проекта).
 
-.. figure:: export_select_layer_2.png
+.. figure:: _static/Territory_Plan_Styler/export_select_layer_2.png
    :name: export_select_layer_2
    :align: center
    :width: 16cm
@@ -80,7 +80,7 @@ Territory Plan Styler
 
 После того, как выбраны необходимые для экспорта слои (при любом режиме, из проекта или файловой системы), по нажатию кнопки "Далее" мастер переходит к окну выбора целевой Веб ГИС, куда будет произведен экспорт данных и создана интерактивная веб-карта. Здесь вы можете настроить подключение к нужной Веб ГИС, создавать, редактировать и удалять подключения (см. :numref:`connect_to_webgis`).
 
-.. figure:: connect_to_webgis.png
+.. figure:: _static/Territory_Plan_Styler/connect_to_webgis.png
    :name: connect_to_webgis
    :align: center
    :width: 16cm
@@ -90,7 +90,7 @@ Territory Plan Styler
 После выбора Веб ГИС и нажатия кнопки "Далее" откроется экран мастера, предлагающий выбрать группу ресурсов, в которой будет создана интерактивная веб-карта, а также задать имя для результирующей веб-карты (см. :numref:`select_resourcegroup`).
 В нижней части доступны кнопки обновления дерева групп ресурсов, а также создания новой группы ресурсов (она будет создана как дочерняя для выделенной в дереве).
 
-.. figure:: select_resourcegroup.png
+.. figure:: _static/Territory_Plan_Styler/select_resourcegroup.png
    :name: select_resourcegroup
    :align: center
    :width: 16cm
@@ -102,7 +102,7 @@ Territory Plan Styler
 
 За ходом экспорта пользователь может наблюдать на последнем экране мастера (см. :numref:`export_process`). Здесь в интерактивном режиме отображается прогресс в подготовке и загрузке объектов в Веб ГИС.
 
-.. figure:: export_process.png
+.. figure:: _static/Territory_Plan_Styler/export_process.png
    :name: export_process
    :align: center
    :width: 16cm
@@ -111,7 +111,7 @@ Territory Plan Styler
    
 В случае возникновения ошибок их причины будут обозначены красным цветом. После завершения процесса экспорта предлагается либо начать новый процесс, запустив мастер сначала, либо закончить работу. Пример экспортированной веб-карты приведён на :numref:`export_on_webmap`
 
-.. figure:: export_on_webmap.png
+.. figure:: _static/Territory_Plan_Styler/export_on_webmap.png
    :name: export_on_webmap
    :align: center
    :width: 16cm
