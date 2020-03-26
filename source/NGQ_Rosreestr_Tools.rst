@@ -8,7 +8,7 @@ NGQ Rosreestr Tools
 Модуль **NGQ Rosreestr Tools** предназначен для работы с кадастровыми данными Росреестра (ЕГРН, ПКК). 
 
 .. note::
-   Данный инструмент доступен только для пользователей планов `Mini и Premium <http://nextgis.ru/nextgis-com/plans>`_  и присутствует только в ПО `NextGIS QGIS <https://nextgis.ru/nextgis-qgis/>`_.
+   Данный инструмент доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_  и присутствует только в ПО `NextGIS QGIS <https://nextgis.ru/nextgis-qgis/>`_.
 
 .. warning::
 
