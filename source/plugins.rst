@@ -62,5 +62,5 @@ QGIS была разработана на архитектуре с поддер
    raster_ref
    lesis2sqlite
    NGQ_Rosreestr_Tools
-
-    
+   Territory_Plan_Styler
+   
