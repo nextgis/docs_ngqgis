@@ -11,7 +11,7 @@ Territory Plan Styler
 а также механизм контроля структуры пользовательских данных на корректность.
 
 .. note::
-   Данный инструмент доступен только для пользователей планов `Premium <http://nextgis.ru/nextgis-com/plans>`_  и присутствует только в ПО `NextGIS QGIS <https://nextgis.ru/nextgis-qgis/>`_.
+   Данный инструмент доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_  и присутствует только в ПО `NextGIS QGIS <https://nextgis.ru/nextgis-qgis/>`_.
 
 
 Для того, чтобы функциональные возможности плагина были доступны, необходимо быть авторизованным в NextGIS Account Toolbar. 
