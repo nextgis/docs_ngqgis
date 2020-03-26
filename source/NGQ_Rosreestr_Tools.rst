@@ -86,7 +86,7 @@ NGQ Rosreestr Tools
    
    Идентификация объектов Росреестра
    
-.. figure:: _static/object_on_map.png
+.. figure:: _static/objects_on_map.png
    :name: object_on_map
    :align: center
    :width: 16cm
