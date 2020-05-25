@@ -38,8 +38,9 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 
 
 После корректного указания пары логин/пароль вы получите сообщение об успешной авторизации в NextGIS QGIS (см. :numref:`suscess_auth`), 
-и доступ к Pro-функциям будет разблокирован |ublocked_tools.png|.
-.. |unblocked_tools| figure:: _static/auth_ngqgis/unblocked_tools.png
+и доступ к Pro-функциям будет разблокирован |unblocked_tools|.
+
+.. |unblocked_tools| image:: _static/auth_ngqgis/unblocked_tools.png
 
 Кнопка NextGIS Account Toolbar при этом изменится на  |auth|, что говорит об успешно авторизованном пользователе (см. :numref:`acc_toolbar_active`).
 
