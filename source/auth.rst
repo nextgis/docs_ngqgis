@@ -8,12 +8,14 @@
 Чтобы открыть дополнительные функциональные преимущества :program:`NextGIS QGIS` (перейти на Pro-версии NextGIS QGIS), 
 необходимо приобрести план `Mini или Premium <http://nextgis.ru/nextgis-com/plans>`_ и авторизоваться в программе.
 
-По умолчанию заблокированные инструменты показываются так: |blocked_tools| 
-.. |blocked_tools| figure:: _static/auth_ngqgis/blocked_tools.png
+По умолчанию заблокированные инструменты показываются так: |blocked_tools|.
+
+.. |blocked_tools| image:: _static/auth_ngqgis/blocked_tools.png
 
 Для активации возможностей Pro-версии NextGIS QGIS необходимо авторизоваться в системе при помощи кнопки |not_auth|
 NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`).
-.. |not_auth| figure:: _static/auth_ngqgis/not_auth.png
+
+.. |not_auth| image:: _static/auth_ngqgis/not_auth.png
 
 .. figure:: _static/auth_ngqgis/acc_toolbar_deactive.png
    :name: acc_toolbar_deactive
@@ -40,7 +42,9 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 .. |unblocked_tools| figure:: _static/auth_ngqgis/unblocked_tools.png
 
 Кнопка NextGIS Account Toolbar при этом изменится на  |auth|, что говорит об успешно авторизованном пользователе (см. :numref:`acc_toolbar_active`).
-.. |auth| figure:: _static/auth_ngqgis/auth.png
+
+.. |auth| image:: _static/auth_ngqgis/auth.png
+
 
 .. figure:: _static/auth_ngqgis/suscess_auth.png
    :name: suscess_auth
