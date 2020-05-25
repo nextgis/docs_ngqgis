@@ -14,6 +14,7 @@
    install
    ui
    settings
+   auth
    map
    styling
    map_composer
