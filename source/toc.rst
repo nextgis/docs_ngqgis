@@ -10,14 +10,3 @@ NextGIS QGIS documentation
 .. toctree::
    :maxdepth: 2
 
-   intro
-   install
-   ui
-   settings
-   map
-   editing
-   vector_op
-   raster_op
-   plugins
-
-
