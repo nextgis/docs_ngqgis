@@ -5,9 +5,9 @@
 NextGIS QGIS documentation
 ==============================
 
-Contents:
-In progress    
+Contents:   
 
 .. toctree::
    :maxdepth: 2
-
+   
+   auth
