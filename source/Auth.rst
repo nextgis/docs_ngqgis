@@ -72,6 +72,6 @@ f you want to login via the on-premise, you must specify the appropriate Endpoin
 .. figure:: _static/auth/ngqis_ngidop_auth_en.png
    :name: ngqis_ngidop_auth_en
    :align: center
-   :width: 25cm
+   :width: 20cm
    
    Adding your own authorization server
