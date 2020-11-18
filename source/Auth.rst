@@ -5,6 +5,9 @@
 Authorization
 ==========
 
+Via cloud NextGIS ID (my.nextgis.com)
+-------------------------------------
+
 To unlock additional functionality of benefits NextGIS QGIS (switch to Pro-version NextGIS QGIS), 
 you must be on a `Mini or Premium <https://nextgis.com/pricing-base/>`_ plan and login.
 
@@ -59,3 +62,16 @@ NextGIS Account Toolbar button will change to  |auth| which indicates a successf
    :width: 25cm
    
    NextGIS QGIS interface. NextGIS Account Toolbar activated
+
+
+Via on-premise (NGIDOP)
+----------------------
+
+f you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Options -> NextGIS) (:numref:`ngqis_ngidop_auth_en`)
+
+.. figure:: _static/auth/ngqis_ngidop_auth_en.png
+   :name: ngqis_ngidop_auth_en
+   :align: center
+   :width: 25cm
+   
+   Adding your own authorization server
