@@ -5,6 +5,9 @@
 Авторизация
 ==========
 
+Через облачный NextGIS ID
+-------------------------
+
 Чтобы открыть дополнительные функциональные преимущества :program:`NextGIS QGIS` (перейти на Pro-версии NextGIS QGIS), 
 необходимо приобрести план `Mini или Premium <http://nextgis.ru/nextgis-com/plans>`_ и авторизоваться в программе.
 
@@ -60,3 +63,16 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
    :width: 25cm
    
    Общий вид NextGIS QGIS. NextGIS Account Toolbar активирован
+   
+   
+Через собственный сервер (NGIDOP)
+---------------------------------
+
+Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Установки -> Параметры -> NextGIS) (см. :numref:`ngqis_ngidop_auth`)
+
+.. figure:: _static/auth_ngqgis/ngqis_ngidop_auth.png
+   :name: ngqis_ngidop_auth
+   :align: center
+   :width: 25cm
+   
+   Добавление собственного сервера авторизации
