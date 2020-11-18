@@ -73,6 +73,6 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 .. figure:: _static/auth_ngqgis/ngqis_ngidop_auth.png
    :name: ngqis_ngidop_auth
    :align: center
-   :width: 25cm
+   :width: 20cm
    
    Добавление собственного сервера авторизации
