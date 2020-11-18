@@ -67,7 +67,7 @@ NextGIS Account Toolbar button will change to  |auth| which indicates a successf
 Via on-premise (NGIDOP)
 ----------------------
 
-f you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Options -> NextGIS) (:numref:`ngqis_ngidop_auth_en`)
+If you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Options -> NextGIS) (:numref:`ngqis_ngidop_auth_en`)
 
 .. figure:: _static/auth/ngqis_ngidop_auth_en.png
    :name: ngqis_ngidop_auth_en
