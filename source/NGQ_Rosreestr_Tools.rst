@@ -173,10 +173,11 @@ NGQ Rosreestr Tools
 
 Технически, необходимо:
 
-1. Создать глобальный аккаунт my.nextgis.com если его еще нет.
-2. Зайти на my.nextgis.com, создать Веб ГИС (план Free)
-3. Сообщить на support@nextgis.com о создании аккаунта и Веб ГИС с запросить перевод на Premium
+1. Создать глобальный аккаунт `my.nextgis.com <https://my.nextgis.ru>`_ если его еще нет.
+2. Зайти на `my.nextgis.com <https://my.nextgis.ru>`_, создать Веб ГИС (план Free) с любым названием. 
+Это технический шаг, использовать эту Веб ГИС вам не нужно. Этот шаг станет не нужным в ближайшем будущем.
+3. Сообщить через `систему поддержки <https://nextgis.ru/terms-support>`_ о создании аккаунта и Веб ГИС с запросить перевод на Premium
 4. Дождаться уведомления о переводе на Premium
-5. Скопировать ключ доступа из NGID и добавить его в раздел настроек NextGIS ID on-premise доступный по адресу https://my.nextgis.com/myngidonpremises
+5. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
 
 После этого запросы из NGQ Rosreestr Tools с рабочих мест внутри корпоративных сетей должны заработать.
