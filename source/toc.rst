@@ -11,4 +11,4 @@ Contents:
    :maxdepth: 2
    
    Auth
-   identifyplus
+   plugins
