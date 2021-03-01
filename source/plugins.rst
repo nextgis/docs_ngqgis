@@ -63,4 +63,5 @@ QGIS была разработана на архитектуре с поддер
    lesis2sqlite
    NGQ_Rosreestr_Tools
    territory_plan_styler
+   identifyplus
    
