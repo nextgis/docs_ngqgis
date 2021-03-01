@@ -30,8 +30,7 @@ Plugins can be installed but not active: if the box next to the plugin from the 
 
 If you typed the plugin’s name correctly, but can’t find it in the list, please, perform following steps:
 
-1. Check if original plugin’s name is in other language.
-2. Check the Settings tab: repositories should be marked as green. If the mark is red, it means problems with Internet connection or with server.
+1. Check the Settings tab: repositories should be marked as green. If the mark is red, it means problems with Internet connection or with server.
 3. Try to check the box with Show also experimental plugins.
 4. The plugin you are searching for can be located in some special repository, find out about it from the person who recommended that plugin.
 
