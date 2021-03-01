@@ -1,4 +1,4 @@
-.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
+.. sectionauthor:: Петруненко Екатерина <ekaterina.petrunenko@nextgis.ru>
 
 .. _ngqgis_identifyplus:
 
