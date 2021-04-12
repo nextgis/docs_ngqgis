@@ -181,3 +181,6 @@ NGQ Rosreestr Tools
 5. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями, размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
 
 После этого запросы из NGQ Rosreestr Tools с рабочих мест внутри корпоративной сети к глобальным сервисам NextGIS должны заработать.
+
+.. note::
+   Необходимо разрешить в локальной сети организации доступ к серверу по адресу https://geoservices.nextgis.com
