@@ -70,8 +70,8 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 
 .. note:: 
    Необходимо, чтобы на рабочих местах, где установлен NextGIS QGIS с модулем `Rosreestr Tools <https://docs.nextgis.ru/docs_ngqgis/source/NGQ_Rosreestr_Tools.html>`_
-   открывался адрес с доменным именем geoservices.nextgis.com (IP: 5.9.40.142).
-   Дополнительно вы также можете прописать разрешение на доступ к этому серверу (geoservices.nextgis.com, IP: 5.9.40.142) на сервере, где развернут NextGIS Web.
+   открывался адрес с доменным именем geoservices.nextgis.com.
+   Дополнительно вы также можете прописать разрешение на доступ к этому серверу (geoservices.nextgis.com) на сервере, где развернут NextGIS Web.
 
 Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Установки -> Параметры -> NextGIS) (см. :numref:`ngqis_ngidop_auth`)
 
