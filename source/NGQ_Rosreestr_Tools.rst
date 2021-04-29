@@ -132,13 +132,13 @@ NGQ Rosreestr Tools
 Импорт данных
 -------------
 
-Функция импорта выписок из ЕГРН (XML файлы) обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import_egrn`):
+Функция импорта выписок из ЕГРН (XML файлы) обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import-egrn`):
 
-.. |import_icon| image:: _static/import_icon.png
+.. |import_icon| image:: _static/import-icon.png
 
 
-.. figure:: _static/import_egrn.png
-   :name: import_egrn
+.. figure:: _static/import-egrn.png
+   :name: import-egrn
    :align: center
    
    Интерфейс инструмента “Импорт данных ЕГРН”
