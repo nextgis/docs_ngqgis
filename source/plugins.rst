@@ -43,4 +43,6 @@ More about plugins you can find here:
 .. toctree::
    :maxdepth: 1
 
+   ngconnect
    identifyplus
+   
