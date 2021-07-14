@@ -14,6 +14,12 @@ With NextGIS Connect you can:
 3.	Upload whole QGIS projects to Web GIS , including styles, layer hierarchy, etc.
 4.	Create WFS service in one click and edit data directly in Web GIS.
 
+
+.. important::
+
+If you plan to share large data through NextGIS Connect, you might need to configure QGIS timeouts for network requests. This setting is in the menu section **Settings** -> **Options** -> **Network** -> Timeout for network requests (ms). The recommended value is **300,000**, it can be increased if necessary.
+
+
 .. warning::
 
    **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn’t be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
