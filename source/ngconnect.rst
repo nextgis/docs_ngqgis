@@ -6,4 +6,4 @@
 NextGIS Connect
 ===============
 
-Read documentation about NextGIS Connect on `this page <https://docs.nextgis.com/docs_ngqgis/source/ngconnect.html>`_
+Read documentation about NextGIS Connect on `this page <https://docs.nextgis.com/docs_ngconnect/source/ngconnect.html>`_
