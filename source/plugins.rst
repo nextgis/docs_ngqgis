@@ -54,7 +54,7 @@ QGIS была разработана на архитектуре с поддер
 .. toctree::
    :maxdepth: 1
 
-   ngconnect
+   ngconnect_qgis
    qms
    plugin_rectangles_ovals_digitizing
    qconsolidate
