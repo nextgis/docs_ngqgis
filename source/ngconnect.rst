@@ -2,7 +2,7 @@
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
 
 
-.. _ng_connect:
+.. _ng_connect_qgis:
 
  NextGIS Connect
 =================
