@@ -7,4 +7,4 @@
  NextGIS Connect
 =================
 
-Подробная документация по модулю находится `здесь <https://docs.nextgis.com/docs_ngconnect/source/ngconnect.html>`_
+Подробная документация по модулю находится `здесь <https://docs.nextgis.ru/docs_ngconnect/source/ngconnect.html>`_
