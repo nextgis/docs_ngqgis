@@ -131,6 +131,9 @@ NGQ Rosreestr Tools
 Импорт данных
 -------------
 
+.. note::
+   Поддерживаемые форматы, КПТ: https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar и https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip , КВЗУ: https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip , ОКС: https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip 
+
 Функция импорта выписок из ЕГРН (XML файлы) обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import-egrn`):
 
 .. |import_icon| image:: _static/import_icon.png
