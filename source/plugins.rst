@@ -63,4 +63,5 @@ QGIS была разработана на архитектуре с поддер
    NGQ_Rosreestr_Tools
    territory_plan_styler
    identifyplus
+   easyquery
    
