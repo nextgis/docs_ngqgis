@@ -52,11 +52,11 @@ NextGIS EasyQuery
 .. figure:: _static/nextgis_easyquery/conditions.png
    :name: conditions
    :align: center
-   :width: 16cm
+   :width: 25cm
    
    Добавление условия для выборки через плагин NextGIS EasyQuery
    
-4. Установите режим выборки. Если вы задали несколько условий, то можете указать - выполнится должно хотя бы одно из них или все сразу.
+4. Установите режим выборки. Если вы задали несколько условий, то можете указать - должновыполниться хотя бы одно из них или все сразу.
 
 .. figure:: _static/nextgis_easyquery/query_modes.png
    :name: query_modes
@@ -80,7 +80,7 @@ NextGIS EasyQuery
 .. figure:: _static/nextgis_easyquery/query_result.png
    :name: query_result
    :align: center
-   :width: 16cm
+   :width: 25cm
    
    Результат выборки с выделением объектов в текущем слое
 
@@ -88,6 +88,6 @@ NextGIS EasyQuery
 .. figure:: _static/nextgis_easyquery/query_result2.png
    :name: query_result2
    :align: center
-   :width: 16cm
+   :width: 25cm
    
    Результат выборки с созданием нового временного слоя
