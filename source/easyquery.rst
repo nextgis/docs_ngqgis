@@ -92,4 +92,4 @@ Usage
    :align: center
    :width: 25cm
    
-  Query result with the creation of a new temporary layer
+   Query result with the creation of a new temporary layer
