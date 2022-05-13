@@ -45,4 +45,5 @@ More about plugins you can find here:
 
    ngconnect
    identifyplus
+   easyquery
    
