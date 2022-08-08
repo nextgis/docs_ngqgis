@@ -66,7 +66,10 @@ Usage
    :width: 16cm
    
    Query mode selection
-   
+
+.. important::
+	For number field types, values from the list corresponding to **percentage intervals** of 25%, 50%, and 75% will be suggested, not all available values in the current table field.
+
 5. Select the type of result you want. Objects can be either selected in the current layer or saved to a special temporary layer.
 
 .. figure:: _static/nextgis_easyquery/query_type_result-en.png
