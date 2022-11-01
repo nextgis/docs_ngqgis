@@ -11,65 +11,63 @@
    Версия установщика без доступа к сети Интернет доступна только для пользователей планов `Mini и Premium <http://nextgis.ru/nextgis-com/plans>`_.
 
 
-Установщик представляет собой пошаговый мастер. На первой странице мастера (см. :numref:`ngqgis_installPage01`) необходимо выбрать язык установки: русский или английский.
+Установщик представляет собой пошаговый мастер. Первая страница мастера (см. :numref:`ngqgis_installPage01`) содержит приглашение к началу установки.
 
-.. figure:: _static/installPage01.png
+.. figure:: _static/install_wizard_welcome_ru.png
    :name: ngqgis_installPage01
    :align: center
-   :width: 10cm
+   :width: 16cm
 
-   Первая страница мастера установки.
+   Начальная страница мастера установки
 
+На второй странице (см. рис. :numref:`ngqgis_installPage02`) необходимо указать путь до папки установки. Рекомендуется оставить предложенный мастером путь.
 
-Вторая страница мастера (см. :numref:`ngqgis_installPage02`) содержит приглашение к началу установки.
-
-.. figure:: _static/installPage02.png
+.. figure:: _static/install_wizard_path_ru.png
    :name: ngqgis_installPage02
    :align: center
    :width: 16cm
 
-   Вторая страница мастера установки.
+   Выбор папки для установки
 
+На третьей странице (см. рис. :numref:`ngqgis_installPage03`) можно отключить некоторые компоненты, если они не нужны при работе.
 
-На третьей странице мастера (см. :numref:`ngqgis_installPage03`) необходимо прочитать и принять лицензионное соглашение.
-
-.. figure:: _static/installPage03.png
+.. figure:: _static/install_wizard_components_ru.png
    :name: ngqgis_installPage03
    :align: center
    :width: 16cm
-   
-   Третья страница мастера установки.
 
+   Выбор компонентов для установки
 
-На четвёртой странице (см. рис. :numref:`ngqgis_installPage04`) необходимо указать путь до папки установки. Рекомендуется оставить предложенный мастером путь.
+На четвертой странице мастера (см. :numref:`ngqgis_installPage04`) необходимо прочитать и принять лицензионное соглашение.
 
-.. figure:: _static/installPage04.png
+.. figure:: _static/install_wizard_license_ru.png
    :name: ngqgis_installPage04
    :align: center
    :width: 16cm
+   
+   Страница лицензионного соглашения в мастере установки
 
-   Четвёртая страница мастера установки.
+На пятой странице (см. рис. :numref:`ngqgis_installPage05`) необходимо указать имя для папки в меню "Пуск".
 
-
-На пятой странице (см. рис. :numref:`ngqgis_installPage05`) можно отключить некоторые компоненты, если они не нужны при работе.
-
-.. figure:: _static/installPage05.png
+.. figure:: _static/install_wizard_start_folder_ru.png
    :name: ngqgis_installPage05
    :align: center
    :width: 16cm
 
-   Пятая страница мастера установки.
+   Выбор папки в меню "Пуск"
 
+На шестой странице (см. рис. :numref:`ngqgis_installPage06`) мастер сообщит о готовности начать установку. 
 
-На шестой странице (см. рис. :numref:`ngqgis_installPage06`) начнётся процесс установки файлов.
-
-.. figure:: _static/installPage06.png
+.. figure:: _static/install_wizard_ready_ru.png
    :name: ngqgis_installPage06
    :align: center
    :width: 16cm
 
-   Шестая страница мастера установки.
+   Шестая страница мастера установки
    
+После нажатия кнопки **Установить** начнётся процесс распаковки и установки файлов.
+По окончании этого процесса появится финальное окно с сообщением об успешной установки программы.
+
 Системные требования
 ---------------------
 
