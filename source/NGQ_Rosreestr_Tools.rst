@@ -24,7 +24,7 @@ NGQ Rosreestr Tools
 * Отображение карточки объекта (участка, квартала, зоны, района, округа) при клике мышью;
 * Подсветка объекта по которому отображается карточка;
 * Поиск объекта по номеру и позиционирование на нем;
-* Импорт данных из стандартных выписок ЕГРН (КПТ, КВЗУ);
+* Импорт данных из выписок ЕГРН (КПТ, КВЗУ, полный список);
 * Сохранение объектов во временный слой при поиске и идентификации.
 
 Для установки или обновления модуля необходимо выбрать в меню Модули ‣ Управление модулями.
@@ -142,12 +142,17 @@ NGQ Rosreestr Tools
 Импорт данных
 -------------
 
-Поддерживаемые на данный момент форматы данных ЕГРН:
+Поддерживаемые на данный момент форматы данных ЕГРН (список расширяется):
 
 * КПТ: `extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
 * КПТ: `KPT_v10 <https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip>`_
 * КВЗУ: `KVZU_v07 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip>`_
 * ОКС: `KVOKS_v03 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip>`_ 
+* Выписка о характеристиках и права на земельный участок: `extract_base_params_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_land_v01.rar>`_ 
+* Выписка о земельном участке: `extract_about_property_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_land_v01.rar>`_ 
+* Выписка о ЗОУИТ: `extract_about_zone <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_zones_v01.rar>`_ 
+* Местоположения ЗОУИТ: `TerritoryToGKN <https://rosreestr.gov.ru/upload/Doc/10-upr/TerritoryToGKN_v01.rar>`_
+* Решение о ЗОУИТ: `ZoneToGKN <https://rosreestr.gov.ru/upload/Doc/10-upr/ZoneToGKN_v05.rar>`_
 
 Функция импорта выписок из ЕГРН (XML файлы) обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import-egrn`):
 
