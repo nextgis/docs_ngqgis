@@ -50,13 +50,13 @@
 
 .. figure:: _static/input-master-pass-ru.png
    :align: center
-   :width: 22cm
+   :width: 8cm
 
    Удаление БД после трех попыток неудачных ввода мастер-пароля
    
 .. figure:: _static/erase-db-qgis-ru.png
    :align: center
-   :width: 22cm
+   :width: 8cm
 
    Предупреждение об удалении базы данных аутентификации
 
