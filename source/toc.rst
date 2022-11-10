@@ -15,6 +15,7 @@
    ui
    settings
    auth
+   masterpass
    map
    styling
    map_composer
