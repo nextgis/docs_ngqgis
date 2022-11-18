@@ -16,16 +16,16 @@
 .. |blocked_tools| image:: _static/auth_ngqgis/blocked_tools.png
 
 Для активации возможностей Pro-версии NextGIS QGIS необходимо авторизоваться в системе при помощи кнопки |not_auth|
-NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`).
+NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`). Во всплывающем меню выберите "Sing in".
 
 .. |not_auth| image:: _static/auth_ngqgis/not_auth.png
 
-.. figure:: _static/auth_ngqgis/acc_toolbar_deactive.png
+.. figure:: _static/acc_toolbar_deactive_ru.png
    :name: acc_toolbar_deactive
    :align: center
-   :width: 25cm
+   :width: 18cm
 
-   Общий вид NextGIS QGIS. NextGIS Account Toolbar деактивирован.
+   Общий вид NextGIS QGIS. NextGIS Account Toolbar деактивирован
    
    
 Авторизация происходит через веб-браузер с переадресацией на страницу https://my.nextgis.com/. 
@@ -47,7 +47,7 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 
 Кнопка NextGIS Account Toolbar при этом изменится на  |auth|, что говорит об успешно авторизованном пользователе (см. :numref:`acc_toolbar_active`).
 
-.. |auth| image:: _static/auth_ngqgis/auth.png
+.. |auth| image:: _static/auth_2.png
 
 
 .. figure:: _static/auth_ngqgis/suscess_auth.png
@@ -57,10 +57,10 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
    
    Успешная авторизация в NextGIS QGIS
 
-.. figure:: _static/auth_ngqgis/acc_toolbar_active.png
+.. figure:: _static/acc_toolbar_active_ru.png
    :name: acc_toolbar_active
    :align: center
-   :width: 25cm
+   :width: 20cm
    
    Общий вид NextGIS QGIS. NextGIS Account Toolbar активирован
    
@@ -73,11 +73,14 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
    открывался адрес с доменным именем geoservices.nextgis.com.
    Дополнительно вы также можете прописать разрешение на доступ к этому серверу (geoservices.nextgis.com) на сервере, где развернут NextGIS Web.
 
-Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Установки -> Параметры -> NextGIS) (см. :numref:`ngqis_ngidop_auth`)
+Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Настройки -> Параметры -> NextGIS) (см. :numref:`ngqis_ngidop_auth`). 
 
-.. figure:: _static/auth_ngqgis/ngqis_ngidop_auth.png
+.. figure:: _static/ngqis_ngidop_auth_ru.png
    :name: ngqis_ngidop_auth
    :align: center
    :width: 20cm
    
    Добавление собственного сервера авторизации
+   
+Доступны три типа авторизации: с использованием NextGIS ID, Keycloak и детальных пользовательских настроек.
+
