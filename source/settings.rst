@@ -38,7 +38,7 @@
 .. figure:: _static/Settings_General_ru.png
    :name: Settings_General_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Общие
 
@@ -54,7 +54,7 @@
 .. figure:: _static/Settings_System_ru.png
    :name: Settings_System_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Система
 
@@ -81,7 +81,7 @@
 .. figure:: _static/coordinate_systemc_configuration_handl_ru.png
    :name: coordinate_systemc_configuration_handl_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Первая вкладка раздела настроек координат
 
@@ -125,7 +125,7 @@
 .. figure:: _static/Settings_Data_Sources_ru.png
    :name: Settings_Data_Sources_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Источники данных
 
@@ -155,7 +155,7 @@
 .. figure:: _static/Settings_Rendering_ru.png
    :name: Settings_Rendering_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Отрисовка
 
@@ -167,7 +167,7 @@
 .. figure:: _static/Settings_Canvas_and_Legend_ru.png
    :name: Settings_Canvas_and_Legend_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Карта и легенда
 
@@ -200,7 +200,7 @@
 .. figure:: _static/Settings_Map_Tools_ru.png
    :name: Settings_Map_Tools_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Инструменты
 
@@ -212,7 +212,7 @@
 .. figure:: _static/Settings_3D_ru.png
    :name: Settings_3D_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Параметры 3D
 
@@ -224,7 +224,7 @@
 .. figure:: _static/Settings_Colors_ru.png
    :name: Settings_Colors_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Цвета
 
@@ -248,14 +248,14 @@
 
 .. note::
    
-   Параллельный сдвиг относится к `Дополнительным функциям оцифровки  https://docs.nextgis.ru/docs_ngcourses/source/qgis/intro.html#id19`_. При помощи этих настроек можно управлять видом параллельной кривой. Все эти настройки будут учитываться только при использовании GEOS 3.3 или более поздней версии.
+   Параллельный сдвиг относится к `Дополнительным функциям оцифровки  <https://docs.nextgis.ru/docs_ngcourses/source/qgis/intro.html#id19>`_. При помощи этих настроек можно управлять видом параллельной кривой. Все эти настройки будут учитываться только при использовании GEOS 3.3 или более поздней версии.
 
 Также доступна экспериментальная функция "Трассировка". 
 
 .. figure:: _static/Settings_Digitizing_ru.png
    :name: Settings_Digitizing_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Оцифровка
 
@@ -267,7 +267,7 @@
 .. figure:: _static/Settings_Layouts_ru.png
    :name: Settings_Layouts_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Макеты
 
@@ -279,19 +279,19 @@
 .. figure:: _static/Settings_Variables_ru.png
    :name: Settings_Variables_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
    
    Переменные
 
 Аутентификация
 ^^^^^^^^^^^^^^^
 
-В этом разделе кнопкой "Инструменты" можно вызвать меню для работы с мастер-паролем, конфигурациями проверки подлинности и базой данных аутентификации. Подробнее см. `соответствующий раздел. https://docs.nextgis.ru/docs_ngqgis/source/masterpass.html`_
+В этом разделе кнопкой "Инструменты" можно вызвать меню для работы с мастер-паролем, конфигурациями проверки подлинности и базой данных аутентификации. Подробнее см. `соответствующий раздел. <https://docs.nextgis.ru/docs_ngqgis/source/masterpass.html>`_
 
 .. figure:: _static/Settings_Authentication_ru.png
    :name: Settings_Authentication_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Аутентификация
 
@@ -325,7 +325,7 @@
 .. figure:: _static/Proxy_settings_ru.png
    :name: ngqgis_Proxy_settings_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Параметры сети
 
@@ -338,7 +338,7 @@
 .. figure:: _static/Settings_Locator_ru.png
    :name: Settings_Locator_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Параметры  поиска
 
@@ -366,7 +366,7 @@ NextGIS ID
 .. figure:: _static/Settings_NGID_ru.png
    :name: Settings_NGID_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    NextGIS ID
 
@@ -396,19 +396,162 @@ NextGIS ID
 .. figure:: _static/UI_main_ru.png
    :name: project_settings_start
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Интерфейс :program:`NextGIS QGIS` с загруженным проектом
 
 Основные настройки, которые можно там менять:
 
-1. Общие.
+Общие
+^^^^^
 
-   * Заголовок проекта.
-   * Эллипсоид для вычислений - по нему будут вычисляться длины и площади инструментом 
-     "линейка", и функциями $area, $length в калькуляторе полей.
+* Заголовок проекта.
+* Эллипсоид для вычислений - по нему будут вычисляться длины и площади инструментом "линейка", и функциями $area, $length в калькуляторе полей.
+* Отображение координат.
 
-2. Система координат.
+.. figure:: _static/ProjSet_General_ru.png
+   :align: center
+   :width: 20cm
+   
+   Настройки проекта, вкладка "Общие"
 
-   * Автоматическое перепроецирование - задать систему координат, в которой будет отображаться
+Метаданные
+^^^^^
+
+Этот раздел содержит несколько вкладок. 
+
+* На вкладке "Идентификация" описаны основные определения проекта.
+
+.. figure:: _static/ProjSet_Metadata_ID_ru.png
+   :align: center
+   :width: 20cm
+   
+   Метаданные: Идентификация
+
+* На следующей вкладке можно выбрать категории, которые будут добавлены как ключевые слова проекта (отображаются в следующей вкладке).
+
+.. figure:: _static/ProjSet_Metadata_Categ_ru.png
+   :align: center
+   :width: 20cm
+   
+   Метаданные: Категории
+
+* Ключевые слова можно также добавлять вручную на соответствующей вкладке.
+* Также на отдельных вкладках можно добавить контакты, ссылки и сведения об истории проекта и посмотреть результаты проверки.
+
+
+Настройки вида
+^^^^^
+
+В этом разделе можно настроить:
+
+* Масштабный ряд проекта.
+* Полный охват проекта.
+
+.. figure:: _static/ProjSet_View_ru.png
+   :align: center
+   :width: 20cm
+   
+   Настройки вида
+
+Система координат
+^^^^^
+
+* Автоматическое перепроецирование - задать систему координат, в которой будет отображаться
      на экране все слои проекта.
+
+.. figure:: _static/proj_srs_parameters_ru.png
+   :align: center
+   :width: 20cm
+   
+   Настройки проекта, вкладка "Система координат"
+
+Подробнее о работе с проекциями и системами координат см. в `этом разделе <https://docs.nextgis.ru/docs_ngqgis/source/map.html#id13>`_.
+
+Трансформации
+^^^^^
+
+Здесь настраиваются параметры перехода между системами координат.
+
+.. figure:: _static/ProjSet_Transformations_ru.png
+   :align: center
+   :width: 22cm
+   
+   Трансформации
+
+
+Стандартные стили
+^^^^^
+
+В этом разделе можно настроить стили различных элементов карты: маркеров, линий, заливки.
+
+.. figure:: _static/ProjSet_Styles_ru.png
+   :align: center
+   :width: 20cm
+   
+   Стандартные стили: пример выбранного оформления
+
+Источники данных
+^^^^^
+
+Здесь доступны следующие настройки (по умолчанию отключены):
+
+* Автоматически создавать группы транзакций.
+* Производить вычисления на стороне провайдера.
+* Доверять источникам данных без метаданных.
+
+Также представлены характеристики слоев проекта: определяемый, нередактируемый, доступный для поиска, обязательный, личный.
+
+.. figure:: _static/ProjSet_DataSources_ru.png
+   :align: center
+   :width: 20cm
+   
+   Настройки проекта, вкладка "Источники данных"
+
+Отношения
+^^^^^
+
+На этой вкладке можно прописывать отношения между слоями проекта.
+
+
+Переменные
+^^^^^
+
+В этом разделе можно задать переменные, которые будут использоваться в выражениях, применительно к данному проекту.
+
+.. figure:: _static/ProjSet_Variables_ru.png
+   :align: center
+   :width: 20cm
+   
+   Переменные проекта
+
+Макросы
+^^^^^
+
+На этой вкладке можно редактировать макросы Python. На данный момент доступны три: ``openProject()``, ``saveProject()`` и ``closeProject()``.
+
+.. figure:: _static/ProjSet_Macros_ru.png
+   :align: center
+   :width: 20cm
+   
+   Макросы Python
+
+Сервер QGIS
+^^^^^
+
+В этом разделе задаются параметры, необходимые для публикации проекта он-лайн. 
+Эти параметры используются для генерации документа GetCapabilities.
+
+Временные данные
+^^^^^
+
+Здесь можно указать дату и время начала и окончания проекта.
+
+.. figure:: _static/ProjSet_Temporal_ru.png
+   :align: center
+   :width: 20cm
+   
+   Временные данные проекта
+
+
+
