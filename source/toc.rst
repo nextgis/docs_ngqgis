@@ -18,6 +18,8 @@
    masterpass
    map
    styling
+   ngq_raster_styles
+   labeling
    map_composer
    editing
    vector_op
