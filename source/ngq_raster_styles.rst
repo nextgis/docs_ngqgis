@@ -92,7 +92,14 @@
    :width: 20cm
    
    Настройки псевдоцветного отображения растрового слоя
+
+.. figure:: _static/pseudocolor_ex.png
+   :name: pseudocolor_ex_pic
+   :align: center
+   :width: 20cm
    
+   Пример псевдоцветного отображения слоя
+
 Теневой рельеф
 ^^^^^^^
 
@@ -106,6 +113,14 @@
    Настройки теневого рельефа
    
 
+.. figure:: _static/hillshade_ex.png
+   :name: hillshade_ex_pic
+   :align: center
+   :width: 20cm
+   
+   Пример светотеневой отмывки
+
+
 Изолинии
 ^^^^^^^^^^^^
 
@@ -118,3 +133,9 @@
    
    Настройки изолиний для растрового слоя
    
+.. figure:: _static/isolinii_ex.png
+   :name: isolinii_ex_pic
+   :align: center
+   :width: 20cm
+   
+   Отображение изолиний
