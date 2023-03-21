@@ -24,3 +24,12 @@
 
 Скачать сертификат по ссылке:
 https://letsencrypt.org/certs/isrgrootx1.der
+
+Открыть и установить:
+
+.. figure:: _static/qgis_isrg_sert.jpg
+   :name: qgis_isrg_sert
+   :align: center
+   :width: 16cm    
+
+   Установка Сертификата ISRG
