@@ -13,7 +13,7 @@
 .. figure:: _static/qgis_ssl.png
    :name: qgis_ssl
    :align: center
-   :width: 16cm    
+   :width: 14cm    
 
    Отсутствие Сертификата ISRG. Ошибка квитирования
 
@@ -30,6 +30,6 @@ https://letsencrypt.org/certs/isrgrootx1.der
 .. figure:: _static/qgis_isrg_sert.jpg
    :name: qgis_isrg_sert
    :align: center
-   :width: 16cm    
+   :width: 12cm    
 
    Установка Сертификата ISRG
