@@ -9,18 +9,18 @@
 -------------------------------------------------
 
 Чтобы открыть дополнительные функциональные преимущества :program:`NextGIS QGIS` (перейти на Pro-версии NextGIS QGIS), 
-необходимо приобрести план `Mini или Premium <http://nextgis.ru/nextgis-com/plans>`_ и авторизоваться в программе.
+необходимо приобрести план `Mini или Premium <http://nextgis.ru/nextgis-com/plans>`_ и авторизоваться в программе. Чтобы получить доступ к расширенной функциональности пользователь на бесплатном плане должен быть добавлен в команду.
 
 По умолчанию заблокированные инструменты показываются так: |blocked_tools|.
 
 .. |blocked_tools| image:: _static/auth_ngqgis/blocked_tools.png
 
 Для активации возможностей Pro-версии NextGIS QGIS необходимо авторизоваться в системе при помощи кнопки |not_auth|
-NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`). Во всплывающем меню выберите "Sing in".
+NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`). Во всплывающем меню выберите "Войти".
 
 .. |not_auth| image:: _static/auth_ngqgis/not_auth.png
 
-.. figure:: _static/acc_toolbar_deactive_ru.png
+.. figure:: _static/acc_toolbar_deactive_ru_2.png
    :name: acc_toolbar_deactive
    :align: center
    :width: 18cm
@@ -45,9 +45,9 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 
 .. |ublocked_tools| image:: _static/auth_ngqgis/ublocked_tools.png
 
-Кнопка NextGIS Account Toolbar при этом изменится на  |auth|, что говорит об успешно авторизованном пользователе (см. :numref:`acc_toolbar_active`).
+Кнопка NextGIS Account Toolbar при этом изменится на аватар пользователя (если аватар не задан, отображается |auth|), при нажатии показывается надпись "На поддержке".
 
-.. |auth| image:: _static/auth_2.png
+.. |auth| image:: _static/auth_icon_pink.png
 
 
 .. figure:: _static/auth_ngqgis/suscess_auth.png
