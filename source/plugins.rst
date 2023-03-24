@@ -51,16 +51,17 @@ QGIS была разработана на архитектуре с поддер
 
 Подробнее о модулях расширения можно почитать в следующих разделах:
 
+* `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_
+* `Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>`_
+
 .. toctree::
    :maxdepth: 2
 
-   ngconnect_qgis
    qms
    plugin_rectangles_ovals_digitizing
    qconsolidate
    raster_ref
    lesis2sqlite
-   NGQ_Rosreestr_Tools
    territory_plan_styler
    identifyplus
    easyquery
