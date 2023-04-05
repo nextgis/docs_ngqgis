@@ -22,6 +22,7 @@
    labeling
    map_composer
    editing
+   area
    vector_op
    raster_op
    plugins
