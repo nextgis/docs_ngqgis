@@ -15,40 +15,41 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 После установки расширения появляется панель поиска сервисов. 
 
-.. figure:: _static/modules_Qms-search.png
+.. figure:: _static/modules_Qms-search_ru.png
    :align: center
+   :width: 12cm
 
 
 Просто введите в поле название вашего любимого сервиса, нажмите кнопку, и он добавится на карту.
 Попробуйте "Openstreetmap mapnik", "Sputnik", "Openstreetmap.fr", "Boundary of Russia"
 
-При нажатой клавише "Поиск по охвату" будут выводится слои, попадающие в охват карты на экране. В базе QMS не все слои имеют указаный охват, но вы можете добавить в базу его сами.
+При нажатой клавише "Фильтр по охвату" будут выводится слои, попадающие в охват карты на экране. В базе QMS не все слои имеют указаный охват, но вы можете добавить в базу его сами.
 
 
-После установки расширения в панели инструментов "Интернет" появится кнопка расширения 
+После установки расширения в "Панель веб-инструментов" добавится кнопка расширения 
 (кнопку можно расположить и на другой, возможно более удобной панели, см. Настройки). 
-Так же появится группа QuickMapServices в одноименном меню.
+Так же появится группа QuickMapServices в выпадающем меню "Интернет".
 
 .. figure:: _static/modules_Qms-button.png
    :align: center
-   :width: 2cm
+   :width: 1.5cm
    
 Кнопка является контейнером для базовых карт из различных источников.
 
-.. figure:: _static/modules_Qms-contrib-4.png
+.. figure:: _static/modules_Qms-contrib_ru.png
    :align: center
-   :width: 4cm
+   :width: 8cm
    
 При выборе одной из них, карта автоматически подключается в проект в качестве слоя. 
 
 Настройки сервисов хранятся отдельно от самого модуля и при удалении/обновлении 
 модуля они не удаляются.
 
-.. figure:: _static/modules_Qms-main.jpg
+.. figure:: _static/modules_Qms-main_ru.png
    :align: center
-   :width: 16cm
+   :width: 20cm
    
-   Базовая картографическая основа и слой кадастрового деления с Публичной кадастровой карты.
+   Базовая картографическая основа и слой зон UTM
 
 
 .. _qmsaddbasemap:
@@ -58,23 +59,26 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 1. Установите модуль QuickMapServices (раздел "Модули" в верхней панели, см. :numref:`qms_module`)
 
-.. figure:: _static/qms_module.png
+.. figure:: _static/qms_module_ru.png
    :name: qms_module
    :align: center
    :width: 16cm
    
    Установка модуля QuickMapServices
 
-2. Нажмите на иконку QMS и выберите нужный сервис подложки из предложенного списка (см. :numref:`qms_icon`) или найдите его через панель поиска (см. :numref:`qms_search`) и нажммите "Добавить".
+2. Нажмите на иконку |modules_Qms-button| QMS и выберите нужный сервис подложки из предложенного списка (см. :numref:`qms_icon`) или найдите его через |button_QMS_search| панель поиска (см. :numref:`qms_search`) и нажмите "Добавить".
 
-.. figure:: _static/qms_icon.png
+.. |modules_Qms-button| image:: _static/modules_Qms-button.png
+.. |button_QMS_search| image:: _static/button_QMS_search.png
+
+.. figure:: _static/qms_dropdown_ru.png
    :name: qms_icon
    :align: center
-   :width: 10cm
+   :width: 15cm
    
-   Иконка модуля QuickMapServices
+   Выпадающее меню QuickMapServices
 
-.. figure:: _static/qms_search.png
+.. figure:: _static/modules_Qms-search_ru.png
    :name: qms_search
    :align: center
    :width: 10cm
@@ -99,19 +103,17 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 Окно общих настроек можно вызвать из меню расширения. Что можно настроить:
 
-1. Показывать управление подложками из панели "Управление слоями", по умолчанию 
-   управление подложками добавляется в панель "Веб" и ее часто «теряют».
-2. Включать перепроецирование при добавлении тайлового слоя (если опция включена, 
+1. Включать перепроецирование при добавлении тайлового слоя (если опция включена, 
    то в проекте автоматически включается перепроецирование в систему координат 
    EPSG: 3857 Pseudo Mercator);
-3. Показывать информацию в панели сообщений. По умолчанию они показываются во 
+2. Показывать информацию в панели сообщений. По умолчанию они показываются во 
    всплывающей панели, что не всегда удобно.
 
-.. figure:: _static/modules_Qms-contrib-01.png
+.. figure:: _static/modules_Qms_settings_main_ru.png
    :align: center
    :width: 10cm
    
-   Общие настройки.
+   Общие настройки
 
 И параметры загрузки тайлов:
 
@@ -119,11 +121,11 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 2. Срок хранения кэша тайлов.
 3. Таймаут загрузки тайлов.
 
-.. figure:: _static/modules_Qms-contrib-02.png
+.. figure:: _static/modules_Qms_settings_tiles_ru.png
    :align: center
    :width: 10cm
    
-   Настройки получения тайлов.
+   Настройки получения тайлов
 
 Настройки подложки
 ^^^^^^^^^^^^^^^^^^^^
