@@ -175,7 +175,7 @@ ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
 .. note::
     Вы можете добавлять в модуль и свои подложки!
-    Смотрите описание по адресу http://gis-lab.info/qa/quickmapservices.html 
+    Смотрите описание по адресу https://qms.nextgis.com/faq#addingservices 
     
 
 
