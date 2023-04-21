@@ -42,9 +42,9 @@ Territory Plan Styler
 .. |not_auth| image:: _static/Territory_Plan_Styler/not_auth.png
 
 При нажатии на иконку вам будет предложено авторизоваться в системе через браузер. 
-В случае успешной авторизации пользователя с планом Premium иконка на панели NextGIS Account Toolbar сменится на другую: |auth_icon|.
+В случае успешной авторизации пользователя с планом Premium иконка на панели NextGIS Account Toolbar сменится на другую: |auth_icon| или аватар пользователя, если он задан.
 
-.. |auth_icon| image:: _static/Territory_Plan_Styler/auth_icon.png
+.. |auth_icon| image:: _static/Territory_Plan_Styler/auth_icon_pink.png
 
 Запуск модуля
 -----------------------------
