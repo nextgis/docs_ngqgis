@@ -65,4 +65,5 @@ QGIS была разработана на архитектуре с поддер
    territory_plan_styler
    identifyplus
    easyquery
+   digitizr
    
