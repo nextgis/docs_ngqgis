@@ -25,4 +25,4 @@ This plugin allows you to digitize a line and have a buffer around it immediatel
 
 In the drop-down plugin menu you can select the style of ends and corners. 
 
-In the field to the right of the button you can type the buffer width. 
+In the field to the right of the button you can change the buffer width. 
