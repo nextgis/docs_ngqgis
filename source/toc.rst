@@ -21,6 +21,7 @@
    ngq_raster_styles
    labeling
    map_composer
+   srs
    editing
    area
    vector_op
