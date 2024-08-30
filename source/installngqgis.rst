@@ -75,20 +75,18 @@ Minimal PC parameters required
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * OS Windows 7 or higher, 64 bit
-* Mac OS X/OS X/macOS
 * Intel Core i3 at least 2 MHz (2 cores) or an equivalent processor
 * RAM 4 GB min
 * motherboard fit for the selected processor with integrated graphics card
 * HDD 40 GB min
 * mouse
 * keyboard
-* LCD 17” with 1024x768 resolution
+* LCD 14” with 1024x768 resolution
 
 Recommended PC parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * OS Windows 10 or higher, 64 bit
-* macOS Sierra or higher
 * Intel Core i5 at least 2.8 MHz (4 cores) or an equivalent processor
 * RAM 16 GB min
 * motherboard fit for the selected processor 
