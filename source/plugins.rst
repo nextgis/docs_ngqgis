@@ -47,4 +47,5 @@ More about plugins you can find here:
    identifyplus
    easyquery
    digitizr
+   molusce
    
