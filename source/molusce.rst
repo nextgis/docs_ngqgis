@@ -53,7 +53,7 @@ On the left there is a list of all raster layers in the project. From that list 
 .. figure:: _static/molusce_inputs_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
 
    Uploading input data
 
@@ -66,7 +66,7 @@ For continuous variables, you can calculate the Pearson's correlation, and for n
 .. figure:: _static/molusce_correlation_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
 
    Calculating correlations
 
@@ -101,7 +101,7 @@ Four methods are available:
 .. figure:: _static/molusce_modeling_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
 
    Training neural network
 
@@ -119,7 +119,7 @@ Next, customize the ANN modelling:
 
 * Neighbourhood defines the count of neighbour pixels around current pixel (usually 1 or 0 values are used);
 * Learning rate (lower values make for a more careful model);
-* Max iterations number - number of learning cycles. If the value is too high, it might result in overheating;
+* Max iterations number - number of learning cycles. If the value is too high, it might result in overfitting;
 * Hidden layers - defines the complexity of the model.
 
 Press **Train neural network**. On the graph you'll see the learning curve and the error curve. If you notice that the training is not going well, you can press **Stop** and modify the parameters.
@@ -129,7 +129,7 @@ If training is successful, both curves go down smoothly and the Current Validati
 .. figure:: _static/molusce_curves_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
 
    Typical learning curves
 
@@ -152,7 +152,7 @@ Besides the simulated land use/cover map you can also generate:
 .. figure:: _static/molusce_simulation_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
 
    Simulation settings
 
@@ -176,4 +176,4 @@ A map of errors can be created. It contains three types of pixels:
 .. figure:: _static/molusce_validation_en.png
    :name: 
    :align: center
-   :width: 24cm
+   :width: 22cm
