@@ -70,4 +70,5 @@ QGIS была разработана на архитектуре с поддер
    easyquery
    digitizr
    molusce
+   geom_paster
    
