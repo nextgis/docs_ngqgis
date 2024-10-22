@@ -4,8 +4,8 @@
 .. toctree::
    :maxdepth: 1
 
-   https://docs.nextgis.ru/docs_ngconnect/source/toc.html
-   https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html
+   NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>
+   Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>
    qms
    plugin_rectangles_ovals_digitizing
    qconsolidate
