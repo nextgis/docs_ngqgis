@@ -54,24 +54,11 @@ QGIS была разработана на архитектуре с поддер
 
 Подробнее о модулях расширения можно почитать в следующих разделах:
 
-* `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_
-* `Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>`_
+.. toctree::
+   :maxdepth: 1
 
-* `QuickMapServices <https://docs.nextgis.ru/docs_ngqgis/source/qms.html>`_
-* `QConsolidate <https://docs.nextgis.ru/docs_ngqgis/source/qconsolidate.html>`_
-* `Привязка растров <https://docs.nextgis.ru/docs_ngqgis/source/raster_ref.html>`_
-* `Lesis2SQLite <https://docs.nextgis.ru/docs_ngqgis/source/lesis2sqlite.html>`_
-* `Territory Plan Styler <https://docs.nextgis.ru/docs_ngqgis/source/territory_plan_styler.html>`_
-* `IdentifyPlus <https://docs.nextgis.ru/docs_ngqgis/source/identifyplus.html>`_
-* `NextGIS EasyQuery <https://docs.nextgis.ru/docs_ngqgis/source/easyquery.html>`_
-* `Digitizr <https://docs.nextgis.ru/docs_ngqgis/source/digitizr.html>`_
-* `MOLUSCE 4.0 <https://docs.nextgis.ru/docs_ngqgis/source/molusce.html>`_
-* `Geometry Paster <https://docs.nextgis.ru/docs_ngqgis/source/geom_paster.html>`_
-
-
-.. to do::
-   :maxdepth: 2
-
+   NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>
+   Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>
    qms
    plugin_rectangles_ovals_digitizing
    qconsolidate
@@ -83,4 +70,5 @@ QGIS была разработана на архитектуре с поддер
    digitizr
    molusce
    geom_paster
+   osminfo
    
