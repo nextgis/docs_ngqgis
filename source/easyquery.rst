@@ -1,6 +1,6 @@
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
 
-.. _NextGIS EasyQuery:
+.. _NextGIS_EasyQuery:
 
 NextGIS EasyQuery
 =================
@@ -22,6 +22,8 @@ NextGIS EasyQuery
    
    Информация о модуле
 
+.. _ng_easyq_install:
+
 Установка
 ---------
 
@@ -41,6 +43,7 @@ NextGIS EasyQuery
 
 .. |easyquery_icon| image:: _static/nextgis_easyquery/easyquery_icon.png
 
+.. _ng_easyq_use:
 
 Использование
 -------------
