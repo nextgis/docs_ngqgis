@@ -62,7 +62,6 @@ QGIS была разработана на архитектуре с поддер
    qms
    plugin_rectangles_ovals_digitizing
    qconsolidate
-   raster_ref
    lesis2sqlite
    territory_plan_styler
    identifyplus
