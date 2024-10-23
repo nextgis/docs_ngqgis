@@ -26,5 +26,6 @@
    area
    vector_op
    raster_op
+   raster_ref
    plugins
    troubleshooting
