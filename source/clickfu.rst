@@ -11,7 +11,7 @@ Click-Fu
 .. figure:: _static/clickfu_menu_ru.png
    :name: clickfu_menu_pic
    :align: center
-   :width: 20cm
+   :width: 12cm
 
    Выбор картографического веб-сервиса
 
