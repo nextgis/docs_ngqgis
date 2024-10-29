@@ -70,4 +70,10 @@ QGIS была разработана на архитектуре с поддер
    molusce
    geom_paster
    osminfo
+   clickfu
+   dumploadfield
+   qtiles
+   connectpoints
+   copycoords
+   points2one
    
