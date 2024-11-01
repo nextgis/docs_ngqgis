@@ -76,4 +76,7 @@ QGIS была разработана на архитектуре с поддер
    connectpoints
    copycoords
    points2one
+   joinlines
+   multiqml
+   quicksaveqml
    
