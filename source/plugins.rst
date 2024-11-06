@@ -79,4 +79,9 @@ QGIS была разработана на архитектуре с поддер
    joinlines
    multiqml
    quicksaveqml
+   ogrstyle
+   send2ge
+   osmpoly_export
+   shortcut
+   reconstructline
    
