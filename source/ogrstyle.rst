@@ -21,3 +21,5 @@ NextGIS OGRStyle
    :width: 10cm
 
    Всплывающее окно с описанием стиля
+
+Процесс работы с модулем также показан в `видео <https://youtu.be/fmxLAunlmYk>`.
