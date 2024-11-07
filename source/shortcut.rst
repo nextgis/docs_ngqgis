@@ -5,6 +5,13 @@ Shortcut Manager
 
 После установки Shortcut Manager появится в меню "Модули".
 
+.. figure:: _static/shortcut_open_ru.png
+   :name: shortcut_open_pic
+   :align: center
+   :width: 18cm
+
+   Shortcut Manager в меню "Модули"
+
 * Запустите модуль и нажмите **Создать ярлык**.
 
 .. figure:: _static/shortcut_new_ru.png
@@ -17,9 +24,24 @@ Shortcut Manager
 
 * Выберите программу с рабочего стола, укажите другой путь на устройстве или вставьте ссылку на веб-страницу.
 
+.. figure:: _static/shortcut_select_ru.png
+   :name: shortcut_select_pic
+   :align: center
+   :width: 7cm
+
 * Задайте имя для ярлыка.
 
+.. figure:: _static/shortcut_name_ru.png
+   :name: shortcut_name_pic
+   :align: center
+   :width: 7cm
+
 * Выберите иконку, которая будет использоваться.
+
+.. figure:: _static/shortcut_icon_ru.png
+   :name: shortcut_icon_pic
+   :align: center
+   :width: 8cm
 
 * Нажмите **Завершить**.
 
