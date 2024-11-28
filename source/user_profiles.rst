@@ -29,8 +29,8 @@ QGIS позволяет сохранять пользовательские на
 
 Чтобы создать новый профиль, из верхнего меню выберите Настройки ‣ Профили пользователей ‣ Новый профиль.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/userprofile_create_ru.png
+   :name: userprofile_create_pic
    :align: center
    :width: 20cm
 
@@ -45,21 +45,42 @@ QGIS позволяет сохранять пользовательские на
 
 Чтобы переключиться на другой профиль, из верхнего меню откройте Настройки ‣ Профили пользователей и выберите нужный профиль из списка.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/userprofile_switch_ru.png
+   :name: userprofile_switch_pic
    :align: center
    :width: 20cm
 
 Откроется новое окно QGIS с настройками соответствующего профиля.
+
+.. figure:: _static/userprofile_marked_ru.png
+   :name: userprofile_marked_pic
+   :align: center
+   :width: 20cm
 
 Удаление профиля
 -----------------
 
 Чтобы удалить профиль, зайдите в Настройки ‣ Профили пользователей ‣ Открыть каталог текущего профиля. Откроется окно проводника с каталогом. 
 
-Закройте QGIS. В проводнике перейдите на уровень выше и удалите папку с именем профиля. При следующей загрузке QGIS его не будет в списке профилей.
-
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/userprofile_open_folder_ru.png
+   :name: userprofile_open_folder_pic
    :align: center
    :width: 20cm
+
+   Открытие каталога текущего профиля
+
+.. figure:: _static/userprofile_folder_ru.png
+   :name: userprofile_folder_pic
+   :align: center
+   :width: 12cm
+
+   Каталог профиля
+
+Закройте QGIS. В проводнике перейдите на уровень выше и удалите папку с именем профиля. При следующей загрузке QGIS его не будет в списке профилей.
+
+.. figure:: _static/profiles_folder_ru.png
+   :name: profiles_folder_pic
+   :align: center
+   :width: 8cm
+
+   Папка, в которой хранятся каталоги профилей
