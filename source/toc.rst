@@ -26,4 +26,5 @@
    raster_op
    raster_ref
    plugins
+   user_profiles
    troubleshooting
