@@ -87,6 +87,14 @@ Each transition class will be marked on the map by a specific color. We recommen
 
    Area change tables
 
+If you want to save the tables, left-click on any cell to activate context menu and copy selected cells or the entire table with row and column titles.
+
+.. figure:: _static/molusce_table_copy_en.png
+   :name: 
+   :align: center
+   :width: 24cm
+
+   Table context menu
 
 Transition potential modelling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
