@@ -84,4 +84,5 @@ QGIS была разработана на архитектуре с поддер
    osmpoly_export
    shortcut
    reconstructline
+   wurman_dots
    
