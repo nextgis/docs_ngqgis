@@ -56,4 +56,10 @@ Shortcut Manager
 
    Список добавленных ярлыков
 
-Посмотрите примеры работы модуля в нашем `видео <https://youtu.be/VV0uLWJpaUY>`_.
+Посмотрите примеры работы модуля в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/de06ca928f1b86556e7f9afeae871ede/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/VV0uLWJpaUY>`_, `rutube <https://rutube.ru/video/de06ca928f1b86556e7f9afeae871ede/>`_.
