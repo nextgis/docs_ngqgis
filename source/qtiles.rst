@@ -40,4 +40,10 @@ QTiles
 
 Дополнительно можно настроить **параметры тайлов**: размеры в пикселях, формат (PNG / JPG) и др. 
 
-Вы можете увидеть модуль в действии в нашем `видео <https://youtu.be/Lk-i4Az0SEo>`_.
+Вы можете увидеть модуль в действии в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/6e2694c293d59f6903d600b6b15924a9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/Lk-i4Az0SEo>`_, `rutube <https://rutube.ru/video/6e2694c293d59f6903d600b6b15924a9/>`_.
