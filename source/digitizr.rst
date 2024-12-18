@@ -35,3 +35,10 @@ Digitizr
 
 Cправа от кнопки модуля расположено окошечко настройки размера буфера (толщины линии-полигона). 
 
+Модуль в действии можно увидеть в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/da0e8e78cd24ecd629c8b6f24715e267/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/ZdmutlYZhl8>`_, `rutube <https://rutube.ru/video/da0e8e78cd24ecd629c8b6f24715e267/>`_.
