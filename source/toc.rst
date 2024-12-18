@@ -5,8 +5,6 @@
 NextGIS QGIS
 ==============================
 
-Contents:   
-
 .. toctree::
    :maxdepth: 2
    
