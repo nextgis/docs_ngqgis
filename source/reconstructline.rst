@@ -41,3 +41,11 @@ ReconstructLine
 |button_paste_fragments| **Вставить составную линию** создаст из каждого отрезка отдельный объект - линию с двумя вершинами. Работает только в слое типа MultiLineString.
 
 Для аналогичного соединения точек по значению в таблице атрибутов используйте модуль `Points2One <https://docs.nextgis.ru/docs_ngqgis/source/points2one.html>`_.
+
+Посмотреть на работу инструмента можно в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/a9f8266a4d13084276b4d77bb85e4503/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/ezk8Jot6rCg>`_, `rutube <https://rutube.ru/video/a9f8266a4d13084276b4d77bb85e4503/>`_.
