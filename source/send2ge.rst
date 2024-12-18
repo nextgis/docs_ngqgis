@@ -21,4 +21,10 @@ Send2GE
 
 Есть также похожий модуль `Click-Fu <https://docs.nextgis.ru/docs_ngqgis/source/clickfu.html>`_ для работы с веб-сервисами Google Maps, OSM, Flickr Maps, GeoHack Map Sources.
 
-Посмотреть на модуль в действии можно в нашем `видео <https://youtu.be/LrJ8VAX6vbQ>`_.
+Посмотреть на модуль в действии можно в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/d570a4991e6405da6b4eb859467ce085/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/LrJ8VAX6vbQ>`_, `rutube <https://rutube.ru/video/d570a4991e6405da6b4eb859467ce085/>`_.
