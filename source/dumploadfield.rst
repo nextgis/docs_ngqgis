@@ -35,4 +35,10 @@ DumpLoadField
 
 Содержимое текстового поля будет сохранено в виде файла TXT.
 
-Вы можете увидеть работу модуля в нашем `видео <https://youtu.be/5Fjzz1RBvUA>`_.
+Вы можете увидеть работу модуля в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/3e8b356079b59231a4ce5c22010bf747/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/5Fjzz1RBvUA>`_, `rutube <https://rutube.ru/video/3e8b356079b59231a4ce5c22010bf747/>`_.
