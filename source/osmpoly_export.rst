@@ -29,4 +29,11 @@ OSMPoly_export
 
 Каждый полигон слоя сохранится отдельным poly-файлом.
 
-Посмотрите, как работать с модулем, в нашем `видео <https://youtu.be/q_5I5RZsOi4>`_.
+Посмотрите, как работать с модулем, в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/7de2ef266a2b14441f35cda7642211b9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/q_5I5RZsOi4>`_, `rutube <https://rutube.ru/video/7de2ef266a2b14441f35cda7642211b9/>`_.
+
