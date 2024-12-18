@@ -23,3 +23,11 @@ Quickly save default QML
    :width: 6cm
 
    Сохранение нескольких стилей через модуль Quickly save default QML
+
+Посмотреть на работу инструмента можно в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/c89dd512710ae76bbca173970494f002/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/STd8IvKAdfg>`_, `rutube <https://rutube.ru/video/c89dd512710ae76bbca173970494f002/>`_.
