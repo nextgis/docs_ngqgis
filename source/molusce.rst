@@ -196,4 +196,4 @@ N - глубина прогноза, которая измеряется в за
    :align: center
    :width: 24cm
 
-Посмотрите наш вебинар о работе плагина на `youtube <https://youtu.be/ipmoB7UzpLo>`_, `rutube <https://rutube.ru/video/3890f2274335fd408fbab5ae9a04c780/>`_.
+Посмотрите запись нашего `вебинара <https://events.nextgis.ru/event/24303>`_ о работе плагина на `youtube <https://youtu.be/ipmoB7UzpLo>`_, `rutube <https://rutube.ru/video/3890f2274335fd408fbab5ae9a04c780/>`_.
