@@ -36,3 +36,11 @@ Join lines
    :width: 14cm
 
    Объединенная линия на карте
+
+Посмотрите, как работает этот модуль, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/02e15cbce2ff37c3bb88d8de95e54826/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/oeG9Z7yXd2Q>`_, `rutube <https://rutube.ru/video/02e15cbce2ff37c3bb88d8de95e54826/>`_.
