@@ -81,6 +81,15 @@ OSMInfo
    
    Значения атрибутов объекта, добавленного в новый временный слой
 
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/5b0a57611a033d523fdd3887e9cf808b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+   Добавляем объекты из OSM на веб-карту
+
+Посмотреть видео на `youtube <https://youtu.be/TOXhKjWKs-o>`_, `rutube <https://rutube.ru/video/5b0a57611a033d523fdd3887e9cf808b/>`_.
+
 .. _osminfo_settings:
 
 Настройки модуля
