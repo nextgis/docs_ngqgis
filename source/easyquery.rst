@@ -98,3 +98,12 @@ NextGIS EasyQuery
    :width: 25cm
    
    Результат выборки с созданием нового временного слоя
+
+
+Посмотрите на модуль в действии:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/4e972a2a1fbb40740efce482bdc299be/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/VAZOQf2sUWg>`_, `rutube <https://rutube.ru/video/4e972a2a1fbb40740efce482bdc299be/>`_.
