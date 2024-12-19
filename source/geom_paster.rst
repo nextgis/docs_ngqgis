@@ -35,4 +35,10 @@ Geometry Paster
 
 На шаге 4 можно выбрать несколько объектов, тогда скопированная геометрия добавится к каждому из них.
 
-Посмотрите, как работать с плагином, в нашем `видео <https://youtu.be/cWFpY7CjJUM>`_ (также `здесь <https://rutube.ru/video/b63080fd22045118d2a4b3b3eed37fec/?r=wd>`_).
+Посмотрите, как работать с плагином, в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/b63080fd22045118d2a4b3b3eed37fec/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/cWFpY7CjJUM>`_, `rutube <https://rutube.ru/video/b63080fd22045118d2a4b3b3eed37fec/>`_.
