@@ -22,4 +22,10 @@ Connect Points
 
 Затем в выпадающем меню модуля выберите "Соединить точки". Будут сгенерированы линии, соединяющие соответствующие точки "От" и "К" с указанием направления.
 
-Посмотрите пример работы с модулем в `видео <https://youtu.be/eOkudqHMeFc>`_.
+Посмотрите пример работы с модулем в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/69e223fcaa67bdb49bec4d8e732ffa5f/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/eOkudqHMeFc>`_, `rutube <https://rutube.ru/video/69e223fcaa67bdb49bec4d8e732ffa5f/>`_.
