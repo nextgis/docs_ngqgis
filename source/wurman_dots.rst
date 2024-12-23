@@ -39,3 +39,11 @@ Wurman Dots
 
 
 Фоновые кружки и кружки плотности представляют собой отдельные векторные слои. Для каждого из них можно настроить цвет, прозрачность и другие параметры стиля.
+
+Посмотрите на инструмент в действии в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/c531ceef34bbc853a4c4b6a3ec64c354/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/pf8FV_oHMJM>`_, `rutube <https://rutube.ru/video/c531ceef34bbc853a4c4b6a3ec64c354/>`_.
