@@ -774,7 +774,15 @@ Aтрибутивные записи объекта слоя связаны с �
 
 .. |drawing_tools_btn_mergeFeatures| image:: _static/drawing_tools_btn_mergeFeatures.png
 
-Этот инструмент позволяет объединять объекты, которые имеют общие границы и атрибуты.
+Этот инструмент позволяет объединять объекты. Если у них нет общей границы, создаётся объект с мультигеометрией.
+
+Пример работы инструмента:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/3eaf3ba436d4cab482d9bfb3fd9413a3/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/9ubpa9jVvy8>`_, `rutube <https://rutube.ru/video/3eaf3ba436d4cab482d9bfb3fd9413a3/>`_.
 
 15. |button_merge_attributes| Объединить атрибуты выбранных объектов
 
