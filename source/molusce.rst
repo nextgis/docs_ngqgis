@@ -185,3 +185,5 @@ A map of errors can be created. It contains three types of pixels:
    :name: 
    :align: center
    :width: 22cm
+
+We also have a detailed video on using MOLUSCE plugin that you can watch on `youtube <https://youtu.be/F4j1fTyCuy4?si=Bfl98KrkV_BgDW8e>`_.
