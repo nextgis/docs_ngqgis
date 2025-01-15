@@ -96,3 +96,12 @@ Usage
    :width: 25cm
    
    Query result with the creation of a new temporary layer
+
+
+See how the plugin works in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/GkK-hHRTwsc?si=cI5mtO3slkwe9IaP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/GkK-hHRTwsc?si=l9rWkIqQ1MHTXdAo>`_.
