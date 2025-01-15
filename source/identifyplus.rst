@@ -21,3 +21,10 @@ As a first step you should import target layer from Web GIS via NextGIS Connect 
 
 Since plugin is synchronized with Web GIS automatically, all changes appear in cloud immediately.
 
+See how the plugin works in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/iLzpa0jv_9Q?si=v4FNe9r3RnpnslF_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/iLzpa0jv_9Q?si=kpAMedq0cID3Y1Sq>`_.
