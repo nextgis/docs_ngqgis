@@ -26,3 +26,11 @@ This plugin allows you to digitize a line and have a buffer around it immediatel
 In the drop-down plugin menu you can select the style of caps and joins. 
 
 In the field to the right of the button you can change the buffer width. 
+
+See how the plugin works in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/NkXZHwDUV0M?si=9F8iFCN_nLV69uxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/NkXZHwDUV0M?si=dWKCoYaXKTqxshqo>`_.
