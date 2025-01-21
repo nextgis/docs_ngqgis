@@ -25,8 +25,9 @@ This way you get a "duplicate" of the feature keeping its style and attribute va
 4. Select the target feature and in the Edit menu select "Paste geometry". Alternatively you can press |button_geom_paster| button in the toolbar.
 
 .. |button_geom_paster| image:: _static/button_geom_paster.png
+   :width: 6mm
 
-.. figure:: _static/geom_paster_paste_ru.png
+.. figure:: _static/geom_paster_paster_en.png
    :name: geom_paster_paste_pic
    :align: center
    :width: 22cm
