@@ -3,7 +3,7 @@ Click-Fu
 
 Send click coordinates to various geoservices to open their maps in a browser at the chosen location. Supports Google Maps, OSM, Flickr Maps, GeoHack Map Sources.
 
-After the installation you can find the plugin in the Internet menu.
+After the installation you can find the plugin in the Web menu.
 
 1. In the plugin menu select the service where you want to open your area of interest.
 
