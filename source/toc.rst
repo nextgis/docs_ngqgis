@@ -2,13 +2,13 @@
 
 .. NextGIS QGIS TOC
 
-NextGIS QGIS
+QGIS
 ==============================
 
 .. toctree::
    :maxdepth: 2
    
-   intro
-   installngqgis
-   Auth
    plugins
+   intro
+
+
