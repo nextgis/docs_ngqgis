@@ -35,9 +35,6 @@ If you typed the plugin’s name correctly, but can’t find it in the list, ple
 3. The plugin you are searching for can be located in some special repository, find out about it from the person who recommended that plugin.
 
 
-Plugins' description
-===========================
-
 More about plugins you can find here:
 
 .. toctree::
