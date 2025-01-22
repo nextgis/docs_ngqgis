@@ -43,9 +43,10 @@ More about plugins you can find here:
 .. toctree::
    :maxdepth: 1
 
-   ngconnect
+   NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/toc.html>
    identifyplus
    easyquery
    digitizr
    molusce
    geom_paster
+   osminfo
