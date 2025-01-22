@@ -47,3 +47,4 @@ More about plugins you can find here:
    molusce
    geom_paster
    osminfo
+   dumploadfield
