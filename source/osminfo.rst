@@ -32,6 +32,7 @@ Installation
 After installation the |button_osminfo| button will be added to the Web toolbar. Also the plugin is available in the Internet menu of the Menu bar.
 
 .. |button_osminfo| image:: _static/button_osminfo.png
+   :width: 6mm
 
 .. _osminfo_identify:
 
@@ -96,7 +97,7 @@ Plugin settings
 
 You can configure radius of the search area for the nearby features and exclude nearby or enclosing features from search results. To modify plugin settings go to :menuselection:`Settings ‣ Options ‣ NextGIS ‣ OSMInfo`.
 
-.. figure:: _static/osminfo_plugin_settings_en.png
+.. to do:: _static/osminfo_plugin_settings_en.png
    :name: osminfo_plugin_settings_pic
    :align: center
    :width: 18cm
