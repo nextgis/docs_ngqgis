@@ -48,4 +48,4 @@ More about plugins you can find here:
    easyquery
    digitizr
    molusce
-   
+   geom_paster
