@@ -5,13 +5,14 @@ This plugin generates raster tiles from QGIS project for selected zoom levels an
 
 Raster tilesets like this are used for example in `mobile GIS <https://docs.nextgis.com/docs_ngmobile/source/intro.html>`_ for field work without Internet connection. Packages can be used in NextGIS Mobile, GeoPaparazzi, simple Leaflet-based viewer or MBTiles.
 
-After installation you'll find the plugin in the Plugins toolbar.
+After installation you'll find the plugin in the Plugins toolbar: |button_qtiles|.
 
 To create a tileset open the QGIS project you want to create tiles from. 
 
-Activate the plugin |button_qtiles|.
+Activate the plugin.
 
 .. |button_qtiles| image:: _static/button_qtiles.png
+   :width: 8mm
 
 .. figure:: _static/qtiles_dialog_en.png
    :name: qtiles_dialog_pic
