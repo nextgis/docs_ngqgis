@@ -51,3 +51,4 @@ More about plugins you can find here:
    osminfo
    clickfu
    dumploadfield
+   qtiles
