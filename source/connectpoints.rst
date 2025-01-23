@@ -8,7 +8,7 @@ Points in one layer are matched to points in another layer with the same value o
 After installation you'll find the plugin in the Plugins toolbar: |button_connectpoints|.
 
 .. |button_connectpoints| image:: _static/button_connectpoints.png
-   :width: 8mm
+   :width: 10mm
 
 First open the plugin Settings dialog from its dropdown menu:
 
