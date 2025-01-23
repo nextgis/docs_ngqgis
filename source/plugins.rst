@@ -34,6 +34,8 @@ If you typed the plugin’s name correctly, but can’t find it in the list, ple
 2. Try to check the box with Show also experimental plugins.
 3. The plugin you are searching for can be located in some special repository, find out about it from the person who recommended that plugin.
 
+Descriptions
+---------------
 
 More about plugins you can find here:
 
@@ -47,4 +49,5 @@ More about plugins you can find here:
    molusce
    geom_paster
    osminfo
+   clickfu
    dumploadfield
