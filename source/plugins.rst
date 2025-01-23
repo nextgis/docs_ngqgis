@@ -53,3 +53,4 @@ More about plugins you can find here:
    dumploadfield
    qtiles
    points2one
+   joinlines
