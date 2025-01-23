@@ -29,7 +29,7 @@ Installation
    
    Installing OSMInfo plugin
 
-After installation the |button_osminfo| button will be added to the Web toolbar. Also the plugin is available in the Internet menu of the Menu bar.
+After installation the |button_osminfo| button will be added to the Web toolbar. Also the plugin is available in the Web menu of the Menu bar.
 
 .. |button_osminfo| image:: _static/button_osminfo.png
    :width: 6mm
