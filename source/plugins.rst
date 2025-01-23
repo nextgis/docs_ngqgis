@@ -52,3 +52,4 @@ More about plugins you can find here:
    clickfu
    dumploadfield
    qtiles
+   points2one
