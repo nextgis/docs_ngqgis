@@ -3,7 +3,7 @@ Join lines
 
 Permanently joins two intersecting or snapped lines. The little "extra" bits are cut off.
 
-After installation the plugin will appear in the Vector toolbar:|button_join_lines|.
+After installation the plugin will appear in the Vector toolbar.
 
 Select the two lines you want to join, then press |button_join_lines|.
 
