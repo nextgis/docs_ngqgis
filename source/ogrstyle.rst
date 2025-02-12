@@ -18,8 +18,14 @@ Select the layer in the Layers panel of QGIS. Click on any feature of the layer.
 .. figure:: _static/ogrstyle_result_en.png
    :name: ogrstyle_result_pic
    :align: center
-   :width: 10cm
+   :width: 12cm
 
    Pop-up window with style description
 
-See how the plugin works in our video: <>
+See how the plugin works in our video: 
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nW3iJHd3-Vk?si=E6RlsY8saCzAJLHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://www.youtube.com/watch?v=nW3iJHd3-Vk>`_.
