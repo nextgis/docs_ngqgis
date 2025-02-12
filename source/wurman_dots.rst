@@ -24,7 +24,7 @@ After installation you can find the plugin in the Vector menu.
 .. figure:: _static/wurman_dots_settings_en.png
    :name: 
    :align: center
-   :width: 10cm
+   :width: 11cm
 
 Settings:
 
