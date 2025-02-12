@@ -56,3 +56,5 @@ More about plugins you can find here:
    joinlines
    multiqml
    quicksaveqml
+   ogrstyle
+   send2ge
