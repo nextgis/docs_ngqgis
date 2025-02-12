@@ -8,13 +8,13 @@ Points can be unordered (mixed) time-wise or by other attributes, only spatial l
 After installation you'll find the plugin in the toolbar.
 
 .. |button_copy_points| image:: _static/button_copy_points.png
-   :width: 6mm
+   :width: 8mm
 
 .. |button_paste_line| image:: _static/button_paste_line.png
-   :width: 6mm
+   :width: 8mm
 
 .. |button_paste_fragments| image:: _static/button_paste_fragments.png
-   :width: 6mm
+   :width: 8mm
 
 
 * Select layer.
@@ -32,7 +32,7 @@ After installation you'll find the plugin in the toolbar.
 .. figure:: _static/paste_line_attr_en.png
    :name: 
    :align: center
-   :width: 6cm
+   :width: 8cm
 
    Entering attribute values for the line
 
