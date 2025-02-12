@@ -22,4 +22,10 @@ NextGIS OGRStyle
 
    Всплывающее окно с описанием стиля
 
-Процесс работы с модулем также показан в `видео <https://youtu.be/fmxLAunlmYk>`_.
+Процесс работы с модулем также показан в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/276d03cbabc3a93236ef815f7fcc2f40/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://www.youtube.com/watch?v=fmxLAunlmYk>`_, `rutube <https://rutube.ru/video/276d03cbabc3a93236ef815f7fcc2f40/>`_.
