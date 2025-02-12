@@ -58,3 +58,7 @@ More about plugins you can find here:
    quicksaveqml
    ogrstyle
    send2ge
+   osmpoly_export
+   shortcut
+   reconstructline
+   wurman_dots
