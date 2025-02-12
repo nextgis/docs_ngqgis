@@ -54,3 +54,5 @@ More about plugins you can find here:
    qtiles
    points2one
    joinlines
+   multiqml
+   quicksaveqml
