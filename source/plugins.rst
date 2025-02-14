@@ -21,7 +21,7 @@ QGIS была разработана на архитектуре с поддер
 .. toctree::
    :maxdepth: 1
 
-   install_plugins
+   install_plugin
    NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>
    Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>
    qms
