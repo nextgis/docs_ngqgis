@@ -25,6 +25,5 @@ NextGIS QGIS
    vector_op
    raster_op
    raster_ref
-   plugins
    user_profiles
    troubleshooting
