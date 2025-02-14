@@ -52,6 +52,8 @@ More about plugins you can find here:
    clickfu
    dumploadfield
    qtiles
+   connectpoints
+   copycoords
    points2one
    joinlines
    multiqml
