@@ -2,7 +2,7 @@
 
 .. _ngqgis_plugins:
     
-Plugins
+Plugins for QGIS
 =================
 
 QGIS was developed with capacity to embed various plugins, which allow to add numerous functions into application. QGIS provides libraries available for plugin creation.
