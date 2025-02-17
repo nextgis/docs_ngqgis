@@ -818,6 +818,12 @@ Aтрибутивные записи объекта слоя связаны с �
    :align: center
    :width: 10cm
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/1b375b6fb65e4ebf7cd4e8f369a6277a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/uk9pPQhtRpI>`_, `rutube <https://rutube.ru/video/1b375b6fb65e4ebf7cd4e8f369a6277a/>`_.
+
 Панель содержит несколько полей, рядом с каждым из которых находятся замочки. Одинарный замок фиксирует параметр до следующего клика. Двойной замок фиксирует параметр на постоянной основе.
 
 Чтобы зафиксировать текущее значение, нажмите Ctrl + букву, соответствующую полю.
