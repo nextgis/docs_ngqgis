@@ -59,13 +59,25 @@
 
 .. figure:: _static/open_vector_layer_window_ru.png
    :align: center
+   :name: open_vector_layer_window_pic
    :width: 20cm
 
    Диалог открытия векторного файла
    
 При открытии ESRI Shapefile в этом диалоге нужно выбирать файл с расширением .shp.
 
-Также вам необходимо знать кодировку файлов: 
+Слой, который **уже был добавлен в любой проект**, сохранённый на устройстве, можно добавить из этого проекта. Посмотрите, как это сделать, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/d27531c9e157c19429d7a1ecfb75c09f/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/RhWVsRVm1us>`_, `rutube <https://rutube.ru/video/d27531c9e157c19429d7a1ecfb75c09f/>`_.
+
+.. _ngqgis_encoding:
+
+Некоторые особенности настройки кодировок
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 При работе в **Windows**:
 
