@@ -43,7 +43,13 @@
 
 Алгоритм вычисляет геометрические свойства объектов векторного слоя. В результате генерируется новый векторный слой с тем же содержимым, что и исходный, но с дополнительными атрибутами в таблице, содержащими геометрические измерения. По умолчанию, длины и площади будут рассчитаны в единицах координат слоя. `Подробнее <https://docs.nextgis.ru/docs_ngqgis/source/vector_op.html#ngq-vector-op-addgeometrycolums>`_.
 
+Посмотрите, как это работает, в видео:
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/2918eaa3f48a4636a07ab46228fc6600/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/QYUqkrMkYh4>`_, `rutube <https://rutube.ru/video/2918eaa3f48a4636a07ab46228fc6600/>`_.
 
 
 .. _ngqgis_editing_field_calc:
