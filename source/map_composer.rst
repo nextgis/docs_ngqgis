@@ -184,6 +184,14 @@
 масштаб будет меняться с меньшим шагом. 
 
 На вкладке "Свойства элемента" можно ввести точное значение масштаба с клавиатуры в поле ``Масштаб``.
+
+Посмотрите, как это работает, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/5cf56724cd0ef70d78477c77c4527ab4/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/_U1bwdwgh60>`_, `rutube <https://rutube.ru/video/5cf56724cd0ef70d78477c77c4527ab4/>`_.
  
 По нажатию кнопки "Текущий охват" - охват выставится такой же, как у основного окна NextGIS QGIS. 
 По нажатию кнопки "Установить охват для основной карты" - охват основной карты выставится 
