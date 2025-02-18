@@ -1383,7 +1383,7 @@ Cоздает псевдослучайные точки в пределах гр
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/cf6b5536c49e78e1bb27866bcd5436fb/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <>`_, `rutube <https://rutube.ru/video/cf6b5536c49e78e1bb27866bcd5436fb/?r=wd>`_.
+Посмотреть видео на `rutube <https://rutube.ru/video/cf6b5536c49e78e1bb27866bcd5436fb/?r=wd>`_.
 
 .. _ngq_vector_op_servicearea:
 
