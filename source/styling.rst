@@ -445,6 +445,14 @@
 
    Фрагмент карты До и После применения стиля "Инвертированные полигоны".
 
+Этот стиль можно использовать, чтобы ограничить карту отдельным районом без обрезки данных, например, при создании макета для печати. Посмотрите, как это работает, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/e26fe0dbccab9ce95a5c601e8d773a61/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/mGPeGCSY7OE>`_, `rutube <https://rutube.ru/video/e26fe0dbccab9ce95a5c601e8d773a61/>`_.
+
 .. _ngqgis_styling_25d:
 
 2.5 D
