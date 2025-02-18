@@ -676,6 +676,14 @@ Cоздает псевдослучайные точки в пределах гр
 
 Инструмент в результирующем слое создаёт атрибуты только из исходного слоя. 
 
+Посмотрите, как это работает, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/3744cf77fa34689b2b7aa99d54003169/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/wtJUcl2RO0U>`_, `rutube <https://rutube.ru/video/3744cf77fa34689b2b7aa99d54003169/>`_.
+
 .. _ngq_vector_op_difference:
 
 Разность
