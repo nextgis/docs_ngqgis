@@ -51,6 +51,13 @@
 
 Посмотреть видео на `youtube <https://youtu.be/QYUqkrMkYh4>`_, `rutube <https://rutube.ru/video/2918eaa3f48a4636a07ab46228fc6600/>`_.
 
+Также вы можете посчитать **общую площадь объектов**, среднее значение площади и др. в панели "Статистика".
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/30c9ba5274407e739f8d41602cda73c9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/l2G0KWysils>`_, `rutube <https://rutube.ru/video/30c9ba5274407e739f8d41602cda73c9/>`_.
 
 .. _ngqgis_editing_field_calc:
 
