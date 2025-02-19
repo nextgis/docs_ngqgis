@@ -29,7 +29,7 @@ Another way is to activate the  |button_QMS_search| QMS search panel. Enter the 
 
 Press **Filter by extent** to only display the layers that contain the area visible on the map in QGIS. Not all the layers in QMS database have specified extent, but you can add it yourself.
 
-.. figure:: _static/modules_qms-search_en.png
+.. figure:: _static/qms_search_en.png
    :name: qms_search
    :align: center
    :width: 10cm
@@ -41,7 +41,7 @@ Basemap added to project as a raster layer (see :numref:`qms_map`)
 
 .. figure:: _static/qms_added_example_en.png
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Basemap and a layer of UTM zones
 
@@ -57,7 +57,7 @@ To open the plugin settings, go to Web ‣ QuickMapServices ‣ Settings.
 
 .. figure:: _static/qsm_settings_open_en.png
    :align: center
-   :width: 14cm
+   :width: 12cm
 
    QMS settings
   
@@ -73,7 +73,7 @@ Open the settings menu from the plugin menu. On this tab you can configure the f
 
 .. figure:: _static/qms_settings_general_en.png
    :align: center
-   :width: 10cm
+   :width: 15cm
    
    General settings
 
@@ -88,7 +88,7 @@ Tiles settings
 
 .. figure:: _static/qms_settings_tiles_en.png
    :align: center
-   :width: 10cm
+   :width: 15cm
    
    Tiles settings
 
@@ -108,7 +108,7 @@ On this tab you can choose which services will be displayed in the QMS dropdown 
 
 .. figure:: _static/qms_settings_visibility_en.png
    :align: center
-   :width: 10cm
+   :width: 15cm
    
    Visibility settings
 
@@ -123,7 +123,7 @@ On this tab you can download a package of additional services. Click **Get contr
 
 .. figure:: _static/qms_settings_more_services_en.png
    :align: center
-   :width: 10cm
+   :width: 15cm
    
    Downloading additional services
 
