@@ -13,13 +13,13 @@ QuickMapServices
 
 После установки расширения в "Панель веб-инструментов" добавится кнопка расширения (кнопку можно расположить и на другой, возможно более удобной панели, см. Настройки). Также появится группа QuickMapServices в выпадающем меню "Интернет".
 
-Нажмите на иконку |modules_Qms-button| QMS и выберите нужный сервис подложки из предложенного списка (см. :numref:`qms_icon`). При выборе в меню карта автоматически подключается в проект в качестве слоя.
+Нажмите на иконку |modules_Qms-button| QMS и выберите нужный сервис подложки из предложенного списка (см. :numref:`qms_dropdown_pic`). При выборе в меню карта автоматически подключается в проект в качестве слоя.
 
 .. |modules_Qms-button| image:: _static/modules_Qms-button.png
 .. |button_QMS_search| image:: _static/button_QMS_search.png
 
 .. figure:: _static/qms_dropdown_ru.png
-   :name: qms_icon
+   :name: qms_dropdown_pic
    :align: center
    :width: 15cm
    
@@ -53,6 +53,12 @@ QuickMapServices
 Настройки
 ------------
 
+Чтобы открыть диалог настроек модуля, из верхнего меню выберите Интернет ‣ QuickMapServices ‣ Настройки
+
+.. figure:: _static/qsm_settings_open_ru.png
+   :align: center
+   :width: 14cm
+
 .. _qmssettings_main:
 
 Общие настройки
@@ -65,7 +71,7 @@ QuickMapServices
 
 .. figure:: _static/modules_Qms_settings_main_ru.png
    :align: center
-   :width: 10cm
+   :width: 12cm
    
    Общие настройки
 
@@ -80,7 +86,7 @@ QuickMapServices
 
 .. figure:: _static/modules_Qms_settings_tiles_ru.png
    :align: center
-   :width: 10cm
+   :width: 12cm
    
    Настройки получения тайлов
 
@@ -100,7 +106,7 @@ QuickMapServices
 
 .. figure:: _static/modules_Qms_settings_visibility_ru.png
    :align: center
-   :width: 10cm
+   :width: 12cm
    
    Настройки видимости
 
@@ -115,7 +121,7 @@ QuickMapServices
 
 .. figure:: _static/modules_Qms_settings_additional_ru.png
    :align: center
-   :width: 10cm
+   :width: 12cm
    
    Загрузка дополнительных сервисов
 
