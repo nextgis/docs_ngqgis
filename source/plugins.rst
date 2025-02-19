@@ -43,6 +43,7 @@ More about plugins you can find here:
    :maxdepth: 1
 
    NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/toc.html>
+   qms
    identifyplus
    easyquery
    digitizr
