@@ -9,7 +9,7 @@ With this plugin you can quickly add a basemap to you QGIS project. Raster basem
 
 Basemap can be in the form of a Web service: TMS, WMS, WMTS, ESRI ArcGIS Service, or symply XYZ tiles.
 
-Most used basemaps are gathered in he QuickMapServices **dropdown menu** :numref:`qms_icon`. Also you can search for any service added to QMS database by using the **search bar** :numref:`qms_search`.
+Most used basemaps are gathered in he QuickMapServices **dropdown menu** :numref:`qms_dropdown_pic`. Also you can search for any service added to QMS database by using the **search bar** :numref:`qms_search`.
 
 After the plugin is installed its buttons appear in the Web Toolbar (you can move the buttons to another panel in the Settings). Also QuickMapServices submenu will be added to the Web menu.
 
@@ -40,12 +40,21 @@ Basemap added to project as a raster layer (see :numref:`qms_map`)
 
 
 .. figure:: _static/qms_added_example_en.png
+   :name: qms_map
    :align: center
    :width: 22cm
    
    Basemap and a layer of UTM zones
 
 The service settings are stored separately and remain intact when you delete or update the plugin.
+
+See how the plugins work in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/lw_v0GlZzcE?si=K0wO5VwiDKScqdAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/lw_v0GlZzcE?si=CGU15UB9NHcUFzdS>`_.
 
 
 .. _qmssettings:
@@ -56,6 +65,7 @@ Settings
 To open the plugin settings, go to Web ‣ QuickMapServices ‣ Settings.
 
 .. figure:: _static/qsm_settings_open_en.png
+   :name: qsm_settings_open_pic
    :align: center
    :width: 12cm
 
@@ -72,6 +82,7 @@ Open the settings menu from the plugin menu. On this tab you can configure the f
 2. Show info/error message in message bar. By default they are displayed in a pop-up window.
 
 .. figure:: _static/qms_settings_general_en.png
+   :name: qms_settings_general_pic
    :align: center
    :width: 15cm
    
@@ -87,6 +98,7 @@ Tiles settings
 3. Tiles download timeout, milliseconds.
 
 .. figure:: _static/qms_settings_tiles_en.png
+   :name: qms_settings_tiles_pic
    :align: center
    :width: 15cm
    
@@ -107,6 +119,7 @@ Visibility
 On this tab you can choose which services will be displayed in the QMS dropdown menu. 
 
 .. figure:: _static/qms_settings_visibility_en.png
+   :name: qms_settings_visibility_pic
    :align: center
    :width: 15cm
    
@@ -122,6 +135,7 @@ Add more services
 On this tab you can download a package of additional services. Click **Get contributed pack**:
 
 .. figure:: _static/qms_settings_more_services_en.png
+   :name: qms_settings_more_pic
    :align: center
    :width: 15cm
    
