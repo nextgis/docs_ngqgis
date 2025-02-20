@@ -9,7 +9,7 @@ QuickMapServices
 
 Подложка может быть представлена в виде различных интернет-сервисов: TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов XYZ.
 
-Наиболее часто используемые подложки вынесены в **меню** QuickMapServices :numref:`qms_icon`. Также вы может найти любой сервис, добавленный в базу QMS, при помощи **панели поиска** :numref:`qms_search`.
+Наиболее часто используемые подложки вынесены в **меню** QuickMapServices :numref:`qms_dropdown_pic`. Также вы может найти любой сервис, добавленный в базу QMS, при помощи **панели поиска** :numref:`qms_search`.
 
 После установки расширения в "Панель веб-инструментов" добавится кнопка расширения (кнопку можно расположить и на другой, возможно более удобной панели, см. Настройки). Также появится группа QuickMapServices в выпадающем меню "Интернет".
 
@@ -40,6 +40,7 @@ QuickMapServices
 
 
 .. figure:: _static/modules_Qms-main_ru.png
+   :name: qms_map
    :align: center
    :width: 20cm
    
@@ -47,6 +48,13 @@ QuickMapServices
 
 Настройки сервисов хранятся отдельно от самого модуля и при удалении/обновлении модуля они не удаляются.
 
+Также посмотреть на модуль в действии можно в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/761686506e8ef358416c320f920fc7ae/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/maXTAbfssd0>`_, `rutube <https://rutube.ru/video/761686506e8ef358416c320f920fc7ae/>`_.
 
 .. _qmssettings:
 
@@ -56,6 +64,7 @@ QuickMapServices
 Чтобы открыть диалог настроек модуля, из верхнего меню выберите Интернет ‣ QuickMapServices ‣ Настройки
 
 .. figure:: _static/qsm_settings_open_ru.png
+   :name: qsm_settings_open_pic
    :align: center
    :width: 14cm
 
@@ -70,6 +79,7 @@ QuickMapServices
 2. Показывать информацию в панели сообщений. По умолчанию они показываются во всплывающей панели, что не всегда удобно.
 
 .. figure:: _static/modules_Qms_settings_main_ru.png
+   :name: qms_settings_general_ru
    :align: center
    :width: 12cm
    
@@ -85,6 +95,7 @@ QuickMapServices
 3. Таймаут загрузки тайлов.
 
 .. figure:: _static/modules_Qms_settings_tiles_ru.png
+   :name: qms_settings_tiles_pic
    :align: center
    :width: 12cm
    
@@ -105,6 +116,7 @@ QuickMapServices
 На этой вкладке можно настроить, какие сервисы будут отображаться в выпадающем меню QMS. 
 
 .. figure:: _static/modules_Qms_settings_visibility_ru.png
+   :name: qms_settings_visibility_pic
    :align: center
    :width: 12cm
    
@@ -120,6 +132,7 @@ QuickMapServices
 На этой вкладке можно загрузить пакет дополнительных сервисов. Для этого нажмите **Получить дополнительные источники данных**:
 
 .. figure:: _static/modules_Qms_settings_additional_ru.png
+   :name: qms_settings_more_pic
    :align: center
    :width: 12cm
    
