@@ -1,8 +1,8 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 
 
-Установка
-==========
+Установка и обновление
+=======================
 
 Для установки :program:`NextGIS QGIS` используется универсальный сетевой установщик. По `ссылке <http://nextgis.ru/nextgis-qgis/>`_ можно скачать установщик под вашу платформу.
 
@@ -101,3 +101,90 @@
 * клавиатура
 * источник бесперебойного питания емкостью не менее 800 ВА
 * монитор LCD 24”, разрешение 2560x1440
+
+.. _ngqgis_update:
+
+Обновление
+------------
+
+.. _ngqgis_update_check:
+
+Как проверить текущую версию программы
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Запустите NextGIS QGIS и перейдите в ``Справка  ‣ О программе``.
+
+.. figure:: _static/ngq_check_version_en.png
+   :name: ngq_check_version_pic
+   :align: center
+   :width: 10cm
+
+   Проверка установленной версии NextGIS QGIS
+
+* Если ваша версия 24.\* и выше, перейдите к `проверке обновлений <https://docs.nextgis.ru/docs_ngqgis/source/install.html#ngqgis-upadate-24up>`_.
+* Если ваша версия 23.\* и ниже, необходимо выполнить `полное удаление программы и повторную установку <https://docs.nextgis.ru/docs_ngqgis/source/install.html#ngqgis-update-23>`_ свежего дистрибутива.
+
+.. _ngqgis_update_23:
+
+Если у вас установлена версия 23 и ниже
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Для полного удаления программы перейдите в ваш список установленных приложений и найдите NextGIS Maintenance Tool или Сервисный режим NextGIS.
+
+.. figure:: _static/ngq_maint_select_ru.png
+   :name: ngq_maint_select_pic
+   :align: center
+   :width: 8cm
+
+   Сервисный режим NextGIS в списке приложений
+
+Выберите *Удаление всех компонентов* и нажмите **Далее**. 
+
+.. figure:: _static/ngq_delete_ru.png
+   :name: ngq_delete_pic
+   :align: center
+   :width: 16cm
+
+   Удаление старой версии
+
+Для подтверждения удаления нажмите **Удалить**.
+
+.. figure:: _static/ngq_delete_finish_ru.png
+   :name: ngq_delete_finish_pic
+   :align: center
+   :width: 16cm
+
+
+После завершения установки нажмите **Выйти**.
+
+Загрузите актуальный дистрибутив в `личном кабинете <http://my.nextgis.com/software>`_ или на `nextgis.ru <https://nextgis.ru/nextgis-qgis/>`_ по кнопке **Скачать ознакомительную версию**.
+
+Запустите скачанный дистрибутив и пройдите по `шагам установки <https://docs.nextgis.ru/docs_ngqgis/source/install.html#ngqgis-install>`_
+
+.. _ngqgis_update_24up:
+
+Если ваша версия 24.\* и выше
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Выполните проверку обновлений.
+Для этого запустите NextGIS QGIS и перейдите в ``Справка - Проверить версию QGIS``.
+
+.. figure:: _static/ngq_check_updates_ru.png
+   :name: ngq_check_updates_pic
+   :align: center
+   :width: 10cm
+
+   Проверка версии QGIS из меню "Справка"
+
+В программе появится уведомление о доступном обновлении. Нажмите **Обновить**. Если у вас последняя версия, появится сообщение "Нет доступных обновлений".
+
+Откроется Сервисный режим NextGIS, нажмите **Далее**.
+
+.. figure:: _static/ngq_maint_update_ru.png
+   :name: ngq_maint_update_pic
+   :align: center
+   :width: 16cm
+
+   Выбор обновления компонентов
+
+Выполнится поиск и установка обновлений. 
+После завершения установки нажмите **Выйти**.
