@@ -1,4 +1,4 @@
-.. sectionauthor:: Екатерина Живаева, Юлия Григоренко <yulia.grigorenko@nextgis.com>
+.. sectionauthor:: Екатерина Живаева <ekaterina.zhivaeva@nextgis.com>, Юлия Григоренко <yulia.grigorenko@nextgis.com>
 
 Обновление модулей (плагинов)
 =======================================
@@ -8,7 +8,7 @@
 .. figure:: _static/ngq_plugins_manage_open_ru.png
    :name: ngq_plugins_manage_open_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Переход к управлению модулями
 
