@@ -10,12 +10,12 @@
 
 Для растровых слоёв существует 6 разных способов визуализации.
 
-* Многоканальное цветное
-* Палитра - уникальные значения
-* Одноканальное серое
-* Одноканальное псевдоцветное
-* Теневой рельеф
-* Изолинии
+* `Многоканальное цветное <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-multicolor>`_
+* `Палитра - уникальные значения <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-paletted>`_
+* `Одноканальное серое <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-gray>`_
+* `Одноканальное псевдоцветное <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-pseudocolor>`_
+* `Теневой рельеф <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-hillshade>`_
+* `Изолинии <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html#ngq-raster-styles-contours>`_
 
 При всех способах визуализации можно задавать прозрачность, яркость, контрастность 
 и тонирование в цвет. 
@@ -43,7 +43,7 @@
 .. _ngq_raster_styles_paletted:
 
 Палитра - уникальные значения
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Картинка рисуется по данным из одного выбранного канала растра. Каждое значение 
 растра рисуется отдельно заданным цветом. Этот формат встречается редко. Если вы откроете растр в формате gif, то по умолчанию выставится этот режим.
