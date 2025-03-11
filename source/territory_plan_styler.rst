@@ -3,7 +3,7 @@
 .. _Territory Plan Styler:
 
 Territory Plan Styler
-===================
+=====================
 
 Плагин Territory Plan Styler предназначен для быстрого создания интерактивных веб-карт на базе NextGIS Web,
 автоматически оформляемых в соответствии с приказом Минэкономразвития России № 10 от 09.01.2018 г. (далее - приказ). 
@@ -45,7 +45,7 @@ Territory Plan Styler
 При нажатии на иконку вам будет предложено авторизоваться в системе через браузер. 
 В случае успешной авторизации пользователя с планом Premium иконка на панели NextGIS Account Toolbar сменится на другую: |auth_icon| или аватар пользователя, если он задан.
 
-.. |auth_icon| image:: _static/Territory_Plan_Styler/auth_icon_pink.png
+.. |auth_icon| image:: _static/auth_icon_pink.png
 
 .. _TPS_launch:
 
