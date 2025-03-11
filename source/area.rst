@@ -57,7 +57,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/30c9ba5274407e739f8d41602cda73c9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <https://youtu.be/l2G0KWysils>`_, `rutube <https://rutube.ru/video/30c9ba5274407e739f8d41602cda73c9/>`_.
+Посмотреть видео на `youtube <https://youtu.be/l2G0KWysils>`__, `rutube <https://rutube.ru/video/30c9ba5274407e739f8d41602cda73c9/>`__.
 
 .. _ngqgis_editing_field_calc:
 
