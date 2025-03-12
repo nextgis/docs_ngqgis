@@ -116,7 +116,7 @@
 В результате генерируется HTML файл с вычисленной статистикой.
 
 .. figure:: _static/vectortools_nearest_ru.png
-   :align: center
+   :align: vectortools_nearest_pic
    :name: nearestneighbouranalisys_pic
    :width: 14cm
 
