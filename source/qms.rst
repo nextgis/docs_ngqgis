@@ -11,6 +11,13 @@ Basemap can be in the form of a Web service: TMS, WMS, WMTS, ESRI ArcGIS Service
 
 Most used basemaps are gathered in he QuickMapServices **dropdown menu** :numref:`qms_dropdown_pic`. Also you can search for any service added to QMS database by using the **search bar** :numref:`qms_search`.
 
+Full catalog of QuickMapServices is available on https://qms.nextgis.com/. You can `add your own basemaps to the catalog <https://qms.nextgis.com/faq#addingservices>`_.
+
+.. _qms_menu:
+
+Menu and search panel
+----------------------
+
 After the plugin is installed its buttons appear in the Web Toolbar (you can move the buttons to another panel in the Settings). Also QuickMapServices submenu will be added to the Web menu.
 
 Press |modules_Qms-button| QMS button and select a service from the list (see :numref:`qms_dropdown_pic`). Select a basemap from the list to instantly add it as a layer.
@@ -141,9 +148,7 @@ On this tab you can download a package of additional services. Click **Get contr
    
    Downloading additional services
 
-.. tip::
-    You can add your own basemaps to the plugin too!
-    See instruction on https://qms.nextgis.com/faq#addingservices 
+
 
 .. note::
     If you plan to make a derivative work based on a basemap added from the Internet, please read the terms of use for that basemap so as not to violate copyright laws. If you use OSM Mapnik, all you need to do is add «© OpenStreetMap contributors (osm.org)». Other basemaps and satellite images may have more restrictions. 
