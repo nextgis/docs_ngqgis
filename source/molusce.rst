@@ -41,12 +41,12 @@ Also we recommend setting the style to Paletted/Unique values. Each class will b
 .. _molusce_learn:
 
 Loading data and model training
----------------------------------------------------------
+-------------------------------
 
 Plugin has several tabs that are used one after the other.
 
 Inputs
-^^^^^^^^^^^^^^
+^^^^^^
 
 On the left there is a list of all raster layers in the project. From that list select the initial state map and final state map. Then add spacial variables in the bottom right part of the tab. Press **Check geometry**. After a successful geometry check other tabs become available.
 
@@ -58,7 +58,7 @@ On the left there is a list of all raster layers in the project. From that list 
    Uploading input data
 
 Evaluating correlation
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 In this tab you can, if necessary, calculate the extent to which the influence factors are related to each other. If the correlation between two factors is strong, it may be sufficient to use just one of them.
 For continuous variables, you can calculate the Pearson's correlation, and for nominal variables, the Cramer coefficient or JIU (joint information uncertainty). Select two factors from dropdown menu or check the option "Check all rasters".
@@ -71,7 +71,7 @@ For continuous variables, you can calculate the Pearson's correlation, and for n
    Calculating correlations
 
 Area changes
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 On the "Area changes" tab press **Update tables**.
 
@@ -97,13 +97,13 @@ If you want to save the tables, left-click on any cell to activate context menu 
    Table context menu
 
 Transition potential modelling
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Four methods are available:
 
-* Artificial Neural Network (ANN),
+* Artificial Neural Network (ANN)
 * Weights of Evidence (WoE) 
-* Multi Criteria Evaluation (MCE),
+* Multi Criteria Evaluation (MCE)
 * Logistic Regression (LR)
 
 .. figure:: _static/molusce_modeling_en.png
@@ -146,7 +146,7 @@ After training the model you can save the samples as a separate layer. This allo
 .. _molusce_simulate:
 
 Cellular Automata Simulation
-----------------------------------------------------------
+----------------------------
 
 After the model is trained it can be used to create a forecast.
 
@@ -169,7 +169,7 @@ Besides the simulated land use/cover map you can also generate:
 .. _molusce_validate:
 
 Validation
------------------------------------
+----------
 
 Validation can be performed if you have a reference map with actual data for the period. 
 Also on this tab you can calculate kappa.
