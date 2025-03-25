@@ -17,8 +17,6 @@ QGIS была разработана на архитектуре с поддер
 
    install_plugin
    update_plugins
-   NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>
-   Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>
    qms
    qconsolidate
    lesis2sqlite
@@ -44,4 +42,5 @@ QGIS была разработана на архитектуре с поддер
    shortcut
    reconstructline
    wurman_dots
-   
+   NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>
+   Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/toc.html>
