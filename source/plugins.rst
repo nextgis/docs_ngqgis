@@ -16,7 +16,6 @@ All external plugins are written in Python now. They are located in external rep
 
    install_plugin
    update_plugins
-   NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/toc.html>
    qms
    identifyplus
    easyquery
@@ -39,3 +38,4 @@ All external plugins are written in Python now. They are located in external rep
    shortcut
    reconstructline
    wurman_dots
+   NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/toc.html>
