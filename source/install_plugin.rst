@@ -1,4 +1,4 @@
-Install Plugins
+Install plugins
 ==================
 
 You should be connected to the Internet. 
