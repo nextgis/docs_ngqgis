@@ -20,7 +20,7 @@ All OSM features are available, including:
 .. _osminfo_install:
 
 Installation
-----------
+-------------
 
 .. figure:: _static/osminfo_plugin_install_en.png
    :name: osminfo_plugin_install_pic
