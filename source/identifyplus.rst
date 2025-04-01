@@ -3,13 +3,14 @@
 .. _ngqgis_identifyplus:
 
 IdentifyPlus
-==========
+=============
 
 Plugin interacts with layers imported from Web GIS. IdentifyPlus allows viewing objects’ attributes, including attached files, e.g. photos.
 
 After plugin installation it will appear in menu Plugins > IdentifyPlus. Plugin’s icon will also appear in the panel.
 
 .. figure:: _static/identifyplus1.png
+   :name: identifyplus1_pic
    :align: center
    :width: 16cm
 
