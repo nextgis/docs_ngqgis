@@ -22,9 +22,4 @@ to the QGIS app.
 This documentation is distributed under the terms of  cc-by-sa 3.0. http://creativecommons.org/licenses/by-sa/3.0/
 The documentation is developped based on QGIS documentation: http://www.qgis.org/en/docs/index.html, cc-by-sa 3.0.
 
-.. toctree::
-   :maxdepth: 2
 
-   installngqgis
-   intro
-   Auth
