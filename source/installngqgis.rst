@@ -1,7 +1,7 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 
 Installation
-==========
+============
 
 :program:`NextGIS QGIS` is installed with the aid of a universal installer. You can download installer for your OS using `this link. <http://nextgis.com/nextgis-qgis/>`_
 
@@ -9,7 +9,7 @@ Installation
    Installer not requiring Internet connection is only available for users on `Mini and Premium <http://nextgis.com/nextgis-com/plans>`_ subscription plans.
 
 Installation process
-------------------
+---------------------
 
 The installes is a step-by-step wizard. The first page (see :numref:`ngqgis_installPage01`) welcomes you to the installation process.
 
