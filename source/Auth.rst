@@ -3,7 +3,7 @@
 .. _ngqgis_auth:
 
 Authorization
-==========
+=============
 
 Via cloud NextGIS ID (my.nextgis.com)
 -------------------------------------
@@ -65,7 +65,7 @@ NextGIS Account Toolbar button will change to  |auth| which indicates a successf
 
 
 Via on-premise (NGIDOP)
-----------------------
+------------------------
 
 If you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Options -> NextGIS) (:numref:`ngqis_ngidop_auth_en`)
 
