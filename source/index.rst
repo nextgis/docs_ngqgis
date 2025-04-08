@@ -3,17 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: toc.rst
+NextGIS QGIS
+==============================
 
 .. toctree::
    :maxdepth: 2
+   
+   plugins
+   intro
 
    
-   
-Индекс и таблицы
-================
+
 
 * :ref:`genindex`
-* :ref:`search`
 * :ref:`glossary`
 
