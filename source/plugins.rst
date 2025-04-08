@@ -38,4 +38,4 @@ All external plugins are written in Python now. They are located in external rep
    shortcut
    reconstructline
    wurman_dots
-   NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/toc.html>
+   NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/index.html>
