@@ -2,7 +2,7 @@
 
 Read online:
 * English - in process
-* Russian - http://docs.nextgis.ru/docs_ngqgis/source/toc.html
+* Russian - http://docs.nextgis.ru/docs_ngqgis/source/index.html
 
 # License
  
