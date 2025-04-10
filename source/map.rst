@@ -372,7 +372,7 @@ TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов
 
 Из :program:`NextGIS QGIS` можно работать с NextGIS Web напрямую. Можно смотреть 
 и редактировать данные - перемещать, удалять, добавлять новые объекты в слой. Это 
-осуществляется при помощи плагина "NextGIS Connect", работа с ним описана в  `этой главе <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_.
+осуществляется при помощи плагина "NextGIS Connect", работа с ним описана в  `этой главе <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_.
 
 .. _ngq_create_new_layer:
 
