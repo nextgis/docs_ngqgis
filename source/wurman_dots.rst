@@ -26,7 +26,7 @@ Wurman Dots
    :align: center
    :width: 22cm
 
-   Открытие плагина
+   Открытие модуля
 
 
 
