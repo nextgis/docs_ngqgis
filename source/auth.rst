@@ -1,5 +1,3 @@
-.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
-
 .. _ngqgis_auth:
 
 Авторизация
@@ -32,15 +30,15 @@ NextGIS Account Toolbar на панели инструментов (см. :numre
 На странице необходимо ввести данные вашего аккаунта NextGIS ID или пройти регистрацию (см. :numref:`auth_page`). 
 Если вы забыли данные вашего аккаунта, то `восстановите <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#ngcom-change-passwords-webgis>`_ к нему доступ.
 
-.. figure:: _static/auth_ngqgis/auth_page.png
+.. figure:: _static/ngid_signup_signin_ru.png
    :name: auth_page
    :align: center
-   :width: 25cm
+   :width: 16cm
    
    Страница авторизации NextGIS ID
 
 
-После корректного указания пары логин/пароль вы получите сообщение об успешной авторизации в NextGIS QGIS (см. :numref:`suscess_auth`), 
+После корректного указания адреса электронной почты и пароля вы получите сообщение об успешной авторизации в NextGIS QGIS (см. :numref:`suscess_auth`), 
 и доступ к Pro-функциям будет разблокирован |ublocked_tools|.
 
 .. |ublocked_tools| image:: _static/auth_ngqgis/ublocked_tools.png
