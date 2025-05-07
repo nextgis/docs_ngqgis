@@ -1,5 +1,8 @@
 .. _QuickMapServices:
 
+.. |modules_Qms-button| image:: _static/modules_Qms-button.png
+.. |button_QMS_search| image:: _static/button_QMS_search.png
+
 QuickMapServices
 ================
 
