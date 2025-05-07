@@ -1,5 +1,3 @@
-.. sectionauthor:: <dmitry.baryshnikov@nextgis.ru>
-
 .. _QuickMapServices:
 
 QuickMapServices
@@ -9,7 +7,7 @@ With this plugin you can quickly add a basemap to you QGIS project. Raster basem
 
 Basemap can be in the form of a Web service: TMS, WMS, WMTS, ESRI ArcGIS Service, or symply XYZ tiles.
 
-Most used basemaps are gathered in he QuickMapServices **dropdown menu** :numref:`qms_dropdown_pic`. Also you can search for any service added to QMS database by using the **search bar** :numref:`qms_search`.
+You can search for any service added to QMS database by using the **search bar** :numref:`qms_search`. Also most used basemaps are gathered in he QuickMapServices dropdown menu.  
 
 Full catalog of QuickMapServices is available on https://qms.nextgis.com/. You can `add your own basemaps to the catalog <https://qms.nextgis.com/faq#addingservices>`_.
 
@@ -20,19 +18,12 @@ Menu and search panel
 
 After the plugin is installed its buttons appear in the Web Toolbar (you can move the buttons to another panel in the Settings). Also QuickMapServices submenu will be added to the Web menu.
 
-Press |modules_Qms-button| QMS button and select a service from the list (see :numref:`qms_dropdown_pic`). Select a basemap from the list to instantly add it as a layer.
 
 .. |modules_Qms-button| image:: _static/modules_Qms-button.png
 .. |button_QMS_search| image:: _static/button_QMS_search.png
 
-.. figure:: _static/qms_dropdown_en.png
-   :name: qms_dropdown_pic
-   :align: center
-   :width: 15cm
-   
-   QuickMapServices dropdown menu
 
-Another way is to activate the  |button_QMS_search| QMS search panel. Enter the name of the service you want to find into the search bar (try "Openstreetmap", "Mapnik" or "UTM"), then double-click the service to add it to the map or press **Add**. 
+Activate the |button_QMS_search| QMS search panel. Enter the name of the service you want to find into the search bar (try "Openstreetmap", "Mapnik" or "UTM"), then double-click the service to add it to the map or press **Add**. 
 
 Press **Filter by extent** to only display the layers that contain the area visible on the map in QGIS. Not all the layers in QMS database have specified extent, but you can add it yourself.
 
@@ -117,36 +108,6 @@ Add/Edit/Remove
 ^^^^^^^^^^^^^^^^^
 
 On this tab you can manage groups and services.
-
-.. _qmssettings_visibility:
-
-Visibility
-^^^^^^^^^^^^^^
-
-On this tab you can choose which services will be displayed in the QMS dropdown menu. 
-
-.. figure:: _static/qms_settings_visibility_en.png
-   :name: qms_settings_visibility_pic
-   :align: center
-   :width: 15cm
-   
-   Visibility settings
-
-By default, there are two services in the plugin, both displayed. To download additional services, to to the "More services" tab.
-
-.. _qmssettings_additional:
-
-Add more services
-^^^^^^^^^^^^^^^^^^^^^
-
-On this tab you can download a package of additional services. Click **Get contributed pack**:
-
-.. figure:: _static/qms_settings_more_services_en.png
-   :name: qms_settings_more_pic
-   :align: center
-   :width: 15cm
-   
-   Downloading additional services
 
 
 
