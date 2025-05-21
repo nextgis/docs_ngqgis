@@ -25,7 +25,7 @@ NextGIS QGIS
    area
    vector_op
    raster_op
-   raster_ref
+   raster_georef
    transformations
    user_profiles
    troubleshooting
