@@ -26,6 +26,7 @@ NextGIS QGIS
    vector_op
    raster_op
    raster_ref
+   transformations
    user_profiles
    troubleshooting
 
