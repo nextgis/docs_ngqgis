@@ -7,6 +7,17 @@ MOLUSCE 5.0
 
 MOLUSCE (Modules for Land Use Change Evaluation) is a plugin for QGIS designed to analyse land use and forest cover changes between different time periods, model land use/cover transition potential and simulate future land use and cover changes. The plugin incorporates several well-known algorithms, including Artificial Neural Networks. 
 
+.. figure:: _static/molusce_intro_en.jpg
+   :name: molusce_intro_pic
+   :align: center
+   :width: 22cm
+
+You can find detailed videos about using MOLUSCE plugin on our YouTube channel:
+
+* `LULC change detection and prediction with free QGIS tool. Land Use Change Simulations <https://youtu.be/F4j1fTyCuy4?si=Bfl98KrkV_BgDW8e>`_
+
+* `Separate spatial variables for simulation and Model Save/Load <https://youtu.be/GVrk_uLJbuA?si=2iEyBCz5yBQbwKIo>`_
+
 MOLUSCE is available for download in the QGIS plugin manager. After installation the plugin is added to the Raster menu.
 
 .. _molusce_prepare:
@@ -205,8 +216,4 @@ A map of errors can be created. It contains three types of pixels:
    :align: center
    :width: 22cm
 
-We also have a detailed videos on using MOLUSCE plugin that you can watch on YouTube:
-
-* `LULC change detection and prediction with free QGIS tool. Land Use Change Simulations <https://youtu.be/F4j1fTyCuy4?si=Bfl98KrkV_BgDW8e>`_
-
-* `Separate spatial variables for simulation and Model Save/Load <https://youtu.be/GVrk_uLJbuA?si=2iEyBCz5yBQbwKIo>`_
+   Validation
