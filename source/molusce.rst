@@ -1,8 +1,8 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 .. _molusce:
 
-MOLUSCE 4.0
+MOLUSCE 5.0
 =========================
 
 MOLUSCE (Modules for Land Use Change Evaluation) is a plugin for QGIS designed to analyse land use and forest cover changes between different time periods, model land use/cover transition potential and simulate future land use and cover changes. The plugin incorporates several well-known algorithms, including Artificial Neural Networks. 
@@ -29,6 +29,8 @@ N stands for Forecast depth, i.e. the time between land states, measured in days
 
 Maps of spacial variables that affect the land use. The researcher hypothesizes what factors may have influenced the observed changes and inputs intensity maps of these factors. For example, if a researcher is working on the problem of forest extinction, such factors might be: soil types (each soil type is coded with a number), distances from roads (the pixels of the map contain a number - the shortest distance from the point associated with that pixel to the road), population density, etc.
 
+If spacial variables change over time, two separate map versions can be used: one for model training, another for simulation.
+
 All input rasters must have the same:
 
 * resolution
@@ -51,7 +53,7 @@ Inputs
 On the left there is a list of all raster layers in the project. From that list select the initial state map and final state map. Then add spacial variables in the bottom right part of the tab. Press **Check geometry**. After a successful geometry check other tabs become available.
 
 .. figure:: _static/molusce_inputs_en.png
-   :name: 
+   :name: molusce_inputs_pic
    :align: center
    :width: 22cm
 
@@ -64,7 +66,7 @@ In this tab you can, if necessary, calculate the extent to which the influence f
 For continuous variables, you can calculate the Pearson's correlation, and for nominal variables, the Cramer coefficient or JIU (joint information uncertainty). Select two factors from dropdown menu or check the option "Check all rasters".
 
 .. figure:: _static/molusce_correlation_en.png
-   :name: 
+   :name: molusce_correlation_pic
    :align: center
    :width: 22cm
 
@@ -81,7 +83,7 @@ Next press **Create change map** button and select a path and a name for the new
 Each transition class will be marked on the map by a specific color. We recommend creating a raster attribute table for that layer too.
 
 .. figure:: _static/molusce_area_change_en.png
-   :name: 
+   :name: molusce_area_change_pic
    :align: center
    :width: 24cm
 
@@ -90,7 +92,7 @@ Each transition class will be marked on the map by a specific color. We recommen
 If you want to save the tables, left-click on any cell to activate context menu and copy selected cells or the entire table with row and column titles.
 
 .. figure:: _static/molusce_table_copy_en.png
-   :name: 
+   :name: molusce_table_copy_pic
    :align: center
    :width: 24cm
 
@@ -106,10 +108,10 @@ Four methods are available:
 * Multi Criteria Evaluation (MCE)
 * Logistic Regression (LR)
 
-.. figure:: _static/molusce_modeling_en.png
-   :name: 
+.. figure:: _static/molusce_modeling_en_2.png
+   :name: molusce_modeling_pic
    :align: center
-   :width: 22cm
+   :width: 20cm
 
    Training neural network
 
@@ -135,13 +137,22 @@ Press **Train neural network**. On the graph you'll see the learning curve and t
 If training is successful, both curves go down smoothly and the Current Validation Kappa is about 0.8 or above.
 
 .. figure:: _static/molusce_curves_en.png
-   :name: 
+   :name: molusce_curves_pic
    :align: center
    :width: 22cm
 
    Typical learning curves
 
 After training the model you can save the samples as a separate layer. This allows to check if all types of transition have been sampled for training.
+
+You can also save the trained model. Then you can savely close the plugin and later load it and use for simulation. To re-use the model, take rasters of the same dimentions and the spacial variables in the same order.
+
+.. figure:: _static/molusce_model_loaded_en.png
+   :name: molusce_model_loaded_pic
+   :align: center
+   :width: 20cm
+
+   Loading saved model
 
 .. _molusce_simulate:
 
@@ -150,19 +161,27 @@ Cellular Automata Simulation
 
 After the model is trained it can be used to create a forecast.
 
-In the "Cellular Automata Simulation" tab set up the number of simulation iterations, i.e. number of time periods for which the forecast is made (1 by default), and a path for the created files. To begin simulation press **Start**.
+In the "Cellular Automata Simulation" tab set up the number of simulation iterations, i.e. number of time periods for which the forecast is made (1 by default), and a path for the created files. 
+
+If spacial variables change over time, you can use one file to train the model and a different file to simulate. Both files need to be added to the project beforehand.
+
+Tick "Set separate spacial variables version for simulation" and add the variables in the same order as in the Input tab, selecting the new version.
+
+To begin simulation press **Start**.
+
+.. figure:: _static/molusce_simulation_en_2.png
+   :name: molusce_simulation_pic
+   :align: center
+   :width: 22cm
+
+   Simulation settings, new version of the urban proximity variable added
 
 Besides the simulated land use/cover map you can also generate:
 
 * Transition potential map shows the probability or potential to change from one land use/cover class to another. Values range from 0 (low potential) to 100 (high transition potential).
 * Certainty function shows the degree of forecast certainty. Values range from 0 (low certainty) to 100 (hight certainty). Low certainty likely means that a particular type of transition was not sampled.
 
-.. figure:: _static/molusce_simulation_en.png
-   :name: 
-   :align: center
-   :width: 22cm
 
-   Simulation settings
 
 
 
@@ -182,8 +201,12 @@ A map of errors can be created. It contains three types of pixels:
 * Error (prediction does not match real data)
 
 .. figure:: _static/molusce_validation_en.png
-   :name: 
+   :name: molusce_validation_pic
    :align: center
    :width: 22cm
 
-We also have a detailed video on using MOLUSCE plugin that you can watch on `YouTube <https://youtu.be/F4j1fTyCuy4?si=Bfl98KrkV_BgDW8e>`_.
+We also have a detailed videos on using MOLUSCE plugin that you can watch on YouTube:
+
+* `LULC change detection and prediction with free QGIS tool. Land Use Change Simulations <https://youtu.be/F4j1fTyCuy4?si=Bfl98KrkV_BgDW8e>`_
+
+* `Separate spatial variables for simulation and Model Save/Load <https://youtu.be/GVrk_uLJbuA?si=2iEyBCz5yBQbwKIo>`_
