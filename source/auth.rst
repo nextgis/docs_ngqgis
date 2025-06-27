@@ -27,7 +27,7 @@ NextGIS Account Toolbar на панели инструментов. Во всп�
    
    
 Авторизация происходит через веб-браузер с переадресацией на страницу https://my.nextgis.com/. 
-На странице необходимо ввести данные вашего аккаунта NextGIS ID или пройти регистрацию (см. :numref:`auth_page`). 
+На странице необходимо ввести данные вашего аккаунта NextGIS ID или пройти регистрацию. 
 Если вы забыли данные вашего аккаунта, то `восстановите <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#ngcom-change-passwords-webgis>`_ к нему доступ.
 
 .. figure:: _static/ngid_signup_signin_ru.png
@@ -38,7 +38,7 @@ NextGIS Account Toolbar на панели инструментов. Во всп�
    Страница авторизации NextGIS ID
 
 
-После корректного указания адреса электронной почты и пароля вы получите сообщение об успешной авторизации в NextGIS QGIS (см. :numref:`suscess_auth`), 
+После корректного указания адреса электронной почты и пароля вы получите сообщение об успешной авторизации в NextGIS QGIS, 
 и доступ к Pro-функциям будет разблокирован |ublocked_tools|.
 
 .. |ublocked_tools| image:: _static/auth_ngqgis/ublocked_tools.png
@@ -70,7 +70,7 @@ NextGIS Account Toolbar на панели инструментов. Во всп�
    Необходимо, чтобы на рабочих местах, где установлен NextGIS QGIS с модулем `Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/index.html>`_ открывался адрес с доменным именем geoservices.nextgis.com.
    Дополнительно вы также можете прописать разрешение на доступ к этому серверу (geoservices.nextgis.com) на сервере, где развернут NextGIS Web.
 
-Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Настройки -> Параметры -> NextGIS) (см. :numref:`ngqis_ngidop_auth`). 
+Для авторизации в NextGIS QGIS через свой сервер, необходимо указать соответствующий Endpoint в настройках авторизации (Главное меню -> Настройки -> Параметры -> NextGIS). 
 
 .. figure:: _static/ngqis_ngidop_auth_ru.png
    :name: ngqis_ngidop_auth
