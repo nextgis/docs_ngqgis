@@ -14,7 +14,7 @@
 .. |blocked_tools| image:: _static/auth_ngqgis/blocked_tools.png
 
 Для активации возможностей Pro-версии NextGIS QGIS необходимо авторизоваться в системе при помощи кнопки |not_auth|
-NextGIS Account Toolbar на панели инструментов (см. :numref:`acc_toolbar_deactive`). Во всплывающем меню выберите "Войти".
+NextGIS Account Toolbar на панели инструментов. Во всплывающем меню выберите "Войти".
 
 .. |not_auth| image:: _static/auth_ngqgis/not_auth.png
 
