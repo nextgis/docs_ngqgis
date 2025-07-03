@@ -59,7 +59,7 @@ Installed plugin management is available via small bug icon |installed_icon| in 
 .. figure:: _static/devtools/interface_icon.png
    :name: interface_icon
    :align: center
-   :width: 16cm
+   :width: 10cm
 
 Plugin settings are also available in menu Plugins — QGIS DevTools.
 
@@ -120,7 +120,7 @@ Return back to QGIS and press the Start button in the DevTools panel.
 .. figure:: _static/devtools/start_button.png
    :name: start_button
    :align: center
-   :width: 16cm
+   :width: 10cm
 
 After that you will see the standard QGIS blue notification about started session, with Copy launch.json template button.
 
@@ -158,7 +158,7 @@ On QGIS side you should see, that DevTools icon changed it’s color to green, a
 .. figure:: _static/devtools/stop_button.png
    :name: stop_button
    :align: center
-   :width: 16cm
+   :width: 10cm
 
 We are ready for debugging now.
 
