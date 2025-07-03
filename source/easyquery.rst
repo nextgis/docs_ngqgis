@@ -23,7 +23,7 @@ More information can be found in the "About".
    Plugin info
    
    
-Unstallation
+Installation
 ------------
 
 To install or update this plugin, you need to find it in the menu Plugins ‣ Manage and install plugins.
