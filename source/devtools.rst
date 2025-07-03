@@ -37,8 +37,8 @@ You can add debugpy installation to your build in Libs category.
 If you are a Linux user, you can install python3-debugpy using your OS package manager. For example:
 
 .. code-block:: bash
-
-apt get install python3-debugpy
+    
+    apt get install python3-debugpy
 
 
 Installing QGIS DevTools
@@ -54,7 +54,7 @@ After that you could install QGIS DevTools from standard plugins repository (Plu
 
 Installed plugin management is available via small bug icon |installed_icon| in the right bottom part of the QGIS interface.
 
-.. |auth_icon| image:: _static/devtools/installed_icon.png
+.. |installed_icon| image:: _static/devtools/installed_icon.png
 
 .. figure:: _static/devtools/interface_icon.png
    :name: interface_icon
@@ -184,8 +184,8 @@ In the variables panel you could explore all currently available variables used 
 You could also use all these variables in Debug console, for example ask for mouse click coordinate with
 
 .. code-block:: bash
-
-e.pos().x()
+    
+    e.pos().x()
 
 .. figure:: _static/devtools/console_variables.png
    :name: console_variables
@@ -194,7 +194,7 @@ e.pos().x()
 
 After that, using debug panel |debug_panel_2| you could move to the next code row or next breakpoint. These tools make the process of understanding what happens in the plugin much easier. Happy debugging!
 
-.. |auth_icon| image:: _static/devtools/debug_panel_2.png
+.. |debug_panel_2| image:: _static/devtools/debug_panel_2.png
 
 Conclusion
 ------------
