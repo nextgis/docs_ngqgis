@@ -120,7 +120,7 @@ Return back to QGIS and press the Start button in the DevTools panel.
 .. figure:: _static/devtools/start_button.png
    :name: start_button
    :align: center
-   :width: 10cm
+   :width: 7cm
 
 After that you will see the standard QGIS blue notification about started session, with Copy launch.json template button.
 
@@ -150,7 +150,7 @@ Debug session is active now. On VS Code side you should see a panel with debuggi
 .. figure:: _static/devtools/debug_panel.png
    :name: debug_panel
    :align: center
-   :width: 16cm
+   :width: 5cm
 
 
 On QGIS side you should see, that DevTools icon changed it’s color to green, and status changed to “client connected”.
@@ -158,7 +158,7 @@ On QGIS side you should see, that DevTools icon changed it’s color to green, a
 .. figure:: _static/devtools/stop_button.png
    :name: stop_button
    :align: center
-   :width: 10cm
+   :width: 7cm
 
 We are ready for debugging now.
 
