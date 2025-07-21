@@ -41,6 +41,13 @@ If you are a Linux user, you can install python3-debugpy using your OS package m
     apt get install python3-debugpy
 
 
+For MacOS:
+
+.. code-block:: bash
+    
+    /Applications/QGIS.app/Contents/MacOS/bin/python3 -m pip install debugpy
+
+
 Installing QGIS DevTools
 ~~~~~~~~~~~~~~~~~~~~~~~
 
