@@ -1,14 +1,7 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. important::
 
-.. NextGIS QGIS TOC
+   Table of contents is moved here:
 
-QGIS
-==============================
-
-.. toctree::
-   :maxdepth: 2
-   
-   plugins
-   intro
+   `NextGIS QGIS <https://docs.nextgis.com/docs_ngqgis/source/index.html>`_
 
 
