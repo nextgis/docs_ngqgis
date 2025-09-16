@@ -1,6 +1,6 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+
+
+
 
 .. _ngq_raster_styles:
 

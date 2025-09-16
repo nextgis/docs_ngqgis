@@ -1,4 +1,4 @@
-.. sectionauthor:: Александр Лисовенко <alexander.lisovenko@nextgis.ru>
+
 
 .. _lesis2sqlite:
 

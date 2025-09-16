@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>; Юлия Григоренко <grigorenko.j@gmail.com>
+; Юлия Григоренко <grigorenko.j@gmail.com>
 
 .. _ngqgis_editing_calculate:
 

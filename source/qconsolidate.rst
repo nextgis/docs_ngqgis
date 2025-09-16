@@ -1,4 +1,4 @@
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>, Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 .. _qconsolidate:
     

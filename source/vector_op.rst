@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>, Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 .. _ngq_vector_op:
 

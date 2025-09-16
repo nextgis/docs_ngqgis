@@ -1,4 +1,4 @@
-.. sectionauthor:: Екатерина Живаева <ekaterina.zhivaeva@nextgis.com>, Юлия Григоренко <yulia.grigorenko@nextgis.com>
+
 
 Обновление модулей (плагинов)
 =======================================
