@@ -1,4 +1,4 @@
-.. sectionauthor:: Петруненко Екатерина <ekaterina.petrunenko@nextgis.ru>
+
 
 .. _ngqgis_identifyplus:
 

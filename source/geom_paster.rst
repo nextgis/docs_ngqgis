@@ -1,4 +1,4 @@
-.. sectionauthor:: Yulia Grigorenko <yulia.grigorenko@nextgis.com>
+
 
 .. _geom_paster:
 

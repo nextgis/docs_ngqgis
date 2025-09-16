@@ -1,4 +1,4 @@
-.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
+
 
 .. _ngqgis_auth:
 

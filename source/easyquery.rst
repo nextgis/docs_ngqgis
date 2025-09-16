@@ -1,5 +1,4 @@
 .. sectionauthor:: Roman Gainullov <roman.gainullov@nextgis.ru>
-
 .. _NextGIS EasyQuery:
 
 NextGIS EasyQuery
