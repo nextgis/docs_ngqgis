@@ -90,6 +90,7 @@ NextGIS QGIS
    transformations
    user_profiles
    troubleshooting
+   logs
 
 
 
