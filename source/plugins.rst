@@ -16,6 +16,7 @@ All external plugins are written in Python now. They are located in external rep
 
    install_plugin
    update_plugins
+   logs
    qms
    identifyplus
    easyquery
