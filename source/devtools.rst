@@ -40,6 +40,12 @@ If you are a Linux user, you can install python3-debugpy using your OS package m
     
     apt get install python3-debugpy
 
+If you want to use flatpak for Linux:
+
+.. code-block:: bash
+    
+    flatpak run --devel --command=pip3 org.qgis.qgis install --user debugpy
+
 
 For MacOS:
 
