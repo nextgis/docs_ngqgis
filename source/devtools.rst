@@ -55,7 +55,7 @@ For MacOS:
 
 
 Installing QGIS DevTools
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 After that you could install QGIS DevTools from standard plugins repository (Plugins — Manage and install plugins — All — QGIS DevTools)
 
@@ -143,6 +143,13 @@ After that you will see the standard QGIS blue notification about started sessio
    :width: 16cm
 
 Press it, and paste copied template to **.vscode/launch.json** file created before.
+
+.. todo:: _static/devtools/launch_pasted.png
+   :name: start_notification
+   :align: center
+   :width: 16cm
+
+If the code file is stored in a separate directory, not in the one it's run from, you need to configure a path for it.
 
 In pasted code, in configurations/pathMappings/remoteRoot element replace <YOUR_PLUGIN_NAME> text to plugin’s directory name, in example case **osminfo**.
 
