@@ -26,7 +26,7 @@ Installation
 ------------
 
 To install or update this plugin, you need to find it in the menu Plugins ‣ Manage and install plugins.
-Enter part or all of its name in the Search bar (см. :numref:`setup-en`).
+Enter part or all of its name in the Search bar (see :numref:`setup-en`).
 
 .. figure:: _static/nextgis_easyquery/setup-en.png
    :name: setup-en
