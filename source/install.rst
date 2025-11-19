@@ -8,7 +8,7 @@
 
 Ниже приведены инструкции по установке для операционных систем `Windows <https://docs.nextgis.ru/docs_ngqgis/source/install.html#windows>`_ и `Linux <https://docs.nextgis.ru/docs_ngqgis/source/install.html#linux>`_.
 
-.. _windows:
+.. _install_windows:
 
 Windows
 --------
@@ -199,7 +199,7 @@ Windows
 
 
 
-.. _linux:
+.. _install_linux:
 
 Linux
 -----
@@ -265,7 +265,7 @@ Linux
 .. _ngqgis_update_linux:
 
 Обновление на Linux
-^^^^^^^^^^^^^^^^^^-
+^^^^^^^^^^^^^^^^^^^
 
 Если у вас ранее была установлена оффлайн-версия NextGIS QGIS, предварительно нужно её удалить с помощью команды flatpak uninstall com.nextgis.ngqgis, и выполнить установку по инструкции выше. 
 
