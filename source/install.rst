@@ -10,8 +10,8 @@
 
 .. _ngqgis_install:
 
-Процесс установки
-------------------
+Установка на Windows
+---------------------
 
 Установщик представляет собой пошаговый мастер. Первая страница мастера содержит приглашение к началу установки.
 
@@ -72,8 +72,8 @@
 
 .. _ngqgis_sys_req:
 
-Системные требования
----------------------
+Системные требования при установке на Windows
+---------------------------------------------
 
 Минимальные параметры ПК
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,10 +101,11 @@
 * источник бесперебойного питания емкостью не менее 800 ВА
 * монитор LCD 24”, разрешение 2560x1440
 
+
 .. _ngqgis_update:
 
-Обновление
-------------
+Обновление на Windows
+---------------------
 
 .. _ngqgis_update_check:
 
@@ -187,3 +188,94 @@
 
 Выполнится поиск и установка обновлений. 
 После завершения установки нажмите **Выйти**.
+
+
+
+
+
+.. _ngqgis_install_linux:
+
+Установка на Linux
+-------------------
+
+Актуальным способом распространения NextGIS QGIS в Linux сейчас является Flatpak. У нас развёрнут репозиторий по адресу flatpak.nextgis.com. Данная инструкция описывает установку и обновление при наличии доступа в интернет. 
+
+1. Установка Flatpak
+
+Установите Flatpak способом, используемым в вашей ОС: 
+
+
+* `ALT Linux <https://www.altlinux.org/Flatpak>`_
+* `РЕД ОС <https://redos.red-soft.ru/base/redos-7_3/7_3-administation/7_3-isolated-env/7_3-flatpak/>`_
+* `Astra Linux <https://wiki.astralinux.ru/kb/osnovy-ispol-zovaniya-flatpak-205885327.html>`_ (требуется аккаунт для доступа)
+* Другие ОС можно найти в `списке <https://flathub.org/ru/setup>`_
+
+
+2. Установка NextGIS QGIS
+
+Самый простой способ установки — использовать файл com.nextgis.ngqgis.flatpakref.
+Его можно открыть в графическом установщике или передать как аргумент команде flatpak install
+
+.. _install_linux_graph:
+
+Установка с помощью графического интерфейса
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Скачайте файл `com.nextgis.ngqgis.flatpakref <https://flatpak.nextgis.com/repo/appstream/com.nextgis.ngqgis.flatpakref>`_
+#. Откройте файловый менеджер и перейдите в каталог загрузок
+#. Откройте com.nextgis.ngqgis.flatpakref в графическом установщике, например, KDE Discover (в окружении KDE) или Gnome Software (в окружении Gnome)
+#. Нажмите **установить**
+
+.. figure:: _static/flatpak_graphic_ru.png
+   :name: 
+   :align: center
+   :width: 20cm
+
+.. _install_linux_terminal:
+
+Установка с помощью терминала
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Откройте терминал и выполните команду
+
+.. code-block::
+
+   flatpak install https://flatpak.nextgis.com/repo/appstream/com.nextgis.ngqgis.flatpakref
+
+
+В процессе будет предложено добавить репозитории NextGIS и Flathub, если они ещё не были настроены.
+
+Вы также можете установить NextGIS QGIS только для текущего пользователя, если это требуется для рабочего процесса. Для этого передайте флаг --user в команду install:
+
+.. code-block::
+
+   flatpak install --user https://flatpak.nextgis.com/repo/appstream/com.nextgis.ngqgis.flatpakref
+
+.. _ngqgis_update_linux:
+
+Обновление на Linux
+-------------------
+
+Если у вас ранее была установлена оффлайн-версия NextGIS QGIS, предварительно нужно её удалить с помощью команды flatpak uninstall com.nextgis.ngqgis, и выполнить установку по инструкции выше. 
+
+.. _update_linux_graph:
+
+Обновление с помощью графического интерфейса
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Откройте KDE Discover (в окружении KDE) или Gnome Software (в окружении Gnome)
+#. В поиске введите NextGIS QGIS
+#. Нажмите кнопку **Обновить**
+
+.. _update_linux_terminal:
+
+Обновление с помощью терминала
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Откройте терминал и выполните команду
+
+.. code-block::
+
+   flatpak update com.nextgis.ngqgis
+
+
