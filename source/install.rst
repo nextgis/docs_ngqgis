@@ -4,7 +4,7 @@
 Установка и обновление
 =======================
 
-Для установки :program:`NextGIS QGIS` используется универсальный сетевой установщик, который можно скачать `по ссылке <http://nextgis.ru/nextgis-qgis/>`_. В личном кабинете также доступен `оффлайн-инсталлятор <https://my.nextgis.com/software>`_.
+Для установки :program:`NextGIS QGIS` используется универсальный сетевой установщик, который можно скачать `по ссылке <http://nextgis.ru/nextgis-qgis/>`_ или **Flatpak** для операционных систем Linux. В личном кабинете также доступен `оффлайн-инсталлятор <https://my.nextgis.com/software>`_.
 
 Ниже приведены инструкции по установке для операционных систем `Windows <https://docs.nextgis.ru/docs_ngqgis/source/install.html#windows>`_ и `Linux <https://docs.nextgis.ru/docs_ngqgis/source/install.html#linux>`_.
 
