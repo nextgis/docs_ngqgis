@@ -225,7 +225,7 @@ Linux
 2. Установка NextGIS QGIS
 
 Самый простой способ установки — использовать файл com.nextgis.ngqgis.flatpakref.
-Его можно открыть в графическом установщике или передать как аргумент команде flatpak install
+Его можно открыть в установщике или передать как аргумент команде flatpak install
 
 .. _install_linux_graph:
 
@@ -234,7 +234,7 @@ Linux
 
 #. Скачайте файл `com.nextgis.ngqgis.flatpakref <https://flatpak.nextgis.com/repo/appstream/com.nextgis.ngqgis.flatpakref>`_
 #. Откройте файловый менеджер и перейдите в каталог загрузок
-#. Откройте com.nextgis.ngqgis.flatpakref в графическом установщике, например, KDE Discover (в окружении KDE) или Gnome Software (в окружении Gnome)
+#. Откройте com.nextgis.ngqgis.flatpakref в установщике, например, KDE Discover (в окружении KDE) или Gnome Software (в окружении Gnome)
 #. Нажмите **установить**
 
 .. figure:: _static/flatpak_graphic_ru.png
