@@ -9,26 +9,26 @@
 
 Диалог свойств слоя состоит из вкладок:
 
-* Информация
-* Источник
+* `Информация <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#info>`_
+* `Источник <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#source>`_
 * Стиль - отличается для `векторных <https://docs.nextgis.ru/docs_ngqgis/source/styling.html>`_ и `растровых <https://docs.nextgis.ru/docs_ngqgis/source/ngq_raster_styles.html>`_ слоёв
 * `Подписи <https://docs.nextgis.ru/docs_ngqgis/source/labeling.html>`_
 * Маски
-* 3D вид
-* Диаграммы
-* Поля
-* Формы полей
-* Связи
-* Служебное хранилище
-* Действия
-* Всплывающая подсказка
-* Отрисовка
-* Временные данные
-* Переменные
-* Высота
-* Метаданные
-* Зависимости
-* Легенда
+* `3D вид <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#3d-view>`_
+* `Диаграммы <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#diagrams>`_
+* `Поля <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#fields>`_
+* `Формы полей <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#form>`_
+* `Связи <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#joins>`_
+* `Служебное хранилище <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#auxil>`_
+* `Действия <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#actions>`_
+* `Всплывающая подсказка <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#display>`_
+* `Отрисовка <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#rendering>`_
+* `Временные данные <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#temporal>`_ - данные о времени
+* `Переменные <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#variables>`_
+* `Высота <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#elevation>`_
+* `Метаданные <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#metadata>`_
+* `Зависимости <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#depend>`_
+* `Легенда <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#legend>`_
 * Сервер QGIS
 * Оцифровка
 
@@ -38,7 +38,7 @@
 ----------
 
 .. figure:: _static/layer_param_info_ru.png
-   :name: 
+   :name: layer_param_info_pic
    :align: center
    :width: 20cm
 
@@ -87,7 +87,7 @@
 --------
 
 .. figure:: _static/layer_param_source_ru.png
-   :name: 
+   :name: layer_param_source_pic
    :align: center
    :width: 20cm
 
@@ -106,7 +106,7 @@
 ------
 
 .. figure:: _static/layer_param_3d_ru.png
-   :name: 
+   :name: layer_param_3d_pic
    :align: center
    :width: 20cm
 
@@ -151,7 +151,7 @@
 ----
 
 .. figure:: _static/layer_param_fields_ru.png
-   :name: 
+   :name: layer_param_fields_pic
    :align: center
    :width: 20cm
 
@@ -184,7 +184,7 @@
 -----------
 
 .. figure:: _static/layer_param_forms_ru.png
-   :name: 
+   :name: layer_param_forms_pic
    :align: center
    :width: 20cm
 
@@ -202,7 +202,7 @@
 -----
 
 .. figure:: _static/layer_param_joins_ru.png
-   :name: 
+   :name: layer_param_joins_pic
    :align: center
    :width: 20cm
 
@@ -218,7 +218,7 @@
 -------------------
 
 .. figure:: _static/layer_param_auxil_ru.png
-   :name: 
+   :name: layer_param_auxil_pic
    :align: center
    :width: 20cm
 
@@ -231,7 +231,7 @@
 ---------
 
 .. figure:: _static/layer_param_actions_ru.png
-   :name: 
+   :name: layer_param_actions_pic
    :align: center
    :width: 20cm
 
@@ -242,7 +242,7 @@
 ---------------------
 
 .. figure:: _static/layer_param_display_ru.png
-   :name: 
+   :name: layer_param_display_pic
    :align: center
    :width: 20cm
 
@@ -258,7 +258,7 @@
 Эти настройки определяют, как будут отрисовываться геометрии на карте.
 
 .. figure:: _static/layer_param_render_ru.png
-   :name: 
+   :name: layer_param_render_pic
    :align: center
    :width: 20cm
 
@@ -297,7 +297,7 @@
 В этой вкладке настраивается отображение объектов, актуальных на определённый период времени (если такая информация есть в данных).
 
 .. figure:: _static/layer_param_temporal_ru.png
-   :name: 
+   :name: layer_param_temporal_pic
    :align: center
    :width: 20cm
 
@@ -324,7 +324,7 @@
 В этой вкладке можно изменить или задать переменные слоя. Они могут использоваться в выражениях.
 
 .. figure:: _static/layer_param_variables_ru.png
-   :name: 
+   :name: layer_param_variables_pic
    :align: center
    :width: 20cm
 
@@ -336,7 +336,7 @@
 В этой вкладке настраиваются параметры обработки данных о высотах.
 
 .. figure:: _static/layer_param_elevation_ru.png
-   :name: 
+   :name: layer_param_elevation_pic
    :align: center
    :width: 20cm
 
@@ -368,7 +368,7 @@
 -----------
 
 .. figure:: _static/layer_param_metadata_ru.png
-   :name: 
+   :name: layer_param_metadata_pic
    :align: center
    :width: 20cm
 
@@ -392,7 +392,7 @@
 Объекты слоя могут обновляться при изменении других слоёв проекта. Отметьте нужные слои галочками в списке.
 
 .. figure:: _static/layer_param_depend_ru.png
-   :name: 
+   :name: layer_param_depend_pic
    :align: center
    :width: 20cm
 
@@ -404,7 +404,7 @@
 -------
 
 .. figure:: _static/layer_param_legend_ru.png
-   :name: 
+   :name: layer_param_legend_pic
    :align: center
    :width: 20cm
 
