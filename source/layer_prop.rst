@@ -118,8 +118,8 @@
 Диаграммы
 ---------
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/layer_param_diagrams_ru.png
+   :name: layer_param_diagrams_pic
    :align: center
    :width: 20cm
 
@@ -144,6 +144,24 @@
 
 .. |stacked-bar| image:: _static/stacked-bar.png
    :width: 6mm
+
+.. figure:: _static/diagrams_hist_ex_ru.png
+   :name: diagrams_hist_ex_pic
+   :align: center
+   :width: 14cm
+
+   Гистограмма объекта
+
+Для диаграмм есть следующие разделы настроек:
+
+* Атрибуты - значения каких атрибутов включаются в диаграмму;
+* Отрисовка - внешний вид элементов диаграммы;
+* Размер - каким образом значения атрибутов переводятся в размеры элементов диаграммы;
+* Размещение относительно объекта и приоритет отрисовки;
+* Параметры - направление столбцов для гистограммы и столбчатой диаграммы;
+* Легенда диаграммы.
+
+
 
 .. _fields:
 
@@ -211,6 +229,20 @@
 
 .. |symbologyAdd| image:: _static/symbologyAdd.png
    :width: 6mm
+
+.. figure:: _static/layer_param_joins_add_ru.png
+   :name: layer_param_joins_add_pic
+   :align: center
+   :width: 13cm
+
+   Параметры добавляемой связи
+
+.. figure:: _static/layer_param_joins_result_ru.png
+   :name: layer_param_joins_result_pic
+   :align: center
+   :width: 13cm
+
+   Карточка объекта с присоединёнными полями
 
 .. _auxil:
 
@@ -414,4 +446,11 @@
 * Включить показ легенды для подписей;
 * Включить текст на знаках - здесь задаётся текст, который отображается поверх знака в панели слоёв;
 * Встроенные виджеты в легенде: можно добавить непосредственно в дерево слоёв **ползунок непрозрачности**.
+
+.. figure:: _static/layer_param_legend_labels_ru.png
+   :name: layer_param_legend_labels_pic
+   :align: center
+   :width: 7cm
+
+   Легенда с заданным текстом на знаке и отдельным отображением подписей
 
