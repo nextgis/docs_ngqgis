@@ -201,7 +201,7 @@
 Формы полей
 -----------
 
-.. figure:: _static/layer_param_forms_ru.png
+.. todo:: _static/layer_param_forms_ru.png
    :name: layer_param_forms_pic
    :align: center
    :width: 20cm
@@ -267,6 +267,7 @@
    :align: center
    :width: 20cm
 
+На этой вкладке можно настроить действия с атрибутами объекта.
 
 .. _display:
 
@@ -278,9 +279,46 @@
    :align: center
    :width: 20cm
 
-В этой вкладке можно настроить, какое из полей использовать в качестве отображаемого названия объекта.
+В этой вкладке можно настроить:
 
-Также можно настроить всплывающие подсказки. Поддерживается форматирование HTML.
+* отображаемое имя объекта - какое из полей использовать в качестве отображаемого названия объекта в результатах определения при идентификации объекта, при поиске и в списочном виде таблицы атрибутов;
+
+
+.. figure:: _static/layer_param_display_osm_ru.png
+   :name: layer_param_display_osm_pic
+   :align: center
+   :width: 20cm
+
+   В качестве отображаемого имени используется значение поля OSM_ID
+
+.. figure:: _static/layer_param_display_name_ru.png
+   :name: layer_param_display_name_pic
+   :align: center
+   :width: 20cm
+
+   В качестве отображаемого имени используется значение поля NAME
+
+* всплывающие подсказки. Поддерживается форматирование HTML.
+
+.. figure:: _static/map_tip_settings_ru.png
+   :name: map_tip_settings_pic
+   :align: center
+   :width: 20cm
+
+   Настройки всплывающей подсказки
+
+Чтобы всплывающие подсказки отображались на карте, должна быть нажата кнопка |button_show_maptips|.
+
+.. |button_show_maptips| image:: _static/mActionMapTips.png
+   :width: 6mm
+
+
+.. figure:: _static/map_tip_example_ru.png
+   :name: map_tip_example_pic
+   :align: center
+   :width: 20cm
+
+   Всплывающая подсказка, показывающая максимальную скорость на дороге
 
 .. _rendering:
 
