@@ -23,7 +23,7 @@ NextGIS QGIS
 * `Cоздание нового слоя <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-create-new-layer>`_
 * `Сохранение слоя <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-map-save-vector>`_
 * `Обмен данными с NextGIS Web (NextGIS Connect) <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_
-* Свойства слоя <в разработке>
+* `Свойства слоя <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html>`_
 * Сохранение проекта с данными <в разработке>
 * `Свойства проекта <https://docs.nextgis.ru/docs_ngqgis/source/settings.html#project-settings>`_
 
@@ -72,23 +72,24 @@ NextGIS QGIS
 
    intro
    install
-   ui
-   settings
    auth
    masterpass
+   user_profiles
+   ui
+   settings
    map
+   layer_prop
+   srs
+   editing
+   raster_ref
+   transformations
+   vector_op
+   area
+   raster_op
    styling
    ngq_raster_styles
    labeling
    map_composer
-   srs
-   editing
-   area
-   vector_op
-   raster_op
-   raster_ref
-   transformations
-   user_profiles
    troubleshooting
    logs
 
