@@ -24,7 +24,7 @@ NextGIS QGIS
 * `Сохранение слоя <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-map-save-vector>`_
 * `Обмен данными с NextGIS Web (NextGIS Connect) <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_
 * `Свойства слоя <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html>`_
-* Сохранение проекта с данными <в разработке>
+* `Сохранение проекта с данными <https://docs.nextgis.ru/docs_ngqgis/source/project.html>`_
 * `Свойства проекта <https://docs.nextgis.ru/docs_ngqgis/source/settings.html#project-settings>`_
 
 **Системы координат и проекции**
@@ -79,6 +79,7 @@ NextGIS QGIS
    settings
    map
    layer_prop
+   project
    srs
    editing
    raster_ref
