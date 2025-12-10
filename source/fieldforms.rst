@@ -21,16 +21,16 @@
 .. figure:: _static/automatic_form_ru.png
    :name: automatic_form_pic
    :align: center
-   :width: 18cm
+   :width: 10cm
 
    Форма, автоматически созданная из настроенных полей
 
-Конструктор позволяет распределять поля по вкладкам и выстраивать в нужном порядке.
+Конструктор позволяет распределять поля по вкладкам и выстраивать в нужном порядке, а также настраивать внешний вид формы.
 
 .. figure:: _static/designer_form_ru.png
-   :name: automatic_form_pic
+   :name: designer_form_pic
    :align: center
-   :width: 18cm
+   :width: 10cm
 
    Форма, созданная в конструкторе
 
@@ -121,11 +121,22 @@
 Поле для ввода текста с клавиатуры. Возможные настройки:
 
 * Многострочное - позволяет делать перенос строки внутри поля;
+* HTML.
 
 .. figure:: _static/form_textedit_set_ru.png
-   :name: 
+   :name: form_textedit_set_pic
    :align: center
    :width: 18cm
+
+   Настройки текстового поля
+
+.. figure:: _static/form_textedit_result_ru.png
+   :name: form_textedit_result_pic
+   :align: center
+   :width: 10cm
+
+   Форма с текстовыми полями: однострочными и многострочным
+
 
 .. _widget_valuemap:
 
