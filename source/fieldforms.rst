@@ -21,7 +21,7 @@
 .. figure:: _static/automatic_form_ru.png
    :name: automatic_form_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Форма, автоматически созданная из настроенных полей
 
@@ -30,7 +30,7 @@
 .. figure:: _static/designer_form_ru.png
    :name: automatic_form_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Форма, созданная в конструкторе
 
@@ -50,9 +50,9 @@
 * Флажок **Использовать последние введённые значения атрибутов** - убыстряет процесс, если нужно вводить подряд несколько объектов, у которых значение одного из атрибутов совпадает - например, адреса по одной улице;
 * Флажок **Размещать подпись над полем** (по умолчанию - слева от поля).
 
-**Вид формы** - выбирается из выпадающего списка, `доступные варианты <>`_ и дальнейшие настройки зависят от типа данных.
+**Вид формы** - выбирается из выпадающего списка, `доступные варианты <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html#widget-type>`_ и дальнейшие настройки зависят от типа данных.
 
-Здесь можно выбрать вид **Скрытое поле**, тогда оно не будет показываться в форме ввода значений атрибутов. Это удобно, если поле `заполняется автоматически <>`_.
+Здесь можно выбрать вид **Скрытое поле**, тогда оно не будет показываться в форме ввода значений атрибутов. Это удобно, если поле `заполняется автоматически <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html#widget-default>`_.
 
 **Ограничения** - можно установить, что поле обязательно должно быть:
 
@@ -69,7 +69,7 @@
 
    Поля с ограничениями: выполненным, невыполненным, принудительным - не дающим сохранить объект
 
-Также для поля можно задать `значение по умолчанию <>`_.
+Также для поля можно задать `значение по умолчанию <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html#widget-default>`_.
 
 .. _widget_type:
 
@@ -105,7 +105,7 @@
 .. figure:: _static/form_checkbox_set_ru.png
    :name: form_checkbox_set_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Настройки флажка
 
@@ -125,7 +125,7 @@
 .. figure:: _static/form_textedit_set_ru.png
    :name: 
    :align: center
-   :width: 16cm
+   :width: 18cm
 
 .. _widget_valuemap:
 
@@ -146,7 +146,7 @@
 .. figure:: _static/form_valuemap_set_ru.png
    :name: 
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Настройки карты значений
 
@@ -174,7 +174,7 @@
 .. figure:: _static/form_range_result_ru.png
    :name: form_range_result_pic
    :align: center
-   :width: 16cm
+   :width: 10cm
 
    Три варианта ввода диапазона
 
@@ -189,7 +189,7 @@
 .. figure:: _static/form_range_set_ru.png
    :name: form_range_set_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Настройки диапазона
 
@@ -226,7 +226,7 @@
 .. figure:: _static/form_datetime_set_ru.png
    :name: form_datetime_set_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Настройки поля ввода даты/времени
 
@@ -261,9 +261,56 @@
 .. figure:: _static/form_attachment_set_ru.png
    :name: form_attachment_set_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Настройки поля вложения
+
+
+.. _widget_hidden:
+
+Скрытое поле
+-------------
+
+Среди атрибутов слоя могут быть служебные поля, которые пользователю не нужно заполнять вручную. Чтобы они не занимали места на форме, а также чтобы избежать поломки файла при случайном вводе ошибочного значения, эти поля можно скрыть. 
+
+Для этого в разделе Вид формы выберите в выпадающем списке **Скрыто**.
+
+.. figure:: _static/form_hidden_set_ru.png
+   :name: form_hidden_set_pic
+   :align: center
+   :width: 18cm
+
+   Настройки скрытого поля
+
+.. figure:: _static/form_hidden_result_ru.png
+   :name: form_hidden_result_pic
+   :align: center
+   :width: 18cm
+
+   Атрибуты слоя и форма: красным помечены скрытые поля
+
+Характерный пример - поле ``fid`` в файле формата GeoPackage. Его изменение может нарушить структуру файла.
+
+Если поле должно оставаться видимым, но не должно редактироваться, снимите флажок "Поле ввода" в разделе "Общие", а в разделе "Вид формы" оставьте подходящее значение, например, "Текстовое поле".
+
+.. figure:: _static/form_readonly_set_ru.png
+   :name: form_readonly_set_pic
+   :align: center
+   :width: 18cm
+
+   Настройки поля, недоступного для редактирования через форму
+
+.. figure:: _static/form_readonly_result_ru.png
+   :name: form_readonly_result_pic
+   :align: center
+   :width: 10cm
+
+   Поле, видимое, но недоступное для редактирование в форме
+
+Автоматически заполняться могут не только служебные поля, `подробнее <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html#widget-default>`_.
+
+
+
 
 .. _widget_default:
 
@@ -276,4 +323,6 @@
 * Переменная - например, @user_account_name, чтобы сохранить имя пользователя, вносящего изменения;
 * Выражение - например, автоматически рассчитывающаяся площадь объекта ``area ($geometry)``.
 
-Поля, заполняемые автоматически при помощи переменных или выражений, можно убрать из пользовательского интерфейса формы ввода, сделав их скрытыми.
+Также в разделе "Общие" можно включить флажок "Использовать последние введённые значения атрибутов", тогда в форму автоматически будет подставляться предыдущее введённое значение.
+
+Поля, заполняемые автоматически, можно убрать из пользовательского интерфейса формы ввода, `сделав их скрытыми <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html#widget-hidden>`_. 
