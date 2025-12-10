@@ -65,7 +65,7 @@
 .. figure:: _static/fields_with_constraints_ru.png
    :name: fields_with_constraints_pic
    :align: center
-   :width: 16cm
+   :width: 10cm
 
    Поля с ограничениями: выполненным, невыполненным, принудительным - не дающим сохранить объект
 
@@ -96,14 +96,18 @@
 Такое поле имеет два варианта значения: для включённого и отключённого флажка. При этом тип поля не обязан быть логическим, это может быть текстовое поле со значениями "есть" и "нет", "справа" и "слева" и т.п.
 
 .. figure:: _static/form_checkbox_result_ru.png
-   :name: 
+   :name: form_checkbox_result_pic
+   :align: center
+   :width: 10cm
+
+   Флажок в форме
+
+.. figure:: _static/form_checkbox_set_ru.png
+   :name: form_checkbox_set_pic
    :align: center
    :width: 16cm
 
-.. figure:: _static/form_checkbox_set_ru.png
-   :name: 
-   :align: center
-   :width: 16cm
+   Настройки флажка
 
 
 
@@ -133,11 +137,11 @@
 Список вариантов состоит из двух колонок, в первой - непосредственно то, что записывается в базу данных слоя, во второй - то, что пользователь видит в выпадающем списке. Колонки могут совпадать между собой, а могут различаться. Например, если поле должно содержать цифровой код или условное обозначение ограниченной длины, а пользователю удобнее ориентироваться по полному развёрнутому названию.
 
 .. figure:: _static/form_valuemap_result_ru.png
-   :name: 
+   :name: form_valuemap_result_pic
    :align: center
-   :width: 16cm
+   :width: 10cm
 
-   Выпадающий список
+   Два поля с выпадающими списками в форме
 
 .. figure:: _static/form_valuemap_set_ru.png
    :name: 
@@ -168,9 +172,11 @@
 * "циферблат" - круглую ручку управления.
 
 .. figure:: _static/form_range_result_ru.png
-   :name: 
+   :name: form_range_result_pic
    :align: center
    :width: 16cm
+
+   Три варианта ввода диапазона
 
 Настройки:
 
@@ -181,9 +187,11 @@
 * Подпись единиц.
 
 .. figure:: _static/form_range_set_ru.png
-   :name: 
+   :name: form_range_set_pic
    :align: center
    :width: 16cm
+
+   Настройки диапазона
 
 .. _widget_color:
 
@@ -193,9 +201,11 @@
 В форму добавляется стандартный интерфейс выбора цвета QGIS в двух вариантах. Нажатие на стрелочку вызвает более компактный диалог, на кнопку - более развёрнутый. Выбранный цвет отображается на кнопке.
 
 .. figure:: _static/form_color_result_ru.png
-   :name: 
+   :name: form_color_result_pic
    :align: center
-   :width: 16cm
+   :width: 11cm
+
+   Выбор цвета в компактном варианте диалога
 
 .. _widget_datetime:
 
@@ -204,12 +214,21 @@
 
 Позволяет выбрать дату, используя интерфейс календаря.
 
-Также можно настроить формат записи. По умолчанию выбран формат ISO Qt: yyyy-MM-dd (гггг-ММ-дд) для дат, либо yyyy-MM-ddTHH:mm:ss (например, 2017-07-24T15: 46: 29) или с суффиксом часового пояса (Z для UTC, в противном случае смещение как [+|-]HH:mm), где это уместно для комбинированных дат и времени.
+Также можно настроить формат записи. По умолчанию выбран формат ISO Qt: yyyy-MM-dd для дат, либо yyyy-MM-ddTHH:mm:ss (например, 2017-07-24T15: 46: 29) или с суффиксом часового пояса (Z для UTC, в противном случае смещение как [+|-]HH:mm), где это уместно для комбинированных дат и времени.
 
 .. figure:: _static/form_datetime_result_ru.png
-   :name: 
+   :name: form_datetime_result_pic
+   :align: center
+   :width: 10cm
+
+   Поля ввода даты/времени
+
+.. figure:: _static/form_datetime_set_ru.png
+   :name: form_datetime_set_pic
    :align: center
    :width: 16cm
+
+   Настройки поля ввода даты/времени
 
 .. _widget_attach:
 
@@ -233,9 +252,18 @@
 * **встроенный просмотр вложений**. Он доступен для изображений, аудио, видео и веб-страниц. Размеры миниатюры настраиваются для всех этих типов, кроме аудио.
 
 .. figure:: _static/form_attachment_result_ru.png
-   :name: 
+   :name: form_attachment_result_pic
+   :align: center
+   :width: 10cm
+
+   Предпросмотр добавленного изображения в форме
+
+.. figure:: _static/form_attachment_set_ru.png
+   :name: form_attachment_set_pic
    :align: center
    :width: 16cm
+
+   Настройки поля вложения
 
 .. _widget_default:
 
