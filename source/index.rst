@@ -79,6 +79,7 @@ NextGIS QGIS
    settings
    map
    layer_prop
+   fieldforms
    project
    srs
    editing

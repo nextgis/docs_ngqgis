@@ -17,7 +17,7 @@
 * `3D вид <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#3d-view>`_
 * `Диаграммы <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#diagrams>`_
 * `Поля <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#fields>`_
-* `Формы полей <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#form>`_
+* `Формы полей <https://docs.nextgis.ru/docs_ngqgis/source/fieldforms.html>`_
 * `Связи <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#joins>`_
 * `Служебное хранилище <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#auxil>`_
 * `Действия <https://docs.nextgis.ru/docs_ngqgis/source/layer_prop.html#actions>`_
@@ -196,23 +196,7 @@
 
 Также можно настроить форму отображения этих полей.
 
-.. _form:
 
-Формы полей
------------
-
-.. todo:: _static/layer_param_forms_ru.png
-   :name: layer_param_forms_pic
-   :align: center
-   :width: 20cm
-
-
-Форма создаётся автоматически для каждого слоя, однако можно также:
-
-* Создать пользовательскую форму через конструктор форм;
-* Загрузить готовую форму из файла.
-
-Выберите нужный вариант в выпадающем меню наверху.
 
 .. _joins:
 
