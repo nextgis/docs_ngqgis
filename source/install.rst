@@ -218,7 +218,7 @@ Linux
 
 * `ALT Linux <https://www.altlinux.org/Flatpak>`_
 * `РЕД ОС <https://redos.red-soft.ru/base/redos-7_3/7_3-administation/7_3-isolated-env/7_3-flatpak/>`_
-* `Astra Linux <https://wiki.astralinux.ru/kb/osnovy-ispol-zovaniya-flatpak-205885327.html>`_ (требуется аккаунт для доступа)
+* `Astra Linux <https://wiki.astralinux.ru/kb/osnovy-ispol-zovaniya-flatpak-205885327.html>`_ 
 * Другие ОС можно найти в `списке <https://flathub.org/ru/setup>`_
 
 
