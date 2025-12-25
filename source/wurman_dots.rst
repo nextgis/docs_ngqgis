@@ -1,6 +1,8 @@
 Wurman Dots
 ==============
 
+.. note:: Qt6 compatible
+
 Create Wurman dots using a square or hexagonal grid.
 
 Wurman Dots is a method for visualizing the density of a point layer. The area is split into cells, each of them is then marked by a circle. The inner circle vary in size representing the density of objects within each corresponding grid cell.

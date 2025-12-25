@@ -3,7 +3,9 @@
 .. _geom_paster:
 
 Geometry Paster
-=========================
+=================
+
+.. note:: Qt6 compatible
 
 With this plugin you can copy geometry from one feature and assign it to a different one. Source and target features can be in one layer or in different layers.
 

@@ -3,7 +3,9 @@
 .. _osminfo:
 
 OSMInfo
-=========================
+==========
+
+.. note:: Qt6 compatible
 
 Plugin QGIS OSMInfo allows you to get all the information for any point without loading any additional layers.
 

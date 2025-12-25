@@ -3,6 +3,8 @@
 QGIS DevTools — debugging QGIS plugins
 ======================================
 
+.. note:: Qt6 compatible
+
 Preface
 --------
 

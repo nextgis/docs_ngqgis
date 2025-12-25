@@ -3,6 +3,8 @@
 QuickMapServices
 ================
 
+.. note:: Qt6 compatible
+
 With this plugin you can quickly add a basemap to you QGIS project. Raster basemap is often the first layer to be added to a project. You can add OpenStreetMap layer, UTM zones borders etc. 
 
 Basemap can be in the form of a Web service: TMS, WMS, WMTS, ESRI ArcGIS Service, or symply XYZ tiles.
