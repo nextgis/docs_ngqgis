@@ -34,7 +34,7 @@ You can add debugpy installation to your build in Libs category.
 .. figure:: _static/devtools/add_debugpy.png
    :name: add_debugpy
    :align: center
-   :width: 16cm
+   :width: 20cm
 
 If you are a Linux user, you can install python3-debugpy using your OS package manager. For example:
 
@@ -74,7 +74,7 @@ Installed plugin management is available via small bug icon |installed_icon| in 
 .. figure:: _static/devtools/interface_icon.png
    :name: interface_icon
    :align: center
-   :width: 10cm
+   :width: 6cm
 
 Plugin settings are also available in menu Plugins — QGIS DevTools.
 
@@ -92,7 +92,7 @@ Selecting range instead of single value for Port would allow you to run several 
 .. figure:: _static/devtools/Adapter_settings.png
    :name: Adapter_settings
    :align: center
-   :width: 16cm
+   :width: 18cm
 
 
 Setting up VS Code
@@ -107,7 +107,7 @@ Then restart VS Code.
 .. figure:: _static/devtools/python_debugger_extension.png
    :name: python_debugger_extension
    :align: center
-   :width: 16cm
+   :width: 10cm
 
 Opening plugin code and setting up debugger
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,14 +128,14 @@ Next step is to create an empty **.vscode/launch.json** file in plugins director
 .. figure:: _static/devtools/launch_json_file.png
    :name: launch_json_file
    :align: center
-   :width: 16cm
+   :width: 12cm
 
-Return back to QGIS and press the Start button in the DevTools panel.
+Return to QGIS and press the Start button in the DevTools panel.
 
 .. figure:: _static/devtools/start_button.png
    :name: start_button
    :align: center
-   :width: 7cm
+   :width: 6cm
 
 After that you will see the standard QGIS blue notification about started session, with Copy launch.json template button.
 
@@ -146,10 +146,10 @@ After that you will see the standard QGIS blue notification about started sessio
 
 Press it, and paste copied template to **.vscode/launch.json** file created before.
 
-.. todo:: _static/devtools/launch_pasted.png
+.. figure:: _static/launch_pasted.png
    :name: start_notification
    :align: center
-   :width: 16cm
+   :width: 20cm
 
 If the code file is stored in a separate directory, not in the one it's run from, you need to configure a path for it.
 
@@ -165,7 +165,7 @@ After that switch to the Run & Debug tab (Ctrl + Shift + D) and run **Attach to 
 .. figure:: _static/devtools/attach_to_qgis.png
    :name: attach_to_qgis
    :align: center
-   :width: 16cm
+   :width: 12cm
 
 Debug session is active now. On VS Code side you should see a panel with debugging commands:
 
@@ -212,7 +212,7 @@ You could also use all these variables in Debug console, for example ask for mou
 .. figure:: _static/devtools/console_variables.png
    :name: console_variables
    :align: center
-   :width: 16cm
+   :width: 20cm
 
 After that, using debug panel |debug_panel_2| you could move to the next code row or next breakpoint. These tools make the process of understanding what happens in the plugin much easier. Happy debugging!
 
