@@ -44,3 +44,19 @@ QGIS была разработана на архитектуре с поддер
    wurman_dots
    NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/index.html>
    Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/index.html>
+
+
+
+**Поддержка Qt6**
+
+Постепенно добавляется поддержка Qt6. Плагины, подходящие к установке в QGIS 4:
+
+* MOLUSCE
+* Geometry Paster
+* OSMInfo
+* QuickMapServices
+* NextGIS Connect
+* QGIS DevTools
+* Wurman Dots
+
+Актуальный список плагинов, поддерживающих Qt6, можно посмотреть `здесь <https://plugins.qgis.org/plugins/new_qgis_ready/>`_.
