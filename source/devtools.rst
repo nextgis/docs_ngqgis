@@ -21,10 +21,10 @@ Thanks to its modular architecture, the plugin can be extended to support other 
 In this article, we’ll introduce the plugin and show how it can streamline and modernize your QGIS plugin development workflow.
 
 
-Setting up QGIS
+Set up QGIS
 ---------------
 
-Installing dependencies
+Install dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 DevTools uses debugpy as the underlying library, so you need to install it first. If you are Windows user, we recommend to use OSGeo4W installation of QGIS for plugin development. 
@@ -56,7 +56,7 @@ For MacOS:
     /Applications/QGIS.app/Contents/MacOS/bin/python3 -m pip install debugpy
 
 
-Installing QGIS DevTools
+Install QGIS DevTools
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 After that you could install QGIS DevTools from standard plugins repository (Plugins — Manage and install plugins — All — QGIS DevTools)
@@ -95,11 +95,8 @@ Selecting range instead of single value for Port would allow you to run several 
    :width: 18cm
 
 
-Setting up VS Code
-------------------
-
-Installing Python debugger extension
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Install Python debugger extension in VS Code 
+--------------------------------------------
 
 **Python debugger** extension for VS Code is needed. Go to Extensions tab (Ctrl+Shift+X), search for Python debugger and install it.
 Then restart VS Code.
@@ -109,8 +106,11 @@ Then restart VS Code.
    :align: center
    :width: 10cm
 
-Opening plugin code and setting up debugger
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Debug a plugin
+--------------
+
+Prepare
+~~~~~~~~
 
 For example we will debug the OSMInfo QGIS plugin, which could be installed from the standard plugins repository. You could try the same path, or use your own plugin.
 
@@ -184,8 +184,8 @@ On QGIS side you should see, that DevTools icon changed it’s color to green, a
 
 We are ready for debugging now.
 
-Debugging process
-------------------
+Plugin debugging process
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 All VS Code debug workflows are now available, you could find detailed information here: https://code.visualstudio.com/docs/python/debugging 
 
@@ -218,9 +218,96 @@ After that, using debug panel |debug_panel_2| you could move to the next code ro
 
 .. |debug_panel_2| image:: _static/devtools/debug_panel_2.png
 
+
+Debug a script
+--------------
+Prepare
+~~~~~~~
+
+To debug a script, follow these steps:
+
+1. In VSCode open the folder where the script is stored using File — Open Folder.
+
+2. Open the script in QGIS editor: Plugins → Python Console → Show Editor → Open Script.
+
+3. Press the **Debug script** button in the script editor panel. This will start the Python debugging server in QGIS if it has not been started previously and will wait for VS Code to connect for debugging.
+
+.. figure:: _static/devt_start_python.png
+   :name: devt_start_python_pic
+   :align: center
+   :width: 14cm
+
+
+4. Copy launch.json template by clicking the corresponding button in the dialog that appears.
+
+.. figure:: _static/devt_copy_launch.png
+   :name: devt_copy_launch_pic
+   :align: center
+   :width: 12cm
+
+
+5. As the next step, return to VS Code and create a .vscode subdirectory in the script directory, then add an empty launch.json file inside it.
+
+.. figure:: _static/devt_vscode_folder.png
+   :name: devt_vscode_folder_pic
+   :align: center
+   :width: 14cm
+
+
+6. Paste copied template to .vscode/launch.json and save the file
+
+.. figure:: _static/devt_paste_template.png
+   :name: devt_paste_template_pic
+   :align: center
+   :width: 20cm
+
+Now you can start the debugging.
+
+Script debugging process
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+7. Add breakpoints to the script.
+
+.. figure:: _static/devt_add_break.png
+   :name: devt_add_break_pic
+   :align: center
+   :width: 20cm
+
+
+8. After that switch to the Run & Debug tab (Ctrl + Shift + D) and run Attach to QGIS.
+
+.. figure:: _static/devt_attach_qgis.png
+   :name: devt_attach_qgis_pic
+   :align: center
+   :width: 14cm
+
+
+Debug session is active now. On VS Code side you should see a panel with debugging commands:
+
+.. figure:: _static/devt_script_debug_panel.png
+   :name: devt_script_debug_panel_pic
+   :align: center
+   :width: 5cm
+
+
+On QGIS side you should see, that DevTools icon changed it’s color to green, and status changed to “client connected”.
+
+.. figure:: _static/devt_client_connected.png
+   :name: devt_client_connected_pic
+   :align: center
+   :width: 6cm
+
+When the script execution reaches a breakpoint, you will see the current variables and their contents.
+
+.. figure:: _static/devt_variables.png
+   :name: devt_variables_pic
+   :align: center
+   :width: 20cm
+
 Conclusion
 ------------
 
 We hope that QGIS DevTools will make the lives of plugin developers easier.
 Based on community requests, we plan to expand the list of supported IDEs and development support mechanisms in general.
+
 Feel free to share your thoughts and feedback!
