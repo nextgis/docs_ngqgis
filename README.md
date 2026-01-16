@@ -1,8 +1,8 @@
-# User documentation for NextGIS QGIS
+# User documentation for NextGIS QGIS Plugins
 
 Read online:
-* English - http://docs.nextgis.com/docs_ngqgis/source/index.html (in process)
-* Russian - http://docs.nextgis.ru/docs_ngqgis/source/index.html
+* English - http://docs.nextgis.com/docs_ngqgis/source/index.html 
+
 
 # License
  
