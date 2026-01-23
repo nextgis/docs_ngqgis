@@ -64,6 +64,9 @@ NextGIS QGIS
 
 
 
+.. raw:: html
+
+   <h2>Развёрнутое оглавление<a class="headerlink" href="#id36" title="Permalink to this heading">¶</a></h2>
 
 
 
