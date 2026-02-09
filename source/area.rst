@@ -1,4 +1,4 @@
-; Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 .. _ngqgis_editing_calculate:
 
