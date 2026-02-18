@@ -5,14 +5,28 @@
 2. Скачайте `архив с бинарными файлами SAGA <https://sourceforge.net/projects/saga-gis/>`_ и распакуйте в любую папку.
 3. В панели инструментов анализа откройте настройки |wrench|, разверните секцию "Провайдеры" и укажите в ней путь до бинарных файлов.
 
-.. figure:: _static/_.png
+.. |wrench| image:: _static/mActionOptions.png
+   :width: 6mm
+
+
+
+.. figure:: _static/open_process_set_ru.png
+   :name: open_process_set_pic
+   :align: center
+   :width: 10cm
+
+.. figure:: _static/process_set_path_ru.png
    :name: 
    :align: center
    :width: 20cm
 
-
-
 4. Зайдите в меню Настройки > Параметры > вкладка Система.
+
+.. figure:: _static/_.png
+   :name: 
+   :align: center
+   :width: 20cm
+   
 5. В разделе "Текущие переменные среды" найдите PATH и скопируйте значение.
 6. В разделе "Переменные среды" поставьте галочку "Переопределить переменные среды".
 
