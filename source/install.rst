@@ -199,6 +199,47 @@ Windows
 
 
 
+Консольная (“тихая”) установка NextGIS QGIS на Windows
+-------------------------------------------------------
+
+Основой для инсталлятора настольного ПО является установщик  **Qt installer framework**. Он позволяет выполнять установку как через графический интерфейс, так и из командной строки.  
+
+Подробная информация приведена на `doc.qt.io <http://doc.qt.io>`_.  Запуск из командной строки описан в разделах `Command Line Interface <https://doc.qt.io/qtinstallerframework/ifw-cli.html>`_ и `Using from Command Line <https://doc.qt.io/qtinstallerframework/ifw-use-cases-cli.html>`_.
+
+Получить краткую справку можно через аргумент --help:
+
+.. code::
+
+   .\nextgis-setup-win64.exe --help
+
+Для того, чтобы отобразить список всех компонентов, доступных для установки, необходимо выполнить: 
+
+.. code::
+
+   .\nextgis-setup-win64.exe search
+
+ 
+Команда поддерживает различные флаги фильтрации (описаны в `документации <https://doc.qt.io/qtinstallerframework/ifw-cli.html>`_).
+
+Для самой установки используется команда **install**. Опционально можно указать путь и список компонентов:
+
+.. code::
+
+   .\nextgis-setup-win64.exe install --accept-licenses --root “C:\NextGIS”
+
+
+
+Полный список параметров приведён в документации.
+
+Рекомендуем обратить внимание на раздел `Unattended Usage <https://doc.qt.io/qtinstallerframework/ifw-use-cases-cli.html#unattended-usage>`_, он описывает установку одной командой, без дополнительных диалогов.
+
+Для примеров выше используется **stable**-установщик, но можно использовать тот же подход и со **standalone**.
+
+Для **обновления** NextGIS QGIS из консоли используйте **nextgisupdater.exe** (находится в корне установленного QGIS).  Набор его команд аналогичен описанному выше установщику.
+
+
+
+
 .. _install_linux:
 
 Linux
