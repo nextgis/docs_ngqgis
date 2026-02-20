@@ -13,29 +13,36 @@
 .. figure:: _static/open_process_set_ru.png
    :name: open_process_set_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 .. figure:: _static/process_set_path_ru.png
-   :name: 
+   :name: process_set_path_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
 
 4. Зайдите в меню Настройки > Параметры > вкладка Система.
-
-.. figure:: _static/_.png
-   :name: 
-   :align: center
-   :width: 20cm
-   
+  
 5. В разделе "Текущие переменные среды" найдите PATH и скопируйте значение.
+
+.. figure:: _static/current_variable_path_ru.png
+   :name: current_variable_path_pic
+   :align: center
+   :width: 24cm
+
 6. В разделе "Переменные среды" поставьте галочку "Переопределить переменные среды".
 
-.. figure:: _static/_.png
-   :name: 
-   :align: center
-   :width: 20cm
-
 7. Добавьте переменную PATH. В колонке "Применить" выберите "Перезаписать". В качестве значения необходимо добавить скопированное ранее и дополнить его ``;C:/Windows/system32;C:/Windows;C:/Windows/system32/WBem``. Важно не потерять **точку с запятой** между ними.
+
+.. figure:: _static/envir_custom_path_ru.png
+   :name: envir_custom_path_pic
+   :align: center
+   :width: 24cm
+
 8. Перезагрузите NextGIS QGIS. 
 
 После этого инструменты SAGA должны появиться в панели анализа.
+
+.. figure:: _static/saga_processing_ru.png
+   :name: saga_processing_pic
+   :align: center
+   :width: 10cm
