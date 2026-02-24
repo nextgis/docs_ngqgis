@@ -48,6 +48,7 @@ NextGIS QGIS
 * `Инструменты для векторных слоёв <https://docs.nextgis.ru/docs_ngqgis/source/vector_op.html>`_
 * `Подсчёт длин и площадей объекта <https://docs.nextgis.ru/docs_ngqgis/source/area.html>`_
 * `Инструменты для растровых слоёв <https://docs.nextgis.ru/docs_ngqgis/source/raster_op.html>`_
+* `Установка SAGA <https://docs.nextgis.ru/docs_ngqgis/source/saga.html>`_
 
 **Стилизация**
 
@@ -91,6 +92,7 @@ NextGIS QGIS
    vector_op
    area
    raster_op
+   saga
    styling
    ngq_raster_styles
    labeling
