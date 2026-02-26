@@ -76,7 +76,7 @@ N - глубина прогноза, которая измеряется в за
 Дополнительно можно задать значение NoData для выходного растра. Оставьте это поле пустым, чтобы скопировать из входного растра.
 
 .. figure:: _static/molusce_prepare_raster_ru.png
-   :name: molusce_prepare_raster_ru
+   :name: molusce_prepare_raster_pic
    :align: center
    :width: 13cm
 
@@ -95,8 +95,8 @@ N - глубина прогноза, которая измеряется в за
 * Размер буферной зоны в единицах карты - если буфер не требуется, оставьте пустым;
 * Единицы измерения близости - только для режима "Близость", геопространственные единицы или пиксели.
 
-.. todo:: _static/molusce_prepare_vector_ru.png
-   :name: molusce_prepare_vector_ru
+.. figure:: _static/molusce_prepare_vector_ru.png
+   :name: molusce_prepare_vector_pic
    :align: center
    :width: 13cm
 
