@@ -53,6 +53,58 @@ All input rasters must have the same:
 We recommend creating a raster attribute table from current symbology for each of the layers. This way you can view class names using Identify tool.
 Also we recommend setting the style to Paletted/Unique values. Each class will be marked on the map by an individual color.
 
+To prepare the data you can use these tools available in the |processing| Processing toolbox:
+
+.. |processing| image:: _static/processingAlgorithm.png
+   :width: 6mm
+
+* Prepare raster dataset for MOLUSCE;
+* Prepare vector dataset for MOLUSCE.
+
+.. figure:: _static/molusce_prepare_tools_en.png
+   :name: molusce_prepare_tools_pic
+   :align: center
+   :width: 9cm
+
+First of all, pick the raster layer that is to serve as a reference. 
+
+.. _molusce_prepare_raster:
+
+Prepare raster dataset for MOLUSCE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the tool interface you need to select:
+
+* Raster layer to be prepared;
+* Reference raster layer;
+* Resampling algorithm (use Nearest neighbour for categorical rasters and Bilinear or Bicubic for continuous rasters like DEM).
+
+You can also set a NoData value for output. If left empty, the value from the source raster is used.
+
+.. figure:: _static/molusce_prepare_raster_en.png
+   :name: molusce_prepare_raster_pic
+   :align: center
+   :width: 11cm
+
+.. _molusce_prepare_vector:
+
+Prepare vector dataset for MOLUSCE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the tool interface select:
+
+* Vector layer to be processed;
+* Referenced raster layer;
+* Mode - Presence (rasterizes the features) or Proximity (creates gradient of the distance to the nearest feature);
+* For Presence mode you can select the raster value, if left empty the value 1 is used;
+* For Presence mode you can create a buffer around the features, its size is set in map units;
+* For Proximity mode you can select units for calculation: georeferenced or pixels.
+
+.. figure:: _static/molusce_prepare_vector_en.png
+   :name: molusce_prepare_vector_pic
+   :align: center
+   :width: 11cm
+
 .. _molusce_learn:
 
 Loading data and model training
@@ -61,7 +113,7 @@ Loading data and model training
 Plugin has several tabs that are used one after the other.
 
 Inputs
-^^^^^^
+~~~~~~
 
 On the left there is a list of all raster layers in the project. From that list select the initial state map and final state map. Then add spacial variables in the bottom right part of the tab. Press **Check geometry**. After a successful geometry check other tabs become available.
 
@@ -73,7 +125,7 @@ On the left there is a list of all raster layers in the project. From that list 
    Uploading input data
 
 Evaluating correlation
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 In this tab you can, if necessary, calculate the extent to which the influence factors are related to each other. If the correlation between two factors is strong, it may be sufficient to use just one of them.
 For continuous variables, you can calculate the Pearson's correlation, and for nominal variables, the Cramer coefficient or JIU (joint information uncertainty). Select two factors from dropdown menu or check the option "Check all rasters".
@@ -86,7 +138,7 @@ For continuous variables, you can calculate the Pearson's correlation, and for n
    Calculating correlations
 
 Area changes
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 On the "Area changes" tab press **Update tables**.
 
@@ -112,7 +164,7 @@ If you want to save the tables, left-click on any cell to activate context menu 
    Table context menu
 
 Transition potential modelling
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Four methods are available:
 
@@ -156,7 +208,7 @@ If training is successful, both curves go down smoothly and the Current Validati
 
    Typical learning curves
 
-After training the model you can save the samples as a separate layer. This allows to check if all types of transition have been sampled for training.
+After training the model you can save the samples as a separate layer. This allows to check if all types of transition have been sampled for training. When you click **Save samples**, a temporary scratch layer is created in the project. You can export it to the format of your choice.
 
 You can also save the trained model. Then you can savely close the plugin and later load it and use for simulation. To re-use the model, take rasters of the same dimentions and the spacial variables in the same order.
 
