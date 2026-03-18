@@ -11,7 +11,7 @@ To create a tileset open the QGIS project you want to create tiles from.
 
 Activate the plugin.
 
-.. |button_qtiles| image:: _static/button_qtiles.png
+.. |button_qtiles| image:: _static/button_qtiles_solid.png
    :width: 8mm
 
 .. figure:: _static/qtiles_dialog_en.png
