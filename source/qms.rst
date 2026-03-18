@@ -15,19 +15,17 @@ Full catalog of QuickMapServices is available on https://qms.nextgis.com/. You c
 
 .. _qms_menu:
 
-Menu and search panel
-----------------------
+How to add basemaps and other services to QGIS
+-----------------------------------------------
 
-After the plugin is installed its buttons appear in the Web Toolbar (you can move the buttons to another panel in the Settings). Also QuickMapServices submenu will be added to the Web menu.
+After the QuickMapServices plugin is installed its buttons appear in the Web Toolbar (you can move the buttons to another panel in the Settings). Also QuickMapServices submenu is added to the Web menu.
 
 
 .. |modules_Qms-button| image:: _static/modules_Qms-button.png
 .. |button_QMS_search| image:: _static/button_QMS_search.png
 
 
-Activate the |button_QMS_search| QMS search panel. Enter the name of the service you want to find into the search bar (try "Openstreetmap", "Mapnik" or "UTM"), then double-click the service to add it to the map or press **Add**. 
-
-Press **Filter by extent** to only display the layers that contain the area visible on the map in QGIS. Not all the layers in QMS database have specified extent, but you can add it yourself.
+Activate the |button_QMS_search| QMS search panel. Enter the name of the service you want to find or some key words into the search bar (try "Openstreetmap", "Mapnik" or "UTM"), then double-click the service to add it to the map or click **Add**. 
 
 .. figure:: _static/qms_search_en.png
    :name: qms_search
@@ -35,8 +33,10 @@ Press **Filter by extent** to only display the layers that contain the area visi
    :width: 10cm
    
    QMS search panel
-   
-Basemap added to project as a raster layer (see :numref:`qms_map`)
+
+Click **Filter by extent** to only display the layers that contain the area visible on the map in QGIS. Not all the layers in QMS database have specified extent, but you can add it yourself.
+
+Basemap is added to project as a raster layer (see :numref:`qms_map`)
 
 
 .. figure:: _static/qms_added_example_en.png
@@ -44,11 +44,9 @@ Basemap added to project as a raster layer (see :numref:`qms_map`)
    :align: center
    :width: 22cm
    
-   Basemap and a layer of UTM zones
+   Mapnik basemap and the grid of UTM zones added from QMS Search
 
-The service settings are stored separately and remain intact when you delete or update the plugin.
-
-See how the plugins work in our video:
+See how the plugin works in our video:
 
 .. raw:: html
 
@@ -78,8 +76,8 @@ General settings
 
 Open the settings menu from the plugin menu. On this tab you can configure the following parameters:
 
-1. Automatically reproject to EPSG: 3857 Pseudo Mercator);
-2. Show info/error message in message bar. By default they are displayed in a pop-up window.
+1. Automatically reproject to EPSG: 3857 Pseudo Mercator;
+2. Show info/error messages in the message bar. By default they are displayed in a pop-up window.
 
 .. figure:: _static/qms_settings_general_en.png
    :name: qms_settings_general_pic
@@ -109,7 +107,7 @@ Tiles settings
 Add/Edit/Remove
 ^^^^^^^^^^^^^^^^^
 
-On this tab you can manage groups and services.
+On this tab you can create and manage a local collection of services.
 
 
 
