@@ -107,7 +107,7 @@ QuickMapServices
 Чтобы добавить группу, нажмите на зелёный плюс в верхней половине вкладки. Задайте идентификатор группы и название, которое будет отображаться в меню модуля.
 
 .. figure:: _static/qms_new_group_ru.png
-   :name: qms_new_group_ru
+   :name: qms_new_group_pic
    :align: center
    :width: 24cm
 
@@ -116,7 +116,7 @@ QuickMapServices
 Чтобы добавить сервис, нажмите на зелёный плюс в нижней половине вкладки. 
 
 .. figure:: _static/qms_new_service_ru.png
-   :name: qms_new_service_зшс
+   :name: qms_new_service_pic
    :align: center
    :width: 24cm
 
