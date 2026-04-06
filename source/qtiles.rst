@@ -1,6 +1,8 @@
 QTiles
 =======
 
+.. note:: Qt6 compatible. Can be used in QGIS 4
+
 This plugin generates raster tiles from QGIS project for selected zoom levels and tile naming conventions (Slippy Map or TMS). 
 
 Raster tilesets like this are used for example in `mobile GIS <https://docs.nextgis.com/docs_ngmobile/source/intro.html>`_ for field work without Internet connection. Packages can be used in NextGIS Mobile, GeoPaparazzi, simple Leaflet-based viewer or MBTiles.
