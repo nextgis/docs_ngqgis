@@ -1,6 +1,8 @@
 Send2GE
 =======
 
+.. note:: Qt6 compatible. Can be used in QGIS 4
+
 Grab current location and send it to Google Earth in one click. 
 
 After installation you'll find the plugin in the Plugins toolbar: |button_send2ge|. Activate the plugin and click on the map.
