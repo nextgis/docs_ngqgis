@@ -22,7 +22,7 @@
 * Добавлять слои `из Веб-ГИС NextGIS Web <https://docs.nextgis.ru/docs_ngqgis/source/map.html#nextgis-web>`_.
 * `Создавать собственные данные <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-create-new-layer>`_.
 
-.. hint:: Где взять данные?
+.. admonition:: Где взять данные?
 
    Получите данные на интересующую вас территорию на `NextGIS Data <https://data.nextgis.com/ru/>`_
 
