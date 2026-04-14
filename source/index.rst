@@ -6,6 +6,10 @@
 NextGIS QGIS
 ==============================
 
+.. hint:: Хотите научиться работать в QGIS?
+
+   Запишитесь на наш курс `Фундаментальный QGIS <https://nextgis.skillspace.ru/l/qgis>`_: короткие ёмкие видео, практика с данными, обратная связь
+
 **Общие**
 
 * `Установка и обновление <https://docs.nextgis.ru/docs_ngqgis/source/install.html>`_

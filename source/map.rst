@@ -13,13 +13,18 @@
 
 :program:`NextGIS QGIS` предоставляет пользователю возможность добавлять:
 
-* Векторные данные.
-* Растровые данные.
-* Использовать тайловые подложки из интернета.
-* Добавлять растры по протоколу :term:`WMS` и :term:`TMS`.
-* Работать по протоколу :term:`WFS`.
-* Добавлять слои из Веб-ГИС NextGIS Web.
-* Предоставляет возможность пользователю добавлять собственные данные.
+* `Векторные данные <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-map-from-file>`_.
+* `Растровые данные <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-map-from-file>`_.
+* Использовать тайловые `подложки <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-map-basemap>`_ из интернета.
+* Добавлять растры по протоколу `WMS <https://docs.nextgis.ru/docs_ngqgis/source/map.html#wms>`_ и :term:`TMS`.
+* Подключать базы данных `PostGIS <https://docs.nextgis.ru/docs_ngqgis/source/map.html#postgis>`_.
+* Работать по протоколу `WFS <https://docs.nextgis.ru/docs_ngqgis/source/map.html#wfs>`_.
+* Добавлять слои `из Веб-ГИС NextGIS Web <https://docs.nextgis.ru/docs_ngqgis/source/map.html#nextgis-web>`_.
+* `Создавать собственные данные <https://docs.nextgis.ru/docs_ngqgis/source/map.html#ngqgis-create-new-layer>`_.
+
+.. hint:: Где взять данные?
+
+   Получите данные на интересующую вас территорию на `NextGIS Data <https://data.nextgis.com/ru/>`_
 
 
 .. _ngqgis_map_from_file:
@@ -98,13 +103,12 @@
 
 
 
-
 .. _ngqgis_map_basemap:
 
 Добавление базовых карт из Интернета
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Для добавление базовой карты (картографической подложки, картподложки) следует воспользоватся плагином QuickMapServices. 
+Для добавление базовой карты (картографической подложки, картподложки) следует воспользоватся плагином `QuickMapServices <https://docs.nextgis.ru/docs_ngqgis/source/qms.html>`_. 
 
 Картографическая подложка часто выступает в качестве первого слоя, добавляемого для 
 работы в проект. Подложка часто представлена в виде различных интернет-сервисов: 
@@ -119,6 +123,10 @@ TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов
 В QuickMapServices есть два хранилища для подложек: базовое и дополнительное. Подложки 
 из базового набора устанавливаются и включаются вместе с модулем расширения.
 Описание модуля находится в главе `QuickMapServices <https://docs.nextgis.ru/docs_ngqgis/source/qms.html#quickmapservices>`_.
+
+.. hint:: Не хотите зависеть от доступности внешних сервисов?
+
+   Вы можете создавать собственные автономные подложки и управлять доступом к ним с помощью `NextGIS GeoServices <https://docs.nextgis.ru/docs_geoserv_prem/source/intro.html>`_
 
 
 .. _ngqgis_map_posgis_database:
