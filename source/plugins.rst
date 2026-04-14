@@ -58,5 +58,7 @@ QGIS была разработана на архитектуре с поддер
 * NextGIS Connect
 * QGIS DevTools
 * Wurman Dots
+* QTiles
+* Send2GE
 
 Актуальный список модулей, поддерживающих Qt6, можно посмотреть `здесь <https://plugins.qgis.org/plugins/new_qgis_ready/>`_.
