@@ -51,6 +51,8 @@ Support of Qt6 is added to mre and more plugins. Current list of QGIS 4-ready pl
 * Geometry Paster
 * OSMInfo
 * QuickMapServices
+* QTiles
+* Send2GE
 * NextGIS Connect
 * QGIS DevTools
 * Wurman Dots
