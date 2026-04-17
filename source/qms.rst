@@ -3,8 +3,8 @@
 .. |modules_Qms-button| image:: _static/modules_Qms-button.png
 .. |button_QMS_search| image:: _static/button_QMS_search.png
 
-QuickMapServices
-================
+QuickMapServices: most downloaded QGIS plugin
+=============================================
 
 .. note:: Qt6 compatible
 
@@ -57,9 +57,12 @@ Watch on `youtube <https://youtu.be/lw_v0GlZzcE?si=CGU15UB9NHcUFzdS>`_.
 
 Another way to add a basemap is to pick one of the services from the plugin menu. Click |modules_Qms-button| on the Web toolbar or go to Web ‣ QuickMapServices.
 
-Click on a service to add it to the project.
+Click on a service to add it to the project. 
 
-.. figure:: _static/qms_add_from_menu_en.png
+.. admoniton:: New!
+   This way you can add both raster and vector tiles.
+
+.. figure:: _static/qms_add_from_menu_en_2.png
    :name: qms_add_from_menu_pic
    :align: center
    :width: 24cm
