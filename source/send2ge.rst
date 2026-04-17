@@ -5,10 +5,22 @@ Send2GE
 
 Grab current location and send it to Google Earth in one click. 
 
-After installation you'll find the plugin in the Plugins toolbar: |button_send2ge|. Activate the plugin and click on the map.
+After installation you'll find the plugin in the Plugins toolbar.
 
-.. |button_send2ge| image:: _static/button_send2ge.png
+.. _open_google_earth:
+
+How to open a location from QGIS in Google Earth
+-------------------------------------------------
+
+Activate plugin Send2GE |button_send2ge|, the curser will look like this: |cursor_send2ge|. 
+
+Click on the map in QGIS.
+
+.. |button_send2ge| image:: _static/button_send2ge_2.png
    :width: 6mm
+
+.. |cursor_send2ge| image:: _static/cursor_send2ge.png
+   :width: 5mm
 
 The Google Earth app will open on the selected point.
 
