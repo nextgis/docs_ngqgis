@@ -22,7 +22,7 @@ Send2GE
 
 Программа откроется сразу в точке клика.
 
-.. figure:: _static/qgis_googleearth_ru.png
+.. figure:: _static/qgis_googleearth_ru_2.png
    :name: qgis_googleearth_pic
    :align: center
    :width: 22cm
