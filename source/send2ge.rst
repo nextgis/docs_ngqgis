@@ -24,7 +24,7 @@ Click on the map in QGIS.
 
 The Google Earth app will open on the selected point.
 
-.. figure:: _static/qgis_googleearth_en.png
+.. figure:: _static/qgis_googleearth_en_2.png
    :name: qgis_googleearth_pic
    :align: center
    :width: 22cm
