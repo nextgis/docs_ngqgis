@@ -1,7 +1,7 @@
 Send2GE
 =======
 
-.. note:: Модуль поддерживает Qt6, совместим с QGIS 4
+
 
 Этот модуль позволяет открывать текущую локацию QGIS в Google Earth одним кликом. 
 
@@ -42,3 +42,5 @@ Send2GE
 Смотреть на `youtube <https://youtu.be/LrJ8VAX6vbQ>`_, `rutube <https://rutube.ru/video/d570a4991e6405da6b4eb859467ce085/>`_.
 
 .. seealso:: Есть также похожий модуль `Click-Fu <https://docs.nextgis.ru/docs_ngqgis/source/clickfu.html>`_ для работы с веб-сервисами Google Maps, OSM, Flickr Maps, GeoHack Map Sources.
+
+.. note:: Модуль совместим с QGIS 4

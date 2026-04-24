@@ -1,7 +1,7 @@
 QTiles
 =======
 
-.. note:: Модуль поддерживает Qt6, совместим с QGIS 4
+
 
 С помощью этого модуля создаются растровые тайлы на выбранную территорию и в нужном диапазоне масштабирования.
 
@@ -83,3 +83,5 @@ QTiles
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/6e2694c293d59f6903d600b6b15924a9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Посмотреть видео на `youtube <https://youtu.be/Lk-i4Az0SEo>`_, `rutube <https://rutube.ru/video/6e2694c293d59f6903d600b6b15924a9/>`_.
+
+.. note:: Модуль совместим с QGIS 4

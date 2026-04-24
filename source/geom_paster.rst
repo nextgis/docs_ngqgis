@@ -5,7 +5,7 @@
 Geometry Paster
 =========================
 
-.. note:: Модуль поддерживает Qt6
+
 
 Плагин позволяет скопировать геометрию одного объекта и назначить ее другому. При этом копируемый и целевой объект могут быть как в одном векторном слое, так и в разных.
 
@@ -45,3 +45,5 @@ Geometry Paster
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/b63080fd22045118d2a4b3b3eed37fec/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Смотреть на `youtube <https://youtu.be/cWFpY7CjJUM>`_, `rutube <https://rutube.ru/video/b63080fd22045118d2a4b3b3eed37fec/>`_.
+
+.. note:: Модуль совместим с QGIS 4

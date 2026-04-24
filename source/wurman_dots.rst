@@ -1,7 +1,7 @@
 Wurman Dots
 ==============
 
-.. note:: Модуль поддерживает Qt6
+
 
 Создавайте точки Вурмана по квадратной или гексагональной сетке.
 
@@ -69,3 +69,5 @@ Wurman Dots
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/c531ceef34bbc853a4c4b6a3ec64c354/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Смотреть на `youtube <https://youtu.be/pf8FV_oHMJM>`_, `rutube <https://rutube.ru/video/c531ceef34bbc853a4c4b6a3ec64c354/>`_.
+
+.. note:: Модуль совместим с QGIS 4
