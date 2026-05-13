@@ -13,7 +13,7 @@ In the plugin dialog configure the parameters:
 * Create polygons / Create lines - select the type of features you want to create;
 * Closed - select to have the line end in the point where it begins;
 * Group features by - select the field to be used for grouping;
-* Sort vertices by - select a field to be used to sort the vertices of the lines or polygons;
+* Sort vertices by - select a field to be used to sort the vertices of the lines or polygons. This is used when you need to create several features, not one. ID used in the field should be unique;
 * Then by - additional field to sort by after the initial one;
 * Output shapefile - select folder where the out ESRI Shapefile will be created;
 * Encoding - select from a list;
