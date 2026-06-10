@@ -50,7 +50,7 @@ NextGIS QGIS
 
 **Анализ**
 
-* Общее описание инструментов анализа <в разработке>
+* `Общее описание инструментов анализа <https://docs.nextgis.ru/docs_ngqgis/source/processing.html>`_
 * `Инструменты для векторных слоёв <https://docs.nextgis.ru/docs_ngqgis/source/vector_op.html>`_
 * `Подсчёт длин и площадей объекта <https://docs.nextgis.ru/docs_ngqgis/source/area.html>`_
 * `Инструменты для растровых слоёв <https://docs.nextgis.ru/docs_ngqgis/source/raster_op.html>`_
@@ -95,6 +95,7 @@ NextGIS QGIS
    editing
    raster_ref
    transformations
+   processing
    vector_op
    area
    raster_op
