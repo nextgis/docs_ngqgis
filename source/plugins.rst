@@ -42,6 +42,7 @@ QGIS была разработана на архитектуре с поддер
    shortcut
    reconstructline
    wurman_dots
+   toolbox
    NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/index.html>
    Rosreestr tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/index.html>
 
