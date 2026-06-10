@@ -7,7 +7,7 @@ NextGIS Toolbox
 
 Инструменты из коллекции NextGIS Toolbox доступны в панели анализа и в меню Анализ.
 
-Чтобы запускать инструменты, вам понадобится API-ключ
+Чтобы запускать инструменты, вам понадобится API-ключ.
 
 API-ключ
 --------
@@ -28,13 +28,13 @@ API-ключ
    :align: center
    :width: 20cm
 
-   API key in the Python tab
+   Ключ API на веб-сайте
 
-Copy the key from the code and insert it in the plugin settings in QGIS: Processing -> NextGIS Toolbox -> Settings.
+Скопируйте ключ и вставьте его в настройках модуля: Анализ -> NextGIS Toolbox -> Параметры.
 
 .. figure:: _static/api_key_tb_plugin_settings_ru.png
    :name: api_key_tb_plugin_settings_pic
    :align: center
    :width: 20cm
 
-   API key added to the plugin settings
+   Ключ API в настройках модуля
