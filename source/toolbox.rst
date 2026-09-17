@@ -12,13 +12,13 @@ NextGIS Toolbox
 API-ключ
 --------
 
-Перейдите на https://toolbox.nextgis.com и авторзуйтесь или, если вы ещё не зарегистрированы, `создайте NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html#how-to-create-account-nextgis-id>`_.
+Перейдите на https://toolbox.nextgis.com и авторизуйтесь или, если вы ещё не зарегистрированы, `создайте NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html#how-to-create-account-nextgis-id>`_.
 
 Откройте любой из инструментов на главной странице сайта `Toolbox <https://toolbox.nextgis.com>`_.
 
 Перейдите на вкладку **Python-код**. 
 
-Ваш ключ API указан в следующей строке::
+Ваш ключ API указан в следующей строке:
 
  # Initialize client with your API key, use default base url
  toolbox = ToolboxClient("{API_key}")
