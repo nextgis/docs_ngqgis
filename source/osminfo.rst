@@ -180,4 +180,31 @@ OSMInfo
 
 Также в настройках можно выбрать нужный сервер Overpass, проверить его доступность и включить отладочные сообщения.
 
+.. _osminfo_overpass:
+
+Настройка сервера Overpass
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Можно выбрать один из предустановленных серверов или добавить свой. 
+
+При выборе сервера отображаются его параметры: адрес проекта, охват, конечная точка (endpoint), правила использования и контакты.
+
+.. figure:: _static/osminfo_overpass_info_ru.png
+   :name: osminfo_overpass_info_pic
+   :align: center
+   :width: 18cm
+
+   Данные выбранного сервера Overpass
+
+Также здесь вы можете добавить свой сервер Overpass, например, сервер NextGIS, доступ к которому можно `получить в личном кабинете <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-download>`_. Для этого выберите в списке **Пользовательский сервер Overpass**. Появится поле ввода URL. Вставьте в него адрес сервера и нажмите **Ок**.
+
+.. figure:: _static/osminfo_overpass_custom_ru.png
+   :name: osminfo_overpass_custom_pic
+   :align: center
+   :width: 18cm
+
+   Добавление пользовательского сервера Overpass
+
+
+
 .. note:: Модуль совместим с QGIS 4
