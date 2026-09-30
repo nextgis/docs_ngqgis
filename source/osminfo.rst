@@ -180,4 +180,33 @@ In the Query settings section you can set up what plugin does when you click on 
 
 In the plugin settings you can also select Overpass instance and enable debug messages.
 
+.. _osminfo_overpass:
+
+Set up Overpass server
+~~~~~~~~~~~~~~~~~~~~~~
+
+You can select one of the built-in servers or add a custom one.
+
+When you select a server from the dropdown menu, you can view its information: project URL, coverage, endpoint, usage policy and contacts.
+
+.. figure:: _static/osminfo_overpass_info_en.png
+   :name: osminfo_overpass_info_pic
+   :align: center
+   :width: 18cm
+
+   Information of the selected server
+
+You can also add a custom Overpass server, for example, NextGIS Overpass. You can get a personal API key `in your account <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-download>`_. 
+
+In the dropdown menu select **Custom Overpass API instance**, paste the link and click **OK**.
+
+.. figure:: _static/osminfo_overpass_custom_en.png
+   :name: osminfo_overpass_custom_pic
+   :align: center
+   :width: 18cm
+
+   Adding custom Overpass server
+
+
+
 .. note:: Plugin is supported in QGIS 4
