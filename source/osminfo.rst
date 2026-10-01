@@ -182,8 +182,8 @@ In the plugin settings you can also select Overpass instance and enable debug me
 
 .. _osminfo_overpass:
 
-Set up Overpass server
-~~~~~~~~~~~~~~~~~~~~~~
+Select or add Overpass server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can select one of the built-in servers or add a custom one.
 
