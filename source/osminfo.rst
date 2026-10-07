@@ -182,23 +182,12 @@ In the plugin settings you can also select Overpass instance and enable debug me
 
 .. _osminfo_overpass:
 
-Select or add Overpass server
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Set alternative Overpass server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can select one of the built-in servers or add a custom one.
+If you experience problems with getting data, you can add a custom Overpass server or select the list of predefined servers.
 
-When you select a server from the dropdown menu, you can view its information: project URL, coverage, endpoint, usage policy and contacts.
-
-.. figure:: _static/osminfo_overpass_info_en.png
-   :name: osminfo_overpass_info_pic
-   :align: center
-   :width: 18cm
-
-   Information of the selected server
-
-You can also add a custom Overpass server, for example, NextGIS Overpass. You can get a personal API key `in your account <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-download>`_. 
-
-In the dropdown menu select **Custom Overpass API instance**, paste the link and click **OK**.
+To add NextGIS Overpass server select **Custom Overpass API instance** in the dropdown menu. Get a personal API key in your `account settings <https://my.nextgis.com/software?tab=api-keys>`_. Copy-paste the link in URL section and click **OK**.
 
 .. figure:: _static/osminfo_overpass_custom_en.png
    :name: osminfo_overpass_custom_pic
@@ -207,6 +196,14 @@ In the dropdown menu select **Custom Overpass API instance**, paste the link and
 
    Adding custom Overpass server
 
+When you select a server the list of predefined servers, you can view its information: project URL, coverage, endpoint, usage policy and contacts.
+
+.. figure:: _static/osminfo_overpass_info_en.png
+   :name: osminfo_overpass_info_pic
+   :align: center
+   :width: 18cm
+
+   Information of the selected server
 
 
 .. note:: Plugin is supported in QGIS 4
