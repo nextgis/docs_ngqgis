@@ -60,6 +60,7 @@
    
    Общий вид NextGIS QGIS. NextGIS Account Toolbar активирован
 
+.. note:: Авторизация выполняется отдельно для каждого `профиля <https://docs.nextgis.ru/docs_ngqgis/source/user_profiles.html>`_. В разных профилях вы можете быть авторизованы под разными пользователями, например, в одном использовать личный облачный аккаунт, а в другом - корпоративный аккаунт для системы на своём сервере.
 
 .. |ublocked_tools| image:: _static/auth_ngqgis/ublocked_tools.png
 
