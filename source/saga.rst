@@ -1,44 +1,18 @@
 Установка SAGA в NextGIS QGIS
 =============================
 
-1. `Установите <https://docs.nextgis.ru/docs_ngqgis/source/install_plugin.html>`_ сам модуль в NextGIS QGIS (Модули > Управление модулями > Processing Saga NextGen Provider).
-2. Скачайте `архив с бинарными файлами SAGA <https://sourceforge.net/projects/saga-gis/>`_ и распакуйте в любую папку.
-3. В панели инструментов анализа откройте настройки |wrench|, разверните секцию "Провайдеры" и укажите в ней путь до бинарных файлов.
+Начиная с версии 26 пакет инструментов SAGA GIS можно установить вместе с программой NextGIS QGIS. Отметьте "SAGA GIS" на втором шаге мастера установки (см. :numref:`install_wizard_recommended_pic`).
 
-.. |wrench| image:: _static/mActionOptions.png
-   :width: 6mm
+Если при установке программы вы не выбрали этот компонент, закройте все открытые окна NextGIS QGIS, запустите вновь установщик и перейдите к обслуживанию приложения.
 
-
-
-.. figure:: _static/open_process_set_ru.png
-   :name: open_process_set_pic
+.. figure:: _static/ngq_maintanance_ru.png
+   :name: ngq_check_version_pic
    :align: center
-   :width: 8cm
+   :width: 20cm
 
-.. figure:: _static/process_set_path_ru.png
-   :name: process_set_path_pic
-   :align: center
-   :width: 24cm
+   Обслуживание программы
 
-4. Зайдите в меню Настройки > Параметры > вкладка Система.
-  
-5. В разделе "Текущие переменные среды" найдите PATH и скопируйте значение.
-
-.. figure:: _static/current_variable_path_ru.png
-   :name: current_variable_path_pic
-   :align: center
-   :width: 24cm
-
-6. В разделе "Переменные среды" поставьте галочку "Переопределить переменные среды".
-
-7. Добавьте переменную PATH. В колонке "Применить" выберите "Перезаписать". В качестве значения необходимо добавить скопированное ранее и дополнить его ``;C:/Windows/system32;C:/Windows;C:/Windows/system32/WBem``. Важно не потерять **точку с запятой** между ними.
-
-.. figure:: _static/envir_custom_path_ru.png
-   :name: envir_custom_path_pic
-   :align: center
-   :width: 24cm
-
-8. Перезагрузите NextGIS QGIS. 
+Выберите **Добавление и удаление компонентов**. На следующем шаге наберите в поиске компонентов SAGA, отметьте нужный пункт галочкой и продолжите установку.
 
 После этого инструменты SAGA должны появиться в панели анализа.
 
@@ -46,3 +20,5 @@
    :name: saga_processing_pic
    :align: center
    :width: 10cm
+
+   Инструменты SAGA в панели инструментов анализа

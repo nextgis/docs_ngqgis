@@ -409,6 +409,19 @@ TMS, WMS, WMTS, ESRI ArcGIS Service или просто в виде тайлов
    2, 79 28 52 N, 53 00 00 E
    3, 79 28 52 N, 61 33 03 E
 
+.. _ngq_import_dxf:
+
+Добавление DXF/DWG
+-------------------
+
+Данные в формате DXF/DWG можно добавить через меню Проект -> Импорт/Экспорт -> Импортировать слои из DWG/DXF.
+
+.. figure:: _static/ngq_import_dwg_ru.png
+   :name: ngq_import_dwg_pic
+   :align: center
+   :width: 18cm
+
+   Импорт слоёв из файла DWG
 
 
 .. _ngqgis_map_ngweb:
