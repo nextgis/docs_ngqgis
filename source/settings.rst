@@ -376,17 +376,46 @@ IDE
   * Пользовательские файлы API
   * Ключ доступа GitHub
 
-NextGIS ID
+NextGIS
 ^^^^^^^^^^
 
-Доступны три типа авторизации: с использованием NextGIS ID, Keycloak и детальных пользовательских настроек.
+В этом разделе собраны настройки аккаунта NextGIS и отдельных модулей (подробнее о них в разделе `Модули расширения QGIS <https://docs.nextgis.ru/docs_ngqgis/source/plugins.html>`_).
 
-.. figure:: _static/Settings_NGID_ru.png
-   :name: Settings_NGID_pic
+Если вы ещё не вошли в аккаунт, то при открытии этого раздела увидите окно входа с двумя вариантами: через облачный NextGIS ID и через собственный сервер.
+
+.. figure:: _static/ngq_settings_ng_unlogged_ru.png
+   :name: ngq_settings_ng_unlogged_pic
    :align: center
-   :width: 22cm
+   :width: 16cm
    
-   NextGIS ID
+   Настройки входа в аккаунт
+
+Авторизованный пользователь увидит информацию о своей подписке.
+
+.. figure:: _static/ngq_settings_ng_logged_ru.png
+   :name: ngq_settings_ng_logged_pic
+   :align: center
+   :width: 16cm
+
+   Настройки аккаунта NextGIS
+
+Здесь можно:
+
+* Перейти в свой профиль на my.nextgis.com, нажав **Настройки аккаунта**;
+* **Выйти** из аккаунта (если вам нужно использовать несколько аккаунтов NextGIS в QGIS, вы можете создать новый `профиль пользователя <https://docs.nextgis.ru/docs_ngqgis/source/user_profiles.html>`_, в каждом из них авторизация сохраняется отдельно);
+* Посмотреть тарфиный план своей подписки и срок её действия;
+* Перейти к управлению подпиской в личном кабинете.
+
+.. admonition:: Как открыть другие сервисы NextGIS?
+
+  Нажмите на кнопку с девятью точками на панели инструментов NextGIS Account toolbar. Так вы можете попасть в личный кабинет, открыть документацию, заказать данные, изучить онлайн-каталоги веб-сервисов и инструментов NextGIS.
+
+.. figure:: _static/ngq_ngservices_ru.png
+   :name: ngq_ngservices_pic
+   :align: center
+   :width: 9cm
+
+   Переход к сервисам NextGIS из QGIS
 
 .. _ngq_set_processing:
 
