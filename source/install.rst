@@ -211,8 +211,6 @@ Windows
 Для **обновления** NextGIS QGIS из консоли используйте **nextgisupdater.exe** (находится в корне установленного QGIS).  Набор его команд аналогичен описанному выше установщику.
 
 
-
-
 .. _install_linux:
 
 Linux
@@ -252,7 +250,7 @@ Linux
 #. Нажмите **установить**
 
 .. figure:: _static/flatpak_graphic_ru.png
-   :name: 
+   :name: flatpak_graphic_pic
    :align: center
    :width: 20cm
 
@@ -304,3 +302,19 @@ Linux
    flatpak update com.nextgis.ngqgis
 
 
+.. _uninstall_windows:
+
+Удаление программы на Windows
+-----------------------------
+
+При запуске удаления программы откроется мастер, где вы можете выбрать:
+
+* сохранить данные профилей и кэш, тогда при новой установке NextGIS QGIS вы сможете их использовать снова;
+* удалить всё полностью.
+
+.. todo:: _static/ngq_uninstall_ru.png
+   :name: ngq_uninstall_pic
+   :align: center
+   :width: 20cm
+
+   Выбор варианта удаления
